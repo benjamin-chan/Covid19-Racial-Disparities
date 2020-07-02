@@ -174,15 +174,11 @@ df <-
          tooltip_text2 = sprintf("%s disparity criteria.",
                                  case_when( disparity_flag ~ "Meets",
                                            !disparity_flag ~ "Does not meet",
-                                           is.na(disparity_flag) ~ "No comparable census data to evaulate")),
-         tooltip_text3 = sprintf("Data as of %s.",
-                                 Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y"))) %>%
+                                           is.na(disparity_flag) ~ "No comparable census data to evaulate"))) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text2),
-         tooltip_text3 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text3))
+                                   TRUE ~ tooltip_text2))
 
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
