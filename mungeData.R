@@ -84,6 +84,12 @@ crdt <-
   select(Date, State, metric, variable, category, percent, small_denom_flag) %>%
   inner_join(state, by = c("State" = "State_Abbr") ) %>%
   mutate(oregon_flag = as.logical(State == "OR")) %>%
+  mutate(tooltip_text = sprintf("of COVID19 %s in %s were from individuals of %s %s (as of %s)",
+                                tolower(metric),
+                                State_Name,
+                                category,
+                                tolower(variable),
+                                Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y")))
 
 crdt %>%
   filter(State == "OR") %>%
