@@ -101,7 +101,6 @@ f <-
   list.files(full.names = TRUE) %>%
   grep("data_with_overlays", ., value = TRUE)
 col <- c("NAME",
-         "DP05_0035PE",
          "DP05_0037PE",
          "DP05_0038PE",
          "DP05_0039PE",
