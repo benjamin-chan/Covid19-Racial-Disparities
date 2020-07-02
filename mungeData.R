@@ -116,12 +116,6 @@ crdt <-
   select(Date, State, metric, variable, category, percent, percent_incl_Unknown, small_numer_flag) %>%
   inner_join(state, by = c("State" = "State_Abbr") ) %>%
   mutate(oregon_flag = as.logical(State == "OR")) %>%
-  mutate(tooltip_text = sprintf("of COVID19 %s in %s were from individuals of %s %s (as of %s)",
-                                tolower(metric),
-                                State_Name,
-                                category,
-                                tolower(variable),
-                                Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y"))) %>%
   select(Date, State, State_Name, everything())
 
 crdt %>% write_csv(file.path("Data", "CRDT.csv"), na = "")
@@ -162,4 +156,22 @@ acs <-
                  gsub("HISPANIC OR LATINO AND RACE!!", "", .) %>%
                  gsub("RACE!!", "", .))
 
-acs %>% write_csv(file.path("Data", "ACS.csv"), na = "")
+
+df <-
+  acs %>%
+  select(State_Name, percent, label) %>%
+  rename(percent_ACS = percent,
+         category = label) %>%
+  mutate(percent_ACS = percent_ACS / 100) %>%
+  left_join(crdt, .) %>%
+  mutate(greater_than_ACS_flag = as.logical((percent - percent_ACS) / percent_ACS > 1/3)) %>%
+  mutate(greater_than_ACS_incl_Unknown_flag = as.logical((percent_incl_Unknown - percent_ACS) / percent_ACS > 1/3)) %>%
+  mutate(disparity_flag = greater_than_ACS_flag &
+                          greater_than_ACS_incl_Unknown_flag & 
+                          !small_numer_flag) %>%
+  mutate(tooltip_text = sprintf("of COVID19 %s in %s were from individuals of %s %s (as of %s)",
+                                tolower(metric),
+                                State_Name,
+                                category,
+                                tolower(variable),
+                                Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y")))
