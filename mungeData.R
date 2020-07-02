@@ -91,9 +91,4 @@ crdt <-
                                 tolower(variable),
                                 Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y")))
 
-crdt %>%
-  filter(State == "OR") %>%
-  write_csv(file.path("Data", "CRDT_Oregon.csv"), na = "")
-crdt %>%
-  filter(State != "OR") %>%
-  write_csv(file.path("Data", "CRDT_NotOregon.csv"), na = "")
+crdt %>% write_csv(file.path("Data", "CRDT.csv"), na = "")
