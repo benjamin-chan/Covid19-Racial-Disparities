@@ -168,18 +168,29 @@ df <-
                           greater_than_ACS_incl_Unknown_flag & 
                           !small_numer_flag) %>%
   mutate(disparity_indicator = case_when(disparity_flag ~ "*")) %>%
-  mutate(tooltip_text1 = sprintf("of COVID19 %s in %s were %s individuals.",
-                                 tolower(metric),
-                                 State_Name,
-                                 category),
-         tooltip_text2 = sprintf("%s disparity criteria.",
+  mutate(category_text = case_when(category == "Native Hawaiian and Other Pacific Islande" ~ "Native Hawaiian and other Pacific Islande",
+                                   category == "Not Hispanic or Latino" ~ "not Hispanic or Latino",
+                                   category == "Some other race" ~ tolower(category),
+                                   category == "Two or more races" ~ "multiracial",
+                                   TRUE ~ category)) %>%
+  mutate(tooltip_text1 = sprintf("%s disparity criteria.",
                                  case_when( disparity_flag ~ "Meets",
                                            !disparity_flag ~ "Does not meet",
-                                           is.na(disparity_flag) ~ "No comparable census data to evaulate"))) %>%
+                                           is.na(disparity_flag) ~ "No comparable census data to evaulate")),
+         tooltip_text2 = sprintf("of COVID19 %s in %s are %s.",
+                                 tolower(metric),
+                                 State_Name,
+                                 category_text),
+         tooltip_text3 = sprintf("%s of the population is %s.",
+                                 case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
+                                           TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
+                                 category_text)) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text2))
+                                   TRUE ~ tooltip_text2),
+         tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
+                                   TRUE ~ tooltip_text3))
 
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
