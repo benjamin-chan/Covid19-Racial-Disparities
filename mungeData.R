@@ -173,7 +173,8 @@ df <-
                                  category),
          tooltip_text2 = sprintf("%s disparity criteria.",
                                  case_when( disparity_flag ~ "Meets",
-                                           !disparity_flag ~ "Does not meet")),
+                                           !disparity_flag ~ "Does not meet",
+                                           is.na(disparity_flag) ~ "No comparable census data to evaulate")),
          tooltip_text3 = sprintf("Data as of %s.",
                                  Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y"))) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
