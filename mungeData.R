@@ -19,6 +19,7 @@ temp <-
   mutate(Cases_Total_ex_Unknown = Cases_Total - Cases_Unknown,
          Deaths_Total_ex_Unknown = Deaths_Total - Deaths_Unknown) %>%
   mutate(Cases_Black_Pct = Cases_Black / Cases_Total_ex_Unknown,
+         Cases_LatinX_Pct = Cases_LatinX / Cases_Total_ex_Unknown,
          Cases_Asian_Pct = Cases_Asian / Cases_Total_ex_Unknown,
          Cases_NHPI_Pct = Cases_NHPI / Cases_Total_ex_Unknown,
          Cases_AIAN_Pct = Cases_AIAN / Cases_Total_ex_Unknown,
@@ -29,6 +30,7 @@ temp <-
          Cases_Ethnicity_NonHispanic_Pct = Cases_Ethnicity_NonHispanic / Cases_Total_ex_Unknown,
          Cases_Ethnicity_Unknown_Pct = Cases_Ethnicity_Unknown / Cases_Total_ex_Unknown,
          Deaths_Black_Pct = Deaths_Black / Deaths_Total_ex_Unknown,
+         Deaths_LatinX_Pct = Deaths_LatinX / Cases_Total_ex_Unknown,
          Deaths_Asian_Pct = Deaths_Asian / Deaths_Total_ex_Unknown,
          Deaths_NHPI_Pct = Deaths_NHPI / Deaths_Total_ex_Unknown,
          Deaths_AIAN_Pct = Deaths_AIAN / Deaths_Total_ex_Unknown,
@@ -39,6 +41,7 @@ temp <-
          Deaths_Ethnicity_NonHispanic_Pct = Deaths_Ethnicity_NonHispanic / Deaths_Total_ex_Unknown,
          Deaths_Ethnicity_Unknown_Pct = Deaths_Ethnicity_Unknown / Deaths_Total_ex_Unknown) %>%
   mutate(Cases_Black_small_denom_flag = as.logical(Cases_Black < 30),
+         Cases_LatinX_small_denom_flag = as.logical(Cases_LatinX < 30),
          Cases_Asian_small_denom_flag = as.logical(Cases_Asian < 30),
          Cases_NHPI_small_denom_flag = as.logical(Cases_NHPI < 30),
          Cases_AIAN_small_denom_flag = as.logical(Cases_AIAN < 30),
@@ -49,6 +52,7 @@ temp <-
          Cases_Ethnicity_NonHispanic_small_denom_flag = as.logical(Cases_Ethnicity_NonHispanic < 30),
          Cases_Ethnicity_Unknown_small_denom_flag = as.logical(Cases_Ethnicity_Unknown < 30),
          Deaths_Black_small_denom_flag = as.logical(Deaths_Black < 30),
+         Deaths_LatinX_small_denom_flag = as.logical(Deaths_LatinX < 30),
          Deaths_Asian_small_denom_flag = as.logical(Deaths_Asian < 30),
          Deaths_NHPI_small_denom_flag = as.logical(Deaths_NHPI < 30),
          Deaths_AIAN_small_denom_flag = as.logical(Deaths_AIAN < 30),
@@ -74,7 +78,8 @@ crdt <-
   mutate(category = gsub("(Cases|Deaths)_", "", name)) %>%
   mutate(variable = case_when(grepl("Ethnicity", name) ~ "Ethnicity",
                               TRUE ~ "Race")) %>%
-  mutate(category = case_when(category == "NHPI" ~ "Pacific Is.",
+  mutate(category = case_when(category == "LatinX" ~ "Hispanic or Latino",
+                              category == "NHPI" ~ "Pacific Is.",
                               category == "AIAN" ~ "AI/AN",
                               TRUE ~ category)) %>%
   mutate(category = gsub("Ethnicity_", "", category) %>% gsub("_Pct", "", .)) %>%
