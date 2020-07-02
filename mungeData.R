@@ -92,3 +92,36 @@ crdt <-
                                 Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y")))
 
 crdt %>% write_csv(file.path("Data", "CRDT.csv"), na = "")
+
+
+f <-
+  list.files("Data") %>%
+  grep("ACSDP5Y2018", ., value = TRUE) %>%
+  file.path("Data", .) %>%
+  list.files(full.names = TRUE) %>%
+  grep("data_with_overlays", ., value = TRUE)
+col <- c("NAME",
+         "DP05_0035PE",
+         "DP05_0037PE",
+         "DP05_0038PE",
+         "DP05_0039PE",
+         "DP05_0044PE",
+         "DP05_0052PE",
+         "DP05_0057PE",
+         "DP05_0058PE",
+         "DP05_0071PE",
+         "DP05_0076PE")
+labels <- read_csv(f, n_max = 1) %>% select(col) %>% pivot_longer(everything(), values_to = "label")
+names <- read_csv(f, col_names = FALSE, n_max = 1) %>% pivot_longer(everything()) %>% filter(value %in% labels$name)
+acs <-
+  read_csv(f, col_names = FALSE, skip = 2) %>%
+  select(names$name) %>%
+  rename_all(list(~ names$value)) %>%
+  pivot_longer(starts_with("DP05")) %>%
+  rename(State_Name = NAME,
+         percent = value) %>%
+  inner_join(labels) %>%
+  rename(col_name = name) %>%
+  mutate(label = gsub("Percent Estimate!!", "", label))
+
+acs %>% write_csv(file.path("Data", "ACS.csv"), na = "")
