@@ -28,7 +28,6 @@ temp <-
          Cases_Other_Pct = Cases_Other / Cases_Total_ex_Unknown,
          Cases_Ethnicity_Hispanic_Pct = Cases_Ethnicity_Hispanic / Cases_Total_ex_Unknown,
          Cases_Ethnicity_NonHispanic_Pct = Cases_Ethnicity_NonHispanic / Cases_Total_ex_Unknown,
-         Cases_Ethnicity_Unknown_Pct = Cases_Ethnicity_Unknown / Cases_Total_ex_Unknown,
          Deaths_Black_Pct = Deaths_Black / Deaths_Total_ex_Unknown,
          Deaths_LatinX_Pct = Deaths_LatinX / Cases_Total_ex_Unknown,
          Deaths_Asian_Pct = Deaths_Asian / Deaths_Total_ex_Unknown,
@@ -38,8 +37,7 @@ temp <-
          Deaths_White_Pct = Deaths_White / Deaths_Total_ex_Unknown,
          Deaths_Other_Pct = Deaths_Other / Deaths_Total_ex_Unknown,
          Deaths_Ethnicity_Hispanic_Pct = Deaths_Ethnicity_Hispanic / Deaths_Total_ex_Unknown,
-         Deaths_Ethnicity_NonHispanic_Pct = Deaths_Ethnicity_NonHispanic / Deaths_Total_ex_Unknown,
-         Deaths_Ethnicity_Unknown_Pct = Deaths_Ethnicity_Unknown / Deaths_Total_ex_Unknown) %>%
+         Deaths_Ethnicity_NonHispanic_Pct = Deaths_Ethnicity_NonHispanic / Deaths_Total_ex_Unknown) %>%
   mutate(Cases_Black_small_denom_flag = as.logical(Cases_Black < 30),
          Cases_LatinX_small_denom_flag = as.logical(Cases_LatinX < 30),
          Cases_Asian_small_denom_flag = as.logical(Cases_Asian < 30),
@@ -50,7 +48,6 @@ temp <-
          Cases_Other_small_denom_flag = as.logical(Cases_Other < 30),
          Cases_Ethnicity_Hispanic_small_denom_flag = as.logical(Cases_Ethnicity_Hispanic < 30),
          Cases_Ethnicity_NonHispanic_small_denom_flag = as.logical(Cases_Ethnicity_NonHispanic < 30),
-         Cases_Ethnicity_Unknown_small_denom_flag = as.logical(Cases_Ethnicity_Unknown < 30),
          Deaths_Black_small_denom_flag = as.logical(Deaths_Black < 30),
          Deaths_LatinX_small_denom_flag = as.logical(Deaths_LatinX < 30),
          Deaths_Asian_small_denom_flag = as.logical(Deaths_Asian < 30),
@@ -60,8 +57,7 @@ temp <-
          Deaths_White_small_denom_flag = as.logical(Deaths_White < 30),
          Deaths_Other_small_denom_flag = as.logical(Deaths_Other < 30),
          Deaths_Ethnicity_Hispanic_small_denom_flag = as.logical(Deaths_Ethnicity_Hispanic < 30),
-         Deaths_Ethnicity_NonHispanic_small_denom_flag = as.logical(Deaths_Ethnicity_NonHispanic < 30),
-         Deaths_Ethnicity_Unknown_small_denom_flag = as.logical(Deaths_Ethnicity_Unknown < 30)) %>%
+         Deaths_Ethnicity_NonHispanic_small_denom_flag = as.logical(Deaths_Ethnicity_NonHispanic < 30)) %>%
   select(c(Date, State, ends_with("Pct"), ends_with("flag")))
   
 crdt <-
@@ -84,7 +80,6 @@ crdt <-
                               TRUE ~ category)) %>%
   mutate(category = gsub("Ethnicity_", "", category) %>% gsub("_Pct", "", .)) %>%
   mutate(category = case_when(category == "NonHispanic" ~ "Not Hispanic",
-                              category == "Unknown" ~ "Refused/Unknown",
                               TRUE ~ category)) %>%
   select(Date, State, metric, variable, category, percent, small_denom_flag) %>%
   inner_join(state, by = c("State" = "State_Abbr") ) %>%
