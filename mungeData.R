@@ -94,6 +94,8 @@ crdt <-
 crdt %>% write_csv(file.path("Data", "CRDT.csv"), na = "")
 
 
+# ACS data seems a little off compared to https://covidtracking.com/race/dashboard
+# The "Two or more races" category is slightly off
 f <-
   list.files("Data") %>%
   grep("ACSDP5Y2018", ., value = TRUE) %>%
