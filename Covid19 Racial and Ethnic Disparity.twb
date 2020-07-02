@@ -1,0 +1,1321 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.1110.1722                               -->
+<workbook original-version='18.1' source-build='2019.3.2 (20193.19.1110.1722)' source-platform='win' version='18.1' xml:base='https://tableau.dhsoha.state.or.us' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Covid19RacialandEthnicDisparity' path='/t/OHA/workbooks' revision='1.1' site='OHA' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='disparity_data' inline='true' name='federated.16zkl9x1mqdqne149cqfx0d59wsf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='disparity_data' name='textscan.1rwy7kr1kh3rrf14htx3v1cmijuz'>
+            <connection class='textscan' directory='I:/Health Analytics/Staff_folders/B_Chan/Covid19 Racial Disparities/Data' filename='disparity_data.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rwy7kr1kh3rrf14htx3v1cmijuz' name='disparity_data.csv' table='[disparity_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='State_Name' ordinal='2' />
+            <column datatype='string' name='metric' ordinal='3' />
+            <column datatype='string' name='variable' ordinal='4' />
+            <column datatype='string' name='category' ordinal='5' />
+            <column datatype='real' name='percent' ordinal='6' />
+            <column datatype='real' name='percent_incl_Unknown' ordinal='7' />
+            <column datatype='boolean' name='small_numer_flag' ordinal='8' />
+            <column datatype='boolean' name='oregon_flag' ordinal='9' />
+            <column datatype='real' name='percent_ACS' ordinal='10' />
+            <column datatype='boolean' name='greater_than_ACS_flag' ordinal='11' />
+            <column datatype='boolean' name='greater_than_ACS_incl_Unknown_flag' ordinal='12' />
+            <column datatype='boolean' name='disparity_flag' ordinal='13' />
+            <column datatype='string' name='tooltip_text1' ordinal='14' />
+            <column datatype='string' name='tooltip_text2' ordinal='15' />
+            <column datatype='string' name='tooltip_text3' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State_Name]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>State_Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metric</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[metric]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>metric</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>variable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[variable]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>variable</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percent]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>percent</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percent_incl_Unknown</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percent_incl_Unknown]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>percent_incl_Unknown</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>small_numer_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[small_numer_flag]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>small_numer_flag</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oregon_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[oregon_flag]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>oregon_flag</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percent_ACS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percent_ACS]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>percent_ACS</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_than_ACS_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[greater_than_ACS_flag]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>greater_than_ACS_flag</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_than_ACS_incl_Unknown_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[greater_than_ACS_incl_Unknown_flag]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>greater_than_ACS_incl_Unknown_flag</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disparity_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[disparity_flag]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>disparity_flag</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tooltip_text1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tooltip_text1]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>tooltip_text1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tooltip_text2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tooltip_text2]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>tooltip_text2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tooltip_text3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tooltip_text3]</local-name>
+            <parent-name>[disparity_data.csv]</parent-name>
+            <remote-alias>tooltip_text3</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State Name' datatype='string' name='[State_Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Disparity Flag' datatype='boolean' name='[disparity_flag]' role='dimension' type='nominal' />
+      <column caption='greater than ACS flag' datatype='boolean' name='[greater_than_ACS_flag]' role='dimension' type='nominal' />
+      <column caption='greater than ACS incl Unknown flag' datatype='boolean' name='[greater_than_ACS_incl_Unknown_flag]' role='dimension' type='nominal' />
+      <column caption='Metric' datatype='string' name='[metric]' role='dimension' type='nominal' />
+      <column caption='Oregon Flag' datatype='boolean' name='[oregon_flag]' role='dimension' type='nominal' />
+      <column caption='Percent' datatype='real' name='[percent]' role='measure' type='quantitative' />
+      <column caption='percent ACS' datatype='real' name='[percent_ACS]' role='measure' type='quantitative' />
+      <column caption='percent incl Unknown' datatype='real' name='[percent_incl_Unknown]' role='measure' type='quantitative' />
+      <column caption='Small Numer Flag' datatype='boolean' name='[small_numer_flag]' role='dimension' type='nominal' />
+      <column caption='Variable' datatype='string' name='[variable]' role='dimension' type='nominal' />
+      <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[variable]' derivation='None' name='[none:variable:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.576739' measure-ordering='alphabetic' measure-percentage='0.423261' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;American Indian and Alaska Native&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hispanic or Latino (of any race)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Native Hawaiian and Other Pacific Islander&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Hispanic or Latino&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Two or more races&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Black or African American&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Some other race&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Not Hispanic or Latino&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <natural-sort column='[none:variable:nk]' direction='DESC' />
+      </default-sorts>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='State' />
+        <field-sort-custom-order field='metric' />
+        <field-sort-custom-order field='variable' />
+        <field-sort-custom-order field='category' />
+        <field-sort-custom-order field='percent' />
+        <field-sort-custom-order field='small_denom_flag' />
+        <field-sort-custom-order field='Calculation_880172320080539648' />
+      </field-sort-info>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.16zkl9x1mqdqne149cqfx0d59wsf'>
+      <datasources>
+        <datasource caption='disparity_data' name='federated.16zkl9x1mqdqne149cqfx0d59wsf' />
+      </datasources>
+      <datasource-dependencies datasource='federated.16zkl9x1mqdqne149cqfx0d59wsf'>
+        <column caption='Metric' datatype='string' name='[metric]' role='dimension' type='nominal' />
+        <column-instance column='[metric]' derivation='None' name='[none:metric:nk]' pivot='key' type='nominal' />
+        <column-instance column='[variable]' derivation='None' name='[none:variable:nk]' pivot='key' type='nominal' />
+        <column caption='Variable' datatype='string' name='[variable]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]'>
+        <groupfilter function='member' level='[none:metric:nk]' member='&quot;Cases&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]'>
+        <groupfilter function='member' level='[none:variable:nk]' member='&quot;Race&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Oregon' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Category' />
+        <param name='target' value='Oregon' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Category' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Comparator'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</run>
+            <run fontalignment='1'>&gt;&#10;&lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</run>
+            <run fontalignment='1'>&gt; disparity for COVID-19 &lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='disparity_data' name='federated.16zkl9x1mqdqne149cqfx0d59wsf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16zkl9x1mqdqne149cqfx0d59wsf'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='State Name' datatype='string' name='[State_Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[tooltip_text1]' derivation='Attribute' name='[attr:tooltip_text1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tooltip_text2]' derivation='Attribute' name='[attr:tooltip_text2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tooltip_text3]' derivation='Attribute' name='[attr:tooltip_text3:nk]' pivot='key' type='nominal' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column caption='Metric' datatype='string' name='[metric]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Min' name='[min:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State_Name]' derivation='None' name='[none:State_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[metric]' derivation='None' name='[none:metric:nk]' pivot='key' type='nominal' />
+            <column-instance column='[oregon_flag]' derivation='None' name='[none:oregon_flag:nk]' pivot='key' type='nominal' />
+            <column-instance column='[variable]' derivation='None' name='[none:variable:nk]' pivot='key' type='nominal' />
+            <column caption='Oregon Flag' datatype='boolean' name='[oregon_flag]' role='dimension' type='nominal' />
+            <column caption='Percent' datatype='real' name='[percent]' role='measure' type='quantitative' />
+            <column-instance column='[percent]' derivation='Sum' name='[sum:percent:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[tooltip_text1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[tooltip_text2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[tooltip_text3]' role='dimension' type='nominal' />
+            <column caption='Variable' datatype='string' name='[variable]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]'>
+            <groupfilter function='member' level='[none:State_Name:nk]' member='&quot;Washington&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]'>
+            <groupfilter function='member' level='[none:oregon_flag:nk]' member='false' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='159' />
+            <format attr='text-format' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='true' />
+            <format attr='text-format' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='in-tooltip' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='false' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='div-level' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='Legend' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]' value='Race or Ethnicity' />
+            <format attr='title' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]' value='Cases or Deaths' />
+            <format attr='title' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]' value='Compare Oregon to…'>
+              <formatted-text>
+                <run>Compare Oregon to…</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]&gt; </run>
+                <run fontcolor='#787878'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text:nk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' />
+              <wedge-size column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text1:nk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text2:nk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text3:nk]' />
+              <text column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]&gt; </run>
+                <run>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text1:nk]&gt;&#10;</run>
+                <run bold='true' fontcolor='#a01c3f'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text2:nk]&gt;</run>
+                <run>&#10;&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text3:nk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.0386741161346436' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>Æ </run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk] + [federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{99F0FF4D-9C45-4698-8E82-2B5EBBE9D321}' />
+    </worksheet>
+    <worksheet name='Oregon'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</run>
+            <run fontalignment='1'>&gt;&#10;&lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</run>
+            <run fontalignment='1'>&gt; disparity for COVID-19 &lt;</run>
+            <run fontalignment='1'>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='disparity_data' name='federated.16zkl9x1mqdqne149cqfx0d59wsf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16zkl9x1mqdqne149cqfx0d59wsf'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='State Name' datatype='string' name='[State_Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[tooltip_text1]' derivation='Attribute' name='[attr:tooltip_text1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tooltip_text2]' derivation='Attribute' name='[attr:tooltip_text2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tooltip_text3]' derivation='Attribute' name='[attr:tooltip_text3:nk]' pivot='key' type='nominal' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column caption='Metric' datatype='string' name='[metric]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Min' name='[min:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State_Name]' derivation='None' name='[none:State_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[metric]' derivation='None' name='[none:metric:nk]' pivot='key' type='nominal' />
+            <column-instance column='[oregon_flag]' derivation='None' name='[none:oregon_flag:nk]' pivot='key' type='nominal' />
+            <column-instance column='[variable]' derivation='None' name='[none:variable:nk]' pivot='key' type='nominal' />
+            <column caption='Oregon Flag' datatype='boolean' name='[oregon_flag]' role='dimension' type='nominal' />
+            <column caption='Percent' datatype='real' name='[percent]' role='measure' type='quantitative' />
+            <column-instance column='[percent]' derivation='Sum' name='[sum:percent:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[tooltip_text1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[tooltip_text2]' role='dimension' type='nominal' />
+            <column datatype='string' name='[tooltip_text3]' role='dimension' type='nominal' />
+            <column caption='Variable' datatype='string' name='[variable]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]'>
+            <groupfilter function='member' level='[none:State_Name:nk]' member='&quot;Oregon&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]'>
+            <groupfilter function='member' level='[none:oregon_flag:nk]' member='true' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]</column>
+            <column>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='159' />
+            <format attr='text-format' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='true' />
+            <format attr='text-format' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='in-tooltip' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='false' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='div-level' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' value='Legend' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]' value='Race or Ethnicity' />
+            <format attr='title' field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]' value='Cases or Deaths' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]&gt; </run>
+                <run fontcolor='#787878'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text:nk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' />
+              <wedge-size column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text1:nk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text2:nk]' />
+              <tooltip column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text3:nk]' />
+              <text column='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[sum:percent:qk]&gt; </run>
+                <run>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text1:nk]&gt;&#10;</run>
+                <run bold='true' fontcolor='#a01c3f'>&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text2:nk]&gt;</run>
+                <run>&#10;&lt;[federated.16zkl9x1mqdqne149cqfx0d59wsf].[attr:tooltip_text3:nk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.0386741161346436' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>Æ </run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk] + [federated.16zkl9x1mqdqne149cqfx0d59wsf].[min:Number of Records:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{FA887DAD-E830-485F-9D7A-21EA8B0E5BAD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='disparity_data' name='federated.16zkl9x1mqdqne149cqfx0d59wsf' />
+      </datasources>
+      <datasource-dependencies datasource='federated.16zkl9x1mqdqne149cqfx0d59wsf'>
+        <column caption='State Name' datatype='string' name='[State_Name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column caption='Metric' datatype='string' name='[metric]' role='dimension' type='nominal' />
+        <column-instance column='[State_Name]' derivation='None' name='[none:State_Name:nk]' pivot='key' type='nominal' />
+        <column-instance column='[metric]' derivation='None' name='[none:metric:nk]' pivot='key' type='nominal' />
+        <column-instance column='[variable]' derivation='None' name='[none:variable:nk]' pivot='key' type='nominal' />
+        <column caption='Variable' datatype='string' name='[variable]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='82375' id='12' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='82375' id='10' type='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='69875' id='3' param='vert' type='layout-flow' w='98400' x='800' y='13500'>
+                <zone fixed-size='79' h='9875' id='15' is-fixed='true' param='horz' type='layout-flow' w='98400' x='800' y='13500'>
+                  <zone h='9875' id='13' mode='slider' name='Oregon' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]' show-all='false' show-search='false' show-step-btns='false' type='filter' w='16800' x='800' y='13500'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9875' id='14' mode='slider' name='Oregon' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]' show-all='false' show-step-btns='false' type='filter' w='16800' x='17600' y='13500'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9875' id='44' mode='dropdown' name='Comparator' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]' show-all='false' type='filter' w='16800' x='34400' y='13500'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='60000' id='19' type='layout-basic' w='98400' x='800' y='23375'>
+                  <zone fixed-size='388' h='60000' id='9' is-fixed='true' name='Oregon' w='40400' x='800' y='23375'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='19875' id='40' type='empty' w='17600' x='81600' y='23375'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='60000' id='43' name='Comparator' w='40400' x='41200' y='23375'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='40125' id='45' name='Comparator' pane-specification-id='1' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' type='color' w='17600' x='81600' y='43250'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='12500' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='676' forceUpdate='true' h='12500' id='8' is-fixed='true' type='text' w='68400' x='800' y='1000'>
+                  <formatted-text>
+                    <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='12500' id='7' is-scaled='1' param='I:/Health Analytics/Staff_folders/B_Chan/Covid19 Racial Disparities/oha_logo_sm.jpg' type='bitmap' w='30000' x='69200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='15625' id='39' param='vert' type='layout-flow' w='98400' x='800' y='83375' />
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='50' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='51' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='676' forceUpdate='true' h='12500' id='8' type='text' w='68400' x='800' y='1000'>
+                  <formatted-text>
+                    <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='12500' id='7' is-fixed='true' is-scaled='1' param='I:/Health Analytics/Staff_folders/B_Chan/Covid19 Racial Disparities/oha_logo_sm.jpg' type='bitmap' w='30000' x='69200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9875' id='13' mode='slider' name='Oregon' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]' show-all='false' show-search='false' show-step-btns='false' type='filter' w='16800' x='800' y='13500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9875' id='14' mode='slider' name='Oregon' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]' show-all='false' show-step-btns='false' type='filter' w='16800' x='17600' y='13500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60000' id='9' is-fixed='true' name='Oregon' w='40400' x='800' y='23375'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9875' id='44' mode='dropdown' name='Comparator' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]' show-all='false' type='filter' w='16800' x='34400' y='13500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60000' id='43' is-fixed='true' name='Comparator' w='40400' x='41200' y='23375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='40125' id='45' name='Comparator' pane-specification-id='1' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' type='color' w='17600' x='81600' y='43250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E60868EE-E52B-48B3-B1B3-3B06AF4C1DB1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Oregon'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]' show-all='false' show-search='false' show-step-btns='false' type='filter' />
+            <card mode='slider' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]' show-all='false' show-step-btns='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text1:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text2:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text3:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{A8401549-B85E-4C75-866F-3CDC489D7113}' />
+    </window>
+    <window class='worksheet' name='Comparator'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]' show-all='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:State_Name:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:metric:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:oregon_flag:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text1:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text2:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text3:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:tooltip_text:nk]</field>
+            <field>[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:variable:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{A0DF8017-9C80-46CF-9FF5-E02EE5903966}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Comparator'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.16zkl9x1mqdqne149cqfx0d59wsf].[none:category:nk]'>
+            <bucket-selection />
+          </highlight>
+          <floating-toolbar-visibility value='2' />
+        </viewpoint>
+        <viewpoint name='Oregon'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <simple-id uuid='{56F6277C-0E5B-4F71-9C82-617EDE0A2C8F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Comparator' width='163'>
+      iVBORw0KGgoAAAANSUhEUgAAAKMAAADACAYAAABoDNN0AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFklEQVR4nO3SMQEAIAzAMMC/53GhgR6Jgh7dMzMLAs7vAHjMSIYZyTAjGWYkw4xkmJEM
+      M5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAj
+      GWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5Jh
+      RjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYk
+      w4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLM
+      SIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xk
+      mJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZ
+      yTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEM
+      M5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAj
+      GWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJGMCxDJ
+      BXx5/lphAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      /wfwUiBK3PVOTAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Oregon' width='163'>
+      iVBORw0KGgoAAAANSUhEUgAAAKMAAADACAYAAABoDNN0AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFklEQVR4nO3SMQEAIAzAMMC/53GhgR6Jgh7dMzMLAs7vAHjMSIYZyTAjGWYkw4xkmJEM
+      M5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAj
+      GWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5Jh
+      RjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYk
+      w4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLM
+      SIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xk
+      mJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZ
+      yTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEM
+      M5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAj
+      GWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJEMM5JhRjLMSIYZyTAjGWYkw4xkmJGMCxDJ
+      BXx5/lphAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
