@@ -26,8 +26,8 @@ temp <-
          Cases_Multiracial_Pct = Cases_Multiracial / Cases_Total_ex_Unknown,
          Cases_White_Pct = Cases_White / Cases_Total_ex_Unknown,
          Cases_Other_Pct = Cases_Other / Cases_Total_ex_Unknown,
-         Cases_Ethnicity_Hispanic_Pct = Cases_Ethnicity_Hispanic / Cases_Total_ex_Unknown,
-         Cases_Ethnicity_NonHispanic_Pct = Cases_Ethnicity_NonHispanic / Cases_Total_ex_Unknown,
+         Cases_Ethnicity_Hispanic_Pct = Cases_Ethnicity_Hispanic / (Cases_Ethnicity_Hispanic + Cases_Ethnicity_NonHispanic),
+         Cases_Ethnicity_NonHispanic_Pct = Cases_Ethnicity_NonHispanic / (Cases_Ethnicity_Hispanic + Cases_Ethnicity_NonHispanic),
          Deaths_Black_Pct = Deaths_Black / Deaths_Total_ex_Unknown,
          Deaths_LatinX_Pct = Deaths_LatinX / Cases_Total_ex_Unknown,
          Deaths_Asian_Pct = Deaths_Asian / Deaths_Total_ex_Unknown,
@@ -36,8 +36,8 @@ temp <-
          Deaths_Multiracial_Pct = Deaths_Multiracial / Deaths_Total_ex_Unknown,
          Deaths_White_Pct = Deaths_White / Deaths_Total_ex_Unknown,
          Deaths_Other_Pct = Deaths_Other / Deaths_Total_ex_Unknown,
-         Deaths_Ethnicity_Hispanic_Pct = Deaths_Ethnicity_Hispanic / Deaths_Total_ex_Unknown,
-         Deaths_Ethnicity_NonHispanic_Pct = Deaths_Ethnicity_NonHispanic / Deaths_Total_ex_Unknown) %>%
+         Deaths_Ethnicity_Hispanic_Pct = Deaths_Ethnicity_Hispanic / (Deaths_Ethnicity_Hispanic + Deaths_Ethnicity_NonHispanic),
+         Deaths_Ethnicity_NonHispanic_Pct = Deaths_Ethnicity_NonHispanic / (Deaths_Ethnicity_Hispanic + Deaths_Ethnicity_NonHispanic)) %>%
   mutate(Cases_Black_small_denom_flag = as.logical(Cases_Black < 30),
          Cases_LatinX_small_denom_flag = as.logical(Cases_LatinX < 30),
          Cases_Asian_small_denom_flag = as.logical(Cases_Asian < 30),
