@@ -74,12 +74,18 @@ crdt <-
   mutate(category = gsub("(Cases|Deaths)_", "", name)) %>%
   mutate(variable = case_when(grepl("Ethnicity", name) ~ "Ethnicity",
                               TRUE ~ "Race")) %>%
-  mutate(category = case_when(category == "LatinX" ~ "Hispanic or Latino",
-                              category == "NHPI" ~ "Pacific Is.",
-                              category == "AIAN" ~ "AI/AN",
+  mutate(category = case_when(category == "Black" ~ "Black or African American",
+                              category == "LatinX" ~ "Hispanic or Latino",
+                              category == "NHPI" ~ "Native Hawaiian and Other Pacific Islander",
+                              category == "AIAN" ~ "American Indian and Alaska Native",
+                              category == "Other" ~ "Some other race",
+                              category == "Multiracial" ~ "Two or more races",
                               TRUE ~ category)) %>%
   mutate(category = gsub("Ethnicity_", "", category) %>% gsub("_Pct", "", .)) %>%
   mutate(category = case_when(category == "NonHispanic" ~ "Not Hispanic",
+                              TRUE ~ category)) %>%
+  mutate(category = case_when(variable == "Ethnicity" & category == "Hispanic" ~ "Hispanic or Latino (of any race)",
+                              variable == "Ethnicity" & category == "Not Hispanic" ~ "Not Hispanic or Latino",
                               TRUE ~ category)) %>%
   select(Date, State, metric, variable, category, percent, small_denom_flag) %>%
   inner_join(state, by = c("State" = "State_Abbr") ) %>%
@@ -123,6 +129,10 @@ acs <-
          percent = value) %>%
   inner_join(labels) %>%
   rename(col_name = name) %>%
-  mutate(label = gsub("Percent Estimate!!", "", label))
+  mutate(label = gsub("Percent Estimate!!", "", label) %>%
+                 gsub("Total population!!", "", .) %>%
+                 gsub("One race!!", "", .) %>%
+                 gsub("HISPANIC OR LATINO AND RACE!!", "", .) %>%
+                 gsub("RACE!!", "", .))
 
 acs %>% write_csv(file.path("Data", "ACS.csv"), na = "")
