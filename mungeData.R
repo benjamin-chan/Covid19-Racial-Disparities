@@ -6,6 +6,9 @@ library(magrittr)
 library(tidyverse)
 
 
+state <- read_csv(file.path("Data", "state_names.csv"))
+
+
 # The COVID Tracking Projects's Racial Data Dashboard
 # https://covidtracking.com/race/dashboard
 url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pub?gid=43720681&single=true&output=csv"
@@ -78,7 +81,9 @@ crdt <-
   mutate(category = case_when(category == "NonHispanic" ~ "Not Hispanic",
                               category == "Unknown" ~ "Refused/Unknown",
                               TRUE ~ category)) %>%
-  select(Date, State, metric, variable, category, percent, small_denom_flag)
+  select(Date, State, metric, variable, category, percent, small_denom_flag) %>%
+  inner_join(state, by = c("State" = "State_Abbr") ) %>%
+  mutate(oregon_flag = as.logical(State == "OR")) %>%
 
 crdt %>%
   filter(State == "OR") %>%
