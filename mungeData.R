@@ -167,6 +167,7 @@ df <-
   mutate(disparity_flag = greater_than_ACS_flag &
                           greater_than_ACS_incl_Unknown_flag & 
                           !small_numer_flag) %>%
+  mutate(disparity_indicator = case_when(disparity_flag ~ "*")) %>%
   mutate(tooltip_text1 = sprintf("of COVID19 %s in %s were %s individuals.",
                                  tolower(metric),
                                  State_Name,
