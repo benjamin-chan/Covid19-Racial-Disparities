@@ -167,15 +167,21 @@ df <-
   mutate(disparity_flag = greater_than_ACS_flag &
                           greater_than_ACS_incl_Unknown_flag & 
                           !small_numer_flag) %>%
-  mutate(tooltip_text = sprintf("of COVID19 %s in %s were %s individuals\\n%s.\\nData as of %s.",
-                                tolower(metric),
-                                State_Name,
-                                category,
-                                case_when( disparity_flag ~ "Meets disparity criteria",
-                                          !disparity_flag ~ "Does not meet disparity criteria"),
-                                Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y"))) %>%
-  mutate(tooltip_text = case_when(is.na(percent) ~ NA_character_,
-                                  TRUE ~ tooltip_text))
+  mutate(tooltip_text1 = sprintf("of COVID19 %s in %s were %s individuals.",
+                                 tolower(metric),
+                                 State_Name,
+                                 category),
+         tooltip_text2 = sprintf("%s disparity criteria.",
+                                 case_when( disparity_flag ~ "Meets",
+                                           !disparity_flag ~ "Does not meet")),
+         tooltip_text3 = sprintf("Data as of %s.",
+                                 Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y"))) %>%
+  mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
+                                   TRUE ~ tooltip_text1),
+         tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
+                                   TRUE ~ tooltip_text2),
+         tooltip_text3 = case_when(is.na(percent) ~ NA_character_,
+                                   TRUE ~ tooltip_text3))
 
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
