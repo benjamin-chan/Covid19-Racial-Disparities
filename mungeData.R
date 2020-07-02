@@ -118,8 +118,6 @@ crdt <-
   mutate(oregon_flag = as.logical(State == "OR")) %>%
   select(Date, State, State_Name, everything())
 
-crdt %>% write_csv(file.path("Data", "CRDT.csv"), na = "")
-
 
 # ACS data seems a little off compared to https://covidtracking.com/race/dashboard
 # The "Two or more races" category is slightly off
@@ -175,3 +173,7 @@ df <-
                                 category,
                                 tolower(variable),
                                 Date %>% as.character() %>% as.Date(format = "%Y%m%d") %>% format("%B %d, %Y")))
+
+f <- file.path("Data", "disparity_data.csv")
+df %>% write_csv(f, na = "")
+file.info(f)
