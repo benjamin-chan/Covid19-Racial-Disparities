@@ -1,1121 +1,1121 @@
 State,different_from_oregon_flag,metric_nodata_flag,metric,variable,category,category_reporting_flag,category_reporting_note
-AK,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-AK,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-AK,FALSE,FALSE,Cases,Race,Asian,FALSE,
-AK,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AK,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-AK,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-AK,FALSE,FALSE,Cases,Race,White,FALSE,
-AK,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-AK,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AK,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AK,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-AK,FALSE,FALSE,Deaths,Race,White,FALSE,
-AK,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-AK,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AK,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-AL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-AL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-AL,TRUE,FALSE,Cases,Race,Asian,FALSE,
-AL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-AL,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-AL,TRUE,FALSE,Cases,Race,White,FALSE,
-AL,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-AL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-AL,TRUE,FALSE,Deaths,Race,White,FALSE,
-AL,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-AL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-AR,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-AR,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-AR,FALSE,FALSE,Cases,Race,Asian,FALSE,
-AR,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AR,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-AR,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-AR,FALSE,FALSE,Cases,Race,White,FALSE,
-AR,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-AR,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AR,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AR,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-AR,FALSE,FALSE,Deaths,Race,White,FALSE,
-AR,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-AR,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AR,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-AS,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-AS,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-AS,FALSE,FALSE,Cases,Race,Asian,FALSE,
-AS,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AS,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-AS,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-AS,FALSE,FALSE,Cases,Race,White,FALSE,
-AS,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-AS,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AS,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AS,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-AS,FALSE,FALSE,Deaths,Race,White,FALSE,
-AS,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-AS,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AS,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Asian,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AZ,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-AZ,TRUE,FALSE,Cases,Race,White,FALSE,
-AZ,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-AZ,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AZ,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,White,FALSE,
-AZ,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-AZ,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-AZ,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-CA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-CA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-CA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-CA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-CA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-CA,TRUE,FALSE,Cases,Race,White,FALSE,
-CA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-CA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-CA,TRUE,FALSE,Deaths,Race,White,FALSE,
-CA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-CA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-CO,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-CO,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-CO,TRUE,FALSE,Cases,Race,Asian,FALSE,
-CO,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CO,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-CO,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-CO,TRUE,FALSE,Cases,Race,White,FALSE,
-CO,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-CO,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CO,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CO,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-CO,TRUE,FALSE,Deaths,Race,White,FALSE,
-CO,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-CO,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CO,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-CT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-CT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-CT,TRUE,FALSE,Cases,Race,Asian,FALSE,
-CT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-CT,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-CT,TRUE,FALSE,Cases,Race,White,FALSE,
-CT,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-CT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-CT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-CT,TRUE,FALSE,Deaths,Race,White,FALSE,
-CT,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-CT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-CT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-DC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-DC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-DC,TRUE,FALSE,Cases,Race,Asian,FALSE,
-DC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-DC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-DC,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-DC,TRUE,FALSE,Cases,Race,White,FALSE,
-DC,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-DC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-DC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-DC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-DC,TRUE,FALSE,Deaths,Race,White,FALSE,
-DC,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-DC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-DC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-DE,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-DE,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-DE,TRUE,FALSE,Cases,Race,Asian,FALSE,
-DE,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-DE,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-DE,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-DE,TRUE,FALSE,Cases,Race,White,FALSE,
-DE,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-DE,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-DE,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-DE,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-DE,TRUE,FALSE,Deaths,Race,White,FALSE,
-DE,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-DE,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-DE,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-FL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-FL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-FL,TRUE,FALSE,Cases,Race,Asian,FALSE,
-FL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-FL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-FL,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-FL,TRUE,FALSE,Cases,Race,White,FALSE,
-FL,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-FL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-FL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-FL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-FL,TRUE,FALSE,Deaths,Race,White,FALSE,
-FL,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-FL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-FL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-GA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-GA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-GA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-GA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-GA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-GA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-GA,TRUE,FALSE,Cases,Race,White,FALSE,
-GA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-GA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-GA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-GA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-GA,TRUE,FALSE,Deaths,Race,White,FALSE,
-GA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-GA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-GA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-GU,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-GU,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-GU,TRUE,FALSE,Cases,Race,Asian,FALSE,
-GU,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-GU,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-GU,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-GU,TRUE,FALSE,Cases,Race,White,FALSE,
-GU,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-GU,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-GU,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-GU,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-GU,TRUE,TRUE,Deaths,Race,White,FALSE,
-GU,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-GU,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-GU,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-HI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-HI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-HI,TRUE,FALSE,Cases,Race,Asian,FALSE,
-HI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-HI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-HI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-HI,TRUE,FALSE,Cases,Race,White,FALSE,
-HI,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-HI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-HI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-HI,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-HI,TRUE,TRUE,Deaths,Race,White,FALSE,
-HI,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-HI,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-HI,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-IA,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-IA,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-IA,FALSE,FALSE,Cases,Race,Asian,FALSE,
-IA,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IA,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-IA,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-IA,FALSE,FALSE,Cases,Race,White,FALSE,
-IA,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-IA,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IA,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IA,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-IA,FALSE,FALSE,Deaths,Race,White,FALSE,
-IA,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-IA,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IA,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-ID,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-ID,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-ID,FALSE,FALSE,Cases,Race,Asian,FALSE,
-ID,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ID,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-ID,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-ID,FALSE,FALSE,Cases,Race,White,FALSE,
-ID,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-ID,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ID,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ID,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-ID,FALSE,FALSE,Deaths,Race,White,FALSE,
-ID,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-ID,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ID,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-IL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-IL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-IL,TRUE,FALSE,Cases,Race,Asian,FALSE,
-IL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-IL,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-IL,TRUE,FALSE,Cases,Race,White,FALSE,
-IL,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-IL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-IL,TRUE,FALSE,Deaths,Race,White,FALSE,
-IL,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-IL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-IN,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-IN,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-IN,TRUE,FALSE,Cases,Race,Asian,FALSE,
-IN,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IN,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-IN,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-IN,TRUE,FALSE,Cases,Race,White,FALSE,
-IN,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-IN,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IN,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-IN,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-IN,TRUE,FALSE,Deaths,Race,White,FALSE,
-IN,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-IN,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-IN,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-KS,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-KS,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-KS,TRUE,FALSE,Cases,Race,Asian,FALSE,
-KS,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-KS,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-KS,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-KS,TRUE,FALSE,Cases,Race,White,FALSE,
-KS,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-KS,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-KS,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-KS,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-KS,TRUE,FALSE,Deaths,Race,White,FALSE,
-KS,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-KS,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-KS,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-KY,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-KY,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-KY,FALSE,FALSE,Cases,Race,Asian,FALSE,
-KY,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-KY,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-KY,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-KY,FALSE,FALSE,Cases,Race,White,FALSE,
-KY,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-KY,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-KY,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-KY,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-KY,FALSE,FALSE,Deaths,Race,White,FALSE,
-KY,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-KY,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-KY,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-LA,TRUE,TRUE,Cases,Race,Black or African American,FALSE,
-LA,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,
-LA,TRUE,TRUE,Cases,Race,Asian,FALSE,
-LA,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-LA,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,
-LA,TRUE,TRUE,Cases,Race,Two or more races,FALSE,
-LA,TRUE,TRUE,Cases,Race,White,FALSE,
-LA,TRUE,TRUE,Cases,Race,Some other race,FALSE,
-LA,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-LA,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-LA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-LA,TRUE,FALSE,Deaths,Race,White,FALSE,
-LA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-LA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-LA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MA,TRUE,FALSE,Cases,Race,White,FALSE,
-MA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-MA,TRUE,FALSE,Deaths,Race,White,FALSE,
-MA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-MA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MD,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MD,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MD,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MD,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MD,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MD,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MD,TRUE,FALSE,Cases,Race,White,FALSE,
-MD,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MD,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MD,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MD,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-MD,TRUE,FALSE,Deaths,Race,White,FALSE,
-MD,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-MD,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MD,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-ME,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-ME,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-ME,FALSE,FALSE,Cases,Race,Asian,FALSE,
-ME,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ME,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-ME,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-ME,FALSE,FALSE,Cases,Race,White,FALSE,
-ME,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-ME,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ME,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ME,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-ME,FALSE,FALSE,Deaths,Race,White,FALSE,
-ME,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-ME,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ME,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MI,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MI,TRUE,FALSE,Cases,Race,White,FALSE,
-MI,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-MI,TRUE,FALSE,Deaths,Race,White,FALSE,
-MI,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-MI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MN,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-MN,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MN,FALSE,FALSE,Cases,Race,Asian,FALSE,
-MN,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MN,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MN,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-MN,FALSE,FALSE,Cases,Race,White,FALSE,
-MN,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-MN,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MN,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MN,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-MN,FALSE,FALSE,Deaths,Race,White,FALSE,
-MN,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-MN,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MN,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MO,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MO,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MO,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MO,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MO,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MO,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MO,TRUE,FALSE,Cases,Race,White,FALSE,
-MO,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MO,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MO,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MO,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-MO,TRUE,FALSE,Deaths,Race,White,FALSE,
-MO,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-MO,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MO,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MP,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-MP,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MP,FALSE,FALSE,Cases,Race,Asian,FALSE,
-MP,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MP,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MP,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-MP,FALSE,FALSE,Cases,Race,White,FALSE,
-MP,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-MP,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MP,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MP,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-MP,FALSE,FALSE,Deaths,Race,White,FALSE,
-MP,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-MP,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MP,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MS,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MS,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MS,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MS,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MS,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MS,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MS,TRUE,FALSE,Cases,Race,White,FALSE,
-MS,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MS,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MS,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MS,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-MS,TRUE,FALSE,Deaths,Race,White,FALSE,
-MS,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-MS,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MS,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-MT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-MT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-MT,TRUE,FALSE,Cases,Race,Asian,FALSE,
-MT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-MT,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-MT,TRUE,FALSE,Cases,Race,White,FALSE,
-MT,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-MT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-MT,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-MT,TRUE,TRUE,Deaths,Race,White,FALSE,
-MT,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-MT,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-MT,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NC,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NC,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NC,TRUE,FALSE,Cases,Race,White,FALSE,
-NC,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NC,TRUE,FALSE,Deaths,Race,White,FALSE,
-NC,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-ND,TRUE,TRUE,Cases,Race,Black or African American,FALSE,
-ND,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,
-ND,TRUE,TRUE,Cases,Race,Asian,FALSE,
-ND,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ND,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,
-ND,TRUE,TRUE,Cases,Race,Two or more races,FALSE,
-ND,TRUE,TRUE,Cases,Race,White,FALSE,
-ND,TRUE,TRUE,Cases,Race,Some other race,FALSE,
-ND,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ND,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-ND,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-ND,TRUE,TRUE,Deaths,Race,White,FALSE,
-ND,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-ND,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-ND,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NE,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NE,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NE,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NE,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NE,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NE,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NE,TRUE,FALSE,Cases,Race,White,FALSE,
-NE,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NE,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NE,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NE,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NE,TRUE,FALSE,Deaths,Race,White,FALSE,
-NE,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NE,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NE,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NH,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NH,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NH,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NH,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NH,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NH,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NH,TRUE,FALSE,Cases,Race,White,FALSE,
-NH,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NH,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NH,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NH,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NH,TRUE,FALSE,Deaths,Race,White,FALSE,
-NH,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NH,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NH,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NJ,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NJ,TRUE,FALSE,Cases,Race,White,FALSE,
-NJ,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NJ,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NJ,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,White,FALSE,
-NJ,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NJ,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NJ,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NM,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NM,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NM,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NM,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NM,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NM,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NM,TRUE,FALSE,Cases,Race,White,FALSE,
-NM,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NM,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NM,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NM,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NM,TRUE,FALSE,Deaths,Race,White,FALSE,
-NM,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NM,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NM,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NV,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-NV,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-NV,TRUE,FALSE,Cases,Race,Asian,FALSE,
-NV,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NV,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-NV,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-NV,TRUE,FALSE,Cases,Race,White,FALSE,
-NV,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-NV,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NV,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NV,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NV,TRUE,FALSE,Deaths,Race,White,FALSE,
-NV,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NV,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NV,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-NY,TRUE,TRUE,Cases,Race,Black or African American,FALSE,
-NY,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,
-NY,TRUE,TRUE,Cases,Race,Asian,FALSE,
-NY,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NY,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,
-NY,TRUE,TRUE,Cases,Race,Two or more races,FALSE,
-NY,TRUE,TRUE,Cases,Race,White,FALSE,
-NY,TRUE,TRUE,Cases,Race,Some other race,FALSE,
-NY,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NY,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-NY,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-NY,TRUE,FALSE,Deaths,Race,White,FALSE,
-NY,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-NY,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-NY,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-OH,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-OH,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-OH,FALSE,FALSE,Cases,Race,Asian,FALSE,
-OH,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OH,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-OH,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-OH,FALSE,FALSE,Cases,Race,White,FALSE,
-OH,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-OH,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OH,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OH,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-OH,FALSE,FALSE,Deaths,Race,White,FALSE,
-OH,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-OH,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OH,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-OK,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-OK,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-OK,TRUE,FALSE,Cases,Race,Asian,FALSE,
-OK,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OK,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-OK,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-OK,TRUE,FALSE,Cases,Race,White,FALSE,
-OK,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-OK,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OK,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OK,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-OK,TRUE,FALSE,Deaths,Race,White,FALSE,
-OK,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-OK,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OK,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-OR,FALSE,FALSE,Cases,Race,Black or African American,FALSE,
-OR,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-OR,FALSE,FALSE,Cases,Race,Asian,FALSE,
-OR,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OR,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-OR,FALSE,FALSE,Cases,Race,Two or more races,FALSE,
-OR,FALSE,FALSE,Cases,Race,White,FALSE,
-OR,FALSE,FALSE,Cases,Race,Some other race,FALSE,
-OR,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OR,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Asian,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-OR,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,
-OR,FALSE,FALSE,Deaths,Race,White,FALSE,
-OR,FALSE,FALSE,Deaths,Race,Some other race,FALSE,
-OR,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-OR,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-PA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-PA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-PA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-PA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-PA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-PA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-PA,TRUE,FALSE,Cases,Race,White,FALSE,
-PA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-PA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-PA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-PA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-PA,TRUE,FALSE,Deaths,Race,White,FALSE,
-PA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-PA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-PA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-PR,TRUE,TRUE,Cases,Race,Black or African American,FALSE,
-PR,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,
-PR,TRUE,TRUE,Cases,Race,Asian,FALSE,
-PR,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-PR,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,
-PR,TRUE,TRUE,Cases,Race,Two or more races,FALSE,
-PR,TRUE,TRUE,Cases,Race,White,FALSE,
-PR,TRUE,TRUE,Cases,Race,Some other race,FALSE,
-PR,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-PR,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-PR,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-PR,TRUE,TRUE,Deaths,Race,White,FALSE,
-PR,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-PR,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-PR,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-RI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-RI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-RI,TRUE,FALSE,Cases,Race,Asian,FALSE,
-RI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-RI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-RI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-RI,TRUE,FALSE,Cases,Race,White,FALSE,
-RI,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-RI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-RI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-RI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-RI,TRUE,FALSE,Deaths,Race,White,FALSE,
-RI,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-RI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-RI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-SC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-SC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-SC,TRUE,FALSE,Cases,Race,Asian,FALSE,
-SC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-SC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-SC,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-SC,TRUE,FALSE,Cases,Race,White,FALSE,
-SC,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-SC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-SC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-SC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-SC,TRUE,FALSE,Deaths,Race,White,FALSE,
-SC,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-SC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-SC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-SD,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-SD,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-SD,TRUE,FALSE,Cases,Race,Asian,FALSE,
-SD,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-SD,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-SD,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-SD,TRUE,FALSE,Cases,Race,White,FALSE,
-SD,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-SD,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-SD,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-SD,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-SD,TRUE,TRUE,Deaths,Race,White,FALSE,
-SD,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-SD,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-SD,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-TN,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-TN,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-TN,TRUE,FALSE,Cases,Race,Asian,FALSE,
-TN,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-TN,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-TN,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-TN,TRUE,FALSE,Cases,Race,White,FALSE,
-TN,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-TN,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-TN,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-TN,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-TN,TRUE,FALSE,Deaths,Race,White,FALSE,
-TN,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-TN,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-TN,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-TX,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-TX,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-TX,TRUE,FALSE,Cases,Race,Asian,FALSE,
-TX,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-TX,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-TX,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-TX,TRUE,FALSE,Cases,Race,White,FALSE,
-TX,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-TX,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-TX,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-TX,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-TX,TRUE,FALSE,Deaths,Race,White,FALSE,
-TX,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-TX,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-TX,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-UT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-UT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-UT,TRUE,FALSE,Cases,Race,Asian,FALSE,
-UT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-UT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-UT,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-UT,TRUE,FALSE,Cases,Race,White,FALSE,
-UT,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-UT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-UT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-UT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-UT,TRUE,FALSE,Deaths,Race,White,FALSE,
-UT,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-UT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-UT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-VA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-VA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-VA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-VA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-VA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-VA,TRUE,FALSE,Cases,Race,White,FALSE,
-VA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-VA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-VA,TRUE,FALSE,Deaths,Race,White,FALSE,
-VA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-VA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-VI,TRUE,TRUE,Cases,Race,Black or African American,FALSE,
-VI,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,
-VI,TRUE,TRUE,Cases,Race,Asian,FALSE,
-VI,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VI,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,
-VI,TRUE,TRUE,Cases,Race,Two or more races,FALSE,
-VI,TRUE,TRUE,Cases,Race,White,FALSE,
-VI,TRUE,TRUE,Cases,Race,Some other race,FALSE,
-VI,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VI,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Asian,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VI,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,
-VI,TRUE,TRUE,Deaths,Race,White,FALSE,
-VI,TRUE,TRUE,Deaths,Race,Some other race,FALSE,
-VI,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VI,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-VT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-VT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-VT,TRUE,FALSE,Cases,Race,Asian,FALSE,
-VT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-VT,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-VT,TRUE,FALSE,Cases,Race,White,FALSE,
-VT,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-VT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-VT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-VT,TRUE,FALSE,Deaths,Race,White,FALSE,
-VT,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-VT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-VT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-WA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-WA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-WA,TRUE,FALSE,Cases,Race,Asian,FALSE,
-WA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-WA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-WA,TRUE,FALSE,Cases,Race,White,FALSE,
-WA,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-WA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-WA,TRUE,FALSE,Deaths,Race,White,FALSE,
-WA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-WA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-WI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-WI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-WI,TRUE,FALSE,Cases,Race,Asian,FALSE,
-WI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-WI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-WI,TRUE,FALSE,Cases,Race,White,FALSE,
-WI,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-WI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-WI,TRUE,FALSE,Deaths,Race,White,FALSE,
-WI,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-WI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-WV,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-WV,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-WV,TRUE,FALSE,Cases,Race,Asian,FALSE,
-WV,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WV,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-WV,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-WV,TRUE,FALSE,Cases,Race,White,FALSE,
-WV,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-WV,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WV,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WV,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-WV,TRUE,FALSE,Deaths,Race,White,FALSE,
-WV,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-WV,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WV,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
-WY,TRUE,FALSE,Cases,Race,Black or African American,FALSE,
-WY,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,
-WY,TRUE,FALSE,Cases,Race,Asian,FALSE,
-WY,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WY,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,
-WY,TRUE,FALSE,Cases,Race,Two or more races,FALSE,
-WY,TRUE,FALSE,Cases,Race,White,FALSE,
-WY,TRUE,FALSE,Cases,Race,Some other race,FALSE,
-WY,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WY,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Asian,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,
-WY,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,
-WY,TRUE,FALSE,Deaths,Race,White,FALSE,
-WY,TRUE,FALSE,Deaths,Race,Some other race,FALSE,
-WY,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,
-WY,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,
+AK,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,White,FALSE,NA
+AK,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+AK,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AK,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+AK,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+AK,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AK,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+AL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+AL,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+AL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Cases,Race,White,FALSE,NA
+AL,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+AL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+AL,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+AL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+AL,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Alabama does not specify if this race category is included under a grouping it labels ""Other."""
+AL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,White,FALSE,NA
+AR,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+AR,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AR,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+AR,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+AR,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AR,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,White,FALSE,NA
+AS,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+AS,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AS,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+AS,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+AS,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AS,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AZ,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+AZ,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+AZ,TRUE,FALSE,Cases,Race,Asian,TRUE,"Arizona reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+AZ,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Arizona reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+AZ,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+AZ,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Arizona does not specify if this race category is included under a grouping it labels ""Other, non-Hispanic"""
+AZ,TRUE,FALSE,Cases,Race,White,FALSE,NA
+AZ,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Arizona does not specify if this race category is included under a grouping it labels ""Other, non-Hispanic"""
+AZ,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AZ,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+AZ,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+AZ,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+AZ,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Arizona reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+AZ,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Arizona reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+AZ,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+AZ,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Arizona does not specify if this race category is included under a grouping it labels ""Other, non-Hispanic"""
+AZ,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+AZ,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Arizona does not specify if this race category is included under a grouping it labels ""Other, non-Hispanic"""
+AZ,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+AZ,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+CA,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+CA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+CA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+CA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CO,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,White,FALSE,NA
+CO,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+CO,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CO,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CO,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+CO,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+CO,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CO,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+CT,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CT,TRUE,FALSE,Cases,Race,Asian,TRUE,"Connecticut reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+CT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Connecticut reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+CT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+CT,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+CT,TRUE,FALSE,Cases,Race,White,FALSE,NA
+CT,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+CT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+CT,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+CT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+CT,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Connecticut reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+CT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Connecticut reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+CT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+CT,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+CT,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+CT,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+CT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+CT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"District of Columbia includes this category under a grouping it labels ""Other/Multiracial."""
+DC,TRUE,FALSE,Cases,Race,White,FALSE,NA
+DC,TRUE,FALSE,Cases,Race,Some other race,TRUE,"District of Columbia includes this category under a grouping it labels ""Other/Multiracial."""
+DC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+DC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+DC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+DC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+DC,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+DC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"District of Columbia does not specify if this category is included under a grouping it labels ""Other."""
+DC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"District of Columbia does not specify if this category is included under a grouping it labels ""Other."""
+DC,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"District of Columbia does not specify if this category is included under a grouping it labels ""Other."""
+DC,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+DC,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"District of Columbia does not specify if this category is included under a grouping it labels ""Other."""
+DC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+DC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+DE,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+DE,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+DE,TRUE,FALSE,Cases,Race,Asian,TRUE,"Delaware reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+DE,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Delaware reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+DE,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Cases,Race,White,FALSE,NA
+DE,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+DE,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+DE,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+DE,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+DE,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Delaware reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+DE,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Delaware reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+DE,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+DE,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Delaware does not specify if this race category is included under a grouping it labels ""Another/Multiple."""
+DE,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+DE,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+FL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Cases,Race,Asian,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Cases,Race,White,FALSE,NA
+FL,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+FL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+FL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+FL,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
+FL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+FL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+GA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Georgia includes this race category under a grouping it labels ""Multiracial/Other."""
+GA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+GA,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Georgia includes this race category under a grouping it labels ""Multiracial/Other."""
+GA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+GA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+GA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Georgia includes this race category under a grouping it labels ""Multiracial/Other."""
+GA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+GA,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Georgia includes this race category under a grouping it labels ""Multiracial/Other."""
+GA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+GA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+GU,TRUE,FALSE,Cases,Race,Black or African American,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+GU,TRUE,FALSE,Cases,Race,Asian,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,Two or more races,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,White,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Race,Some other race,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,TRUE,Census does not provide race or ethnicity information for Guam.
+GU,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+GU,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+GU,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+GU,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Hawaii does not specify if this race category is included under a grouping it labels ""Other."""
+HI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,White,FALSE,NA
+HI,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Hawaii does not specify if this race category is included under a grouping it labels ""Other."""
+HI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+HI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+HI,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+HI,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+HI,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,White,FALSE,NA
+IA,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+IA,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IA,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+IA,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+IA,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IA,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,White,FALSE,NA
+ID,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+ID,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ID,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+ID,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+ID,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ID,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+IL,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,White,FALSE,NA
+IL,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+IL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+IL,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+IL,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+IL,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IL,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IN,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+IN,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+IN,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+IN,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Cases,Race,White,FALSE,NA
+IN,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IN,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+IN,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+IN,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+IN,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+IN,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+IN,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Indiana includes this race category under a grouping it labels ""Other."""
+IN,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+IN,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Cases,Race,White,FALSE,NA
+KS,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+KS,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+KS,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Kansas does not specify if this race category is included under a grouping it labels ""Other race."""
+KS,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+KS,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,White,FALSE,NA
+KY,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+KY,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+KY,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+KY,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+KY,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+KY,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Asian,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Two or more races,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,White,FALSE,NA
+LA,TRUE,TRUE,Cases,Race,Some other race,FALSE,NA
+LA,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+LA,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Louisiana does not specify if this race category is included under a grouping it labels ""Other."""
+LA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+LA,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Louisiana does not specify if this race category is included under a grouping it labels ""Other."""
+LA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+LA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MA,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+MA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MA,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+MA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+MA,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Massachusetts does not specify if this race category is included under a grouping it labels ""Non-Hispanic Other."""
+MA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MD,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MD,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MD,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+MD,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MD,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MD,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MD,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MD,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MD,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+MD,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+MD,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Maryland does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MD,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MD,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,White,FALSE,NA
+ME,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+ME,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ME,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+ME,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+ME,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ME,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,Asian,TRUE,"Michigan reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+MI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Michigan reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+MI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MI,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+MI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Michigan reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+MI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Michigan reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+MI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+MI,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+MI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,White,FALSE,NA
+MN,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+MN,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MN,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+MN,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+MN,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MN,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MO,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MO,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+MO,TRUE,FALSE,Cases,Race,Asian,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+MO,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MO,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MO,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MO,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MO,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+MO,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+MO,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+MO,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Missouri includes this race category under a category it labels ""Other."""
+MO,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MO,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,White,FALSE,NA
+MP,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+MP,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MP,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+MP,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+MP,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MP,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MS,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MS,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MS,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+MS,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+MS,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MS,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MS,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MS,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+MS,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+MS,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+MS,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+MS,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+MS,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Mississippi does not specify if this race category is included under a grouping it labels ""Other (Non-Hispanic)."""
+MS,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MS,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,FALSE,Cases,Race,White,FALSE,NA
+MT,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Two or more races,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+MT,TRUE,TRUE,Deaths,Race,Some other race,TRUE,"Montana does not specify if this race category is included under a grouping it labels ""Other race."""
+MT,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+MT,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"North Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+NC,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NC,TRUE,FALSE,Cases,Race,Some other race,TRUE,"North Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+NC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"North Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+NC,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NC,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"North Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+NC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Asian,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Two or more races,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,White,FALSE,NA
+ND,TRUE,TRUE,Cases,Race,Some other race,FALSE,NA
+ND,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ND,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+ND,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+ND,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+ND,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Nebraska does not specify if this race category is included under a grouping it labels ""Other race."""
+NE,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NE,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Nebraska does not specify if this race category is included under a grouping it labels ""Other race."""
+NE,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NE,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Nebraska does not specify if this race category is included under a grouping it labels ""Other race."""
+NE,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NE,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Nebraska does not specify if this race category is included under a grouping it labels ""Other race."""
+NE,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NE,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NH,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NH,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NH,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NH,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NH,TRUE,FALSE,Cases,Race,Some other race,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NH,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NH,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NH,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NH,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NH,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NH,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"New Hampshire includes this category under a grouping it labels ""Other."""
+NH,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NH,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NJ,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NJ,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NJ,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NJ,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NJ,TRUE,FALSE,Cases,Race,Some other race,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NJ,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NJ,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NJ,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NJ,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NJ,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NJ,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"New Jersey includes this race category under a grouping it labels ""Other (non-Hispanic)."""
+NJ,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NJ,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NM,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NM,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+NM,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NM,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NM,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NM,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+NM,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NM,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NV,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+NV,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NV,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+NV,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+NV,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Cases,Race,White,FALSE,NA
+NV,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NV,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NV,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NV,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NV,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+NV,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+NV,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NV,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Nevada does not specify if this race category is included under a grouping it labels ""Other."""
+NV,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NV,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NY,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
+NY,TRUE,TRUE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NY,TRUE,TRUE,Cases,Race,Asian,TRUE,"Race/ethnicity data is reported separately by New York City and the rest of New York State. NYC reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian. New York State exlcuding NYC reports a grouping it labels ""Asian."""
+NY,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Race/ethnicity data is reported separately by New York City and the rest of New York State. NYC reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian. New York State exlcuding NYC reports a grouping it labels ""Asian."""
+NY,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,TRUE,Cases,Race,Two or more races,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,TRUE,Cases,Race,White,FALSE,NA
+NY,TRUE,TRUE,Cases,Race,Some other race,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NY,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+NY,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+NY,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+NY,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Race/ethnicity data is reported separately by New York City and the rest of New York State. NYC reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian. New York State exlcuding NYC reports a grouping it labels ""Asian."""
+NY,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Race/ethnicity data is reported separately by New York City and the rest of New York State. NYC reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian. New York State exlcuding NYC reports a grouping it labels ""Asian."""
+NY,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+NY,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"New York City includes this race category under a grouping it labels ""Other/unknown."" New York State excluding NYC does not specify if this race category is included under a grouping it labels ""Other."""
+NY,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+NY,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,White,FALSE,NA
+OH,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+OH,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OH,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+OH,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+OH,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OH,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OK,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+OK,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+OK,TRUE,FALSE,Cases,Race,Asian,TRUE,"Oklahoma reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+OK,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Oklahoma reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+OK,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+OK,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Oklahoma includes this race category under a grouping it labels ""Multiple Races/Other."""
+OK,TRUE,FALSE,Cases,Race,White,FALSE,NA
+OK,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Oklahoma includes this race category under a grouping it labels ""Multiple Races/Other."""
+OK,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OK,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OK,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+OK,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+OK,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Oklahoma reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+OK,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Oklahoma reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+OK,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+OK,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Oklahoma includes this race category under a grouping it labels ""Multiple Races/Other."""
+OK,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+OK,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Oklahoma includes this race category under a grouping it labels ""Multiple Races/Other."""
+OK,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OK,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Black or African American,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Asian,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Two or more races,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,White,FALSE,NA
+OR,FALSE,FALSE,Cases,Race,Some other race,FALSE,NA
+OR,FALSE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OR,FALSE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Asian,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,White,FALSE,NA
+OR,FALSE,FALSE,Deaths,Race,Some other race,FALSE,NA
+OR,FALSE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+OR,FALSE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+PA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+PA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+PA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+PA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+PA,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+PA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+PA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+PA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+PA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+PA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+PA,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Pennsylvania does not specify if this race category is included under a grouping it labels ""Other."""
+PA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+PA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Asian,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Two or more races,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,White,FALSE,NA
+PR,TRUE,TRUE,Cases,Race,Some other race,FALSE,NA
+PR,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+PR,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+PR,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+PR,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+PR,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+RI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+RI,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+RI,TRUE,FALSE,Cases,Race,Asian,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+RI,TRUE,FALSE,Cases,Race,White,FALSE,NA
+RI,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+RI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+RI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+RI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+RI,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+RI,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+RI,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Rhode Island does not specify if this race category is included under a grouping it labels ""Non-Hispanic other."""
+RI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+RI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+SC,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+SC,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+SC,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+SC,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Cases,Race,White,FALSE,NA
+SC,TRUE,FALSE,Cases,Race,Some other race,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+SC,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+SC,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+SC,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+SC,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+SC,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+SC,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"South Carolina does not specify if this race category is included under a grouping it labels ""Other."""
+SC,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+SC,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+SD,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+SD,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+SD,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+SD,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"South Dakota does not specify if this race category is included under a grouping it labels ""Other."""
+SD,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+SD,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"South Dakota does not specify if this race category is included under a grouping it labels ""Other."""
+SD,TRUE,FALSE,Cases,Race,White,FALSE,NA
+SD,TRUE,FALSE,Cases,Race,Some other race,TRUE,"South Dakota does not specify if this race category is included under a grouping it labels ""Other."""
+SD,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+SD,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+SD,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+SD,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+SD,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+TN,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+TN,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+TN,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+TN,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Cases,Race,White,FALSE,NA
+TN,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+TN,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+TN,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+TN,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+TN,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+TN,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+TN,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Tennessee does not specify if this race category is included under a grouping it labels ""Other/Multiracial."""
+TN,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+TN,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+TX,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+TX,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+TX,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+TX,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Cases,Race,White,FALSE,NA
+TX,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+TX,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+TX,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+TX,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+TX,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+TX,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+TX,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Texas does not specify if this race category is included under a grouping it labels ""Other."""
+TX,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+TX,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+UT,TRUE,FALSE,Cases,Race,Black or African American,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+UT,TRUE,FALSE,Cases,Race,Asian,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,Two or more races,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,White,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Race,Some other race,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+UT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+UT,TRUE,FALSE,Deaths,Race,Black or African American,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+UT,TRUE,FALSE,Deaths,Race,Asian,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,White,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Race,Some other race,TRUE,Utah reports non-mutually-exclusive categories for race data. Percentages may sum to more than 100%.
+UT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+UT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+VA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+VA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+VI,TRUE,TRUE,Cases,Race,Asian,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Two or more races,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,White,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Some other race,FALSE,NA
+VI,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VI,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+VI,TRUE,TRUE,Deaths,Race,Asian,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,White,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Some other race,FALSE,NA
+VI,TRUE,TRUE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VI,TRUE,TRUE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Cases,Race,White,FALSE,NA
+VT,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VT,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+VT,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Vermont does not specify if this race category is included under a grouping it labels ""Other race."""
+VT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+VT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+WA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,White,FALSE,NA
+WA,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
+WA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+WA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+WA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
+WA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WI,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+WI,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+WI,TRUE,FALSE,Cases,Race,Asian,TRUE,"Wisconsin reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+WI,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Wisconsin reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+WI,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
+WI,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"Wisconsin includes this race category under a grouping it labels ""Multiple or other races."""
+WI,TRUE,FALSE,Cases,Race,White,FALSE,NA
+WI,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Wisconsin includes this race category under a grouping it labels ""Multiple or other races."""
+WI,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WI,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WI,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+WI,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+WI,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Wisconsin  reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+WI,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Wisconsin  reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+WI,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
+WI,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"Wisconsin includes this race category under a grouping it labels ""Multiple or other races."""
+WI,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+WI,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Wisconsin includes this race category under a grouping it labels ""Multiple or other races."""
+WI,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WI,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WV,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
+WV,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+WV,TRUE,FALSE,Cases,Race,Asian,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Cases,Race,Two or more races,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Cases,Race,White,FALSE,NA
+WV,TRUE,FALSE,Cases,Race,Some other race,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WV,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WV,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
+WV,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+WV,TRUE,FALSE,Deaths,Race,Asian,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Deaths,Race,White,FALSE,NA
+WV,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"West Virginia does not specify if this race category is included under a grouping it labels ""Other."""
+WV,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WV,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WY,TRUE,FALSE,Cases,Race,Black or African American,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+WY,TRUE,FALSE,Cases,Race,Asian,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,Two or more races,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,White,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Race,Some other race,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WY,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
+WY,TRUE,FALSE,Deaths,Race,Black or African American,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+WY,TRUE,FALSE,Deaths,Race,Asian,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,Two or more races,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,White,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Race,Some other race,TRUE,Wyoming reports non-mutually-exclusive categories for race and ethnicity data. Percentages may sum to more than 100%.
+WY,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
+WY,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
