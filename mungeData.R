@@ -202,7 +202,8 @@ df <-
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text2),
          tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
-                                   TRUE ~ tooltip_text3))
+                                   TRUE ~ tooltip_text3)) %>%
+  mutate(timestamp = Sys.time())
 
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
