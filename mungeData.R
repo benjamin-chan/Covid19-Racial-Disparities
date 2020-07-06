@@ -7,6 +7,17 @@ library(tidyverse)
 
 
 state <- read_csv(file.path("Data", "state_names.csv"))
+reporting_characteristics <-
+  read_csv(file.path("Data", "reporting_characteristics.csv")) %>%
+  inner_join(state %>% select(State_Abbr, State_Name),
+             by = c("State" = "State_Abbr")) %>%
+  mutate(note_indicator = case_when(metric_nodata_flag & different_from_oregon_flag ~ "\u2020 \u2021",
+                                    metric_nodata_flag ~ "\u2020",
+                                    different_from_oregon_flag ~ "\u2021")) %>%
+  mutate(reporting_note1 = case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s",
+                                                                  State_Name, tolower(variable), tolower(metric))),
+         reporting_note2 = case_when(different_from_oregon_flag ~ sprintf("\u2021 %s's %s data for %s are not comparable to Oregon; reported categories are different from the US Census",
+                                                                          State_Name, tolower(variable), tolower(metric))))
 
 
 # The COVID Tracking Projects's Racial Data Dashboard
@@ -162,6 +173,7 @@ df <-
          category = label) %>%
   mutate(percent_ACS = percent_ACS / 100) %>%
   left_join(crdt, .) %>%
+  left_join(reporting_characteristics) %>%
   mutate(greater_than_ACS_flag = as.logical((percent - percent_ACS) / percent_ACS > 1/3)) %>%
   mutate(greater_than_ACS_incl_Unknown_flag = as.logical((percent_incl_Unknown - percent_ACS) / percent_ACS > 1/3)) %>%
   mutate(disparity_flag = greater_than_ACS_flag &
