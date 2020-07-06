@@ -174,7 +174,7 @@ df <-
                                    category == "Two or more races" ~ "multiracial",
                                    TRUE ~ category)) %>%
   mutate(tooltip_text1 = sprintf("%s disparity criteria.",
-                                 case_when( disparity_flag ~ "Meets",
+                                 case_when( disparity_flag ~ "* Meets",
                                            !disparity_flag ~ "Does not meet",
                                            is.na(disparity_flag) ~ "No comparable census data to evaulate")),
          tooltip_text2 = sprintf("of COVID-19 %s in %s are %s.",
