@@ -114,7 +114,7 @@ crdt <-
                               variable == "Ethnicity" & category == "Not Hispanic" ~ "Not Hispanic or Latino",
                               TRUE ~ category)) %>%
   select(Date, State, metric, variable, category, percent, percent_incl_Unknown, small_numer_flag) %>%
-  inner_join(state, by = c("State" = "State_Abbr") ) %>%
+  inner_join(state, by = c("State" = "State_Abbr")) %>%
   mutate(oregon_flag = as.logical(State == "OR")) %>%
   select(Date, State, State_Name, everything())
 
