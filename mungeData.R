@@ -168,7 +168,7 @@ df <-
                           greater_than_ACS_incl_Unknown_flag & 
                           !small_numer_flag) %>%
   mutate(disparity_indicator = case_when(disparity_flag ~ "*")) %>%
-  mutate(category_text = case_when(category == "Native Hawaiian and Other Pacific Islande" ~ "Native Hawaiian and other Pacific Islande",
+  mutate(category_text = case_when(category == "Native Hawaiian and Other Pacific Islander" ~ "Native Hawaiian and other Pacific Islander",
                                    category == "Not Hispanic or Latino" ~ "not Hispanic or Latino",
                                    category == "Some other race" ~ tolower(category),
                                    category == "Two or more races" ~ "multiracial",
