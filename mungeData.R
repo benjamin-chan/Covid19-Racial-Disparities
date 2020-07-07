@@ -222,7 +222,9 @@ df <-
          tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
                                    TRUE ~ tooltip_text3)) %>%
   mutate(tooltip_text4 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
-  mutate(timestamp = Sys.time())
+  mutate(timestamp = Sys.time()) %>%
+  filter(!(State_Name %in% c("American Samoa",
+                             "Northern Mariana Islands")))
 
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
