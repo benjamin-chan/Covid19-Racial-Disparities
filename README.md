@@ -58,11 +58,10 @@ Links to OHA's data visualizations
 
 ## To do:
 
-* Exclude American Samoa and Northern Mariana Islands
-  * For some reason these exist in the source data without explanation for why they are not presented in the original dashboard
 * Investigate why AI/AN for Washington does not get flagged as disparate (where it does in the CRDT dashboard)
   * I suspect CRDT's flag is a result of rounding/precision error
   * Could also be that the ACS data I'm pulling is not the same as the ACS data CRDT uses
+  * Email query sent to racial.data@covidtracking.com on 2020-07-07
 * **[Won't fix]** Fix the doughnut hole selection issue
   * Does not seem possible without sacrificing other functionality
   * https://community.tableau.com/s/question/0D54T00000C6ZzESAV/doughnut-selectionhover-issue
