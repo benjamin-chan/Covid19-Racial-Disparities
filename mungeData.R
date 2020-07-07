@@ -169,6 +169,21 @@ acs <-
                  gsub("RACE!!", "", .))
 
 
+# For states that report Hispanic or Latino as a race category, add the
+# ACS Hispanic or Latino ethnicity data with the "Hispanic or Latino"
+# label, so the left_join() can join it
+lookup <-
+  reporting_characteristics %>%
+  filter(category == "Hispanic or Latino" & category_reporting_flag) %>%
+  pull(State_Name) %>%
+  unique()
+temp <-
+  acs %>%
+  filter(State_Name %in% lookup & label == "Hispanic or Latino (of any race)") %>%
+  mutate(label = gsub(" \\(of any race\\)", "", label))
+acs <- bind_rows(acs, temp)
+
+
 df <-
   acs %>%
   select(State_Name, percent, label) %>%
@@ -206,6 +221,7 @@ df <-
                                    TRUE ~ tooltip_text2),
          tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
                                    TRUE ~ tooltip_text3)) %>%
+  mutate(tooltip_text4 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   mutate(timestamp = Sys.time())
 
 f <- file.path("Data", "disparity_data.csv")
