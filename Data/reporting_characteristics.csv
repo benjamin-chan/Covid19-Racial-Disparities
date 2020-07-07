@@ -240,7 +240,7 @@ GA,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Georgia includes this race categ
 GA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 GA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
 GU,TRUE,FALSE,Cases,Race,Black or African American,TRUE,Census does not provide race or ethnicity information for Guam.
-GU,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+GU,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,Census does not provide race or ethnicity information for Guam.
 GU,TRUE,FALSE,Cases,Race,Asian,TRUE,Census does not provide race or ethnicity information for Guam.
 GU,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,Census does not provide race or ethnicity information for Guam.
 GU,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,Census does not provide race or ethnicity information for Guam.
