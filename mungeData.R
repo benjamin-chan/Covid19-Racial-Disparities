@@ -193,9 +193,9 @@ df <-
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
   mutate(greater_than_ACS_flag = as.logical((percent - percent_ACS) / percent_ACS > 1/3)) %>%
-  mutate(greater_than_ACS_incl_Unknown_flag = as.logical((percent_incl_Unknown - percent_ACS) / percent_ACS > 1/3)) %>%
+  mutate(remains_elevated_incl_Unknown_flag = as.logical(percent_incl_Unknown > percent_ACS)) %>%
   mutate(disparity_flag = greater_than_ACS_flag &
-                          greater_than_ACS_incl_Unknown_flag & 
+                          remains_elevated_incl_Unknown_flag & 
                           !small_numer_flag) %>%
   mutate(disparity_indicator = case_when(disparity_flag ~ "*")) %>%
   mutate(category_text = case_when(category == "Native Hawaiian and Other Pacific Islander" ~ "Native Hawaiian and other Pacific Islander",
