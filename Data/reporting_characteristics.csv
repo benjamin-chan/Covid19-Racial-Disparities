@@ -980,9 +980,9 @@ UT,TRUE,FALSE,Deaths,Race,Some other race,TRUE,Utah reports non-mutually-exclusi
 UT,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 UT,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
 VA,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
-VA,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
-VA,TRUE,FALSE,Cases,Race,Asian,FALSE,NA
-VA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+VA,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+VA,TRUE,FALSE,Cases,Race,Asian,TRUE,"Virginia reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VA,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Virginia reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
 VA,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,FALSE,NA
 VA,TRUE,FALSE,Cases,Race,Two or more races,FALSE,NA
 VA,TRUE,FALSE,Cases,Race,White,FALSE,NA
@@ -990,9 +990,9 @@ VA,TRUE,FALSE,Cases,Race,Some other race,FALSE,NA
 VA,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 VA,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
 VA,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
-VA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
-VA,TRUE,FALSE,Deaths,Race,Asian,FALSE,NA
-VA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
+VA,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
+VA,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Virginia reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VA,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Virginia reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
 VA,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
 VA,TRUE,FALSE,Deaths,Race,Two or more races,FALSE,NA
 VA,TRUE,FALSE,Deaths,Race,White,FALSE,NA
@@ -1000,9 +1000,9 @@ VA,TRUE,FALSE,Deaths,Race,Some other race,FALSE,NA
 VA,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 VA,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
 VI,TRUE,TRUE,Cases,Race,Black or African American,FALSE,NA
-VI,TRUE,TRUE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
-VI,TRUE,TRUE,Cases,Race,Asian,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
-VI,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Cases,Race,Hispanic or Latino,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Asian,FALSE,NA
+VI,TRUE,TRUE,Cases,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
 VI,TRUE,TRUE,Cases,Race,American Indian and Alaska Native,FALSE,NA
 VI,TRUE,TRUE,Cases,Race,Two or more races,FALSE,NA
 VI,TRUE,TRUE,Cases,Race,White,FALSE,NA
@@ -1010,9 +1010,9 @@ VI,TRUE,TRUE,Cases,Race,Some other race,FALSE,NA
 VI,TRUE,TRUE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 VI,TRUE,TRUE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
 VI,TRUE,TRUE,Deaths,Race,Black or African American,FALSE,NA
-VI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
-VI,TRUE,TRUE,Deaths,Race,Asian,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
-VI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"US Virgin Islands reports Asian as a panracial category, including Asian, Pacific Islander, and Native Hawaiian."
+VI,TRUE,TRUE,Deaths,Race,Hispanic or Latino,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Asian,FALSE,NA
+VI,TRUE,TRUE,Deaths,Race,Native Hawaiian and Other Pacific Islander,FALSE,NA
 VI,TRUE,TRUE,Deaths,Race,American Indian and Alaska Native,FALSE,NA
 VI,TRUE,TRUE,Deaths,Race,Two or more races,FALSE,NA
 VI,TRUE,TRUE,Deaths,Race,White,FALSE,NA
