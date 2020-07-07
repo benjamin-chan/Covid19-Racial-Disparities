@@ -43,7 +43,7 @@ calculatePercent <- function(data) {
            Cases_Ethnicity_Hispanic_Pct = Cases_Ethnicity_Hispanic / (Cases_Ethnicity_Hispanic + Cases_Ethnicity_NonHispanic),
            Cases_Ethnicity_NonHispanic_Pct = Cases_Ethnicity_NonHispanic / (Cases_Ethnicity_Hispanic + Cases_Ethnicity_NonHispanic),
            Deaths_Black_Pct = Deaths_Black / Deaths_Denom,
-           Deaths_LatinX_Pct = Deaths_LatinX / Cases_Denom,
+           Deaths_LatinX_Pct = Deaths_LatinX / Deaths_Denom,
            Deaths_Asian_Pct = Deaths_Asian / Deaths_Denom,
            Deaths_NHPI_Pct = Deaths_NHPI / Deaths_Denom,
            Deaths_AIAN_Pct = Deaths_AIAN / Deaths_Denom,
