@@ -200,7 +200,7 @@ DE,TRUE,FALSE,Deaths,Race,Some other race,TRUE,"Delaware does not specify if thi
 DE,TRUE,FALSE,Deaths,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 DE,TRUE,FALSE,Deaths,Ethnicity,Not Hispanic or Latino,FALSE,NA
 FL,TRUE,FALSE,Cases,Race,Black or African American,FALSE,NA
-FL,TRUE,FALSE,Cases,Race,Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Cases,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
 FL,TRUE,FALSE,Cases,Race,Asian,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
 FL,TRUE,FALSE,Cases,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
 FL,TRUE,FALSE,Cases,Race,American Indian and Alaska Native,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
@@ -210,7 +210,7 @@ FL,TRUE,FALSE,Cases,Race,Some other race,TRUE,"Florida includes this race catego
 FL,TRUE,FALSE,Cases,Ethnicity,Hispanic or Latino (of any race),FALSE,NA
 FL,TRUE,FALSE,Cases,Ethnicity,Not Hispanic or Latino,FALSE,NA
 FL,TRUE,FALSE,Deaths,Race,Black or African American,FALSE,NA
-FL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,FALSE,NA
+FL,TRUE,FALSE,Deaths,Race,Hispanic or Latino,TRUE,"Hispanic or Latino ethnicity, any race. All other race categories are defined as Not Hispanic or Latino."
 FL,TRUE,FALSE,Deaths,Race,Asian,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
 FL,TRUE,FALSE,Deaths,Race,Native Hawaiian and Other Pacific Islander,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
 FL,TRUE,FALSE,Deaths,Race,American Indian and Alaska Native,TRUE,"Florida includes this race category under a grouping it labels ""Other."""
