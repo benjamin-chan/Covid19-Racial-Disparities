@@ -14,10 +14,13 @@ reporting_characteristics <-
   mutate(note_indicator = case_when(metric_nodata_flag & different_from_oregon_flag ~ "\u2020 \u2021",
                                     metric_nodata_flag ~ "\u2020",
                                     different_from_oregon_flag ~ "\u2021")) %>%
-  mutate(reporting_note1 = case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s",
-                                                                  State_Name, tolower(variable), tolower(metric))),
-         reporting_note2 = case_when(different_from_oregon_flag ~ sprintf("\u2021 %s's %s data for %s are not comparable to Oregon; reported categories are different from the US Census",
-                                                                          State_Name, tolower(variable), tolower(metric))))
+  mutate(reporting_note1 =
+           case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s",
+                     State_Name, tolower(variable), tolower(metric))),
+         reporting_note2 =
+           case_when(different_from_oregon_flag ~
+                       sprintf("\u2021 %s uses different categories for race and ethnicity than the US Census. Their data should not be compared to Oregon's",
+                               State_Name, tolower(variable), tolower(metric))))
 
 
 # The COVID Tracking Projects's Racial Data Dashboard
@@ -193,7 +196,7 @@ df <-
                                  tolower(metric),
                                  State_Name,
                                  category_text),
-         tooltip_text3 = sprintf("%s of the population is %s.",
+         tooltip_text3 = sprintf("%s of the population are %s.",
                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
                                            TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
                                  category_text)) %>%
