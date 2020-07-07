@@ -1,9 +1,35 @@
 # COVID-19 Racial and Ethnicity Disparity Dashboard
 
-DRTS #5404 `DRT_Covid_19_Race_and_Ethnicity_Dashboard`
+DRTS #5404 `Covid_19_Race_and_Ethnicity_Dashboard`
 
 
-## Background
+## Purpose
+
+This project takes existing data from The COVID Racial Data Tracker and reforms
+it to display a comparison between Oregon and other states and territories.
+
+The genesis of this project was this email message:
+
+> On Jul 1, 2020, at 9:50 AM, Allen Patrick <Patrick.Allen@dhsoha.state.or.us> wrote:
+> 
+> Jeremy,
+> 
+> Do you have anyone who could spend a little time on a data analysis project for
+> me? The link below is to racial disparity data from covid. I need someone to a)
+> validate that we agree with the reported data (some of the data looks a little
+> off to me), and then b) figure out a way to display or describe the data in a
+> way that benchmarks our disparities against other states.
+> 
+> Here's the link:
+> 
+> https://covidtracking.com/race/dashboard
+> 
+> Let me know if you’ve got someone to hand this off to. Thanks!
+> 
+> Pat.
+
+
+## Source information
 
 Links to source data from The COVID Racial Data Tracker:
 
@@ -29,3 +55,16 @@ Links to OHA's data visualizations
    2. The data file is timestamped and version controlled
 2. Publish `Covid19 Racial and Ethnic Disparity.twb` to the internal Tableau server
 
+
+## To do:
+
+* Exclude American Samoa and Northern Mariana Islands
+  * For some reason these exist in the source data without explanation for why they are not presented in the original dashboard
+* Investigate why AI/AN for Washington does not get flagged as disparate (where it does in the CRDT dashboard)
+  * I suspect CRDT's flag is a result of rounding/precision error
+  * Could also be that the ACS data I'm pulling is not the same as the ACS data CRDT uses
+* **[Won't fix]** Fix the doughnut hole selection issue
+  * Does not seem possible without sacrificing other functionality
+  * https://community.tableau.com/s/question/0D54T00000C6ZzESAV/doughnut-selectionhover-issue
+* Automate or semi-automate the build workflow
+  * Would like to combine steps 1 and 2
