@@ -223,11 +223,15 @@ df <-
                           remains_elevated_incl_Unknown_flag & 
                           !small_numer_flag) %>%
   mutate(disparity_indicator = case_when(disparity_flag ~ "*")) %>%
-  mutate(category_text = case_when(category == "Native Hawaiian and Other Pacific Islander" ~ "Native Hawaiian and other Pacific Islander",
-                                   category == "Not Hispanic or Latino" ~ "not Hispanic or Latino",
-                                   category == "Some other race" ~ tolower(category),
-                                   category == "Two or more races" ~ "multiracial",
-                                   TRUE ~ category)) %>%
+  mutate(category_text1 = case_when(category == "Native Hawaiian and Other Pacific Islander" ~ "Native Hawaiian and other Pacific Islander",
+                                    category == "Not Hispanic or Latino" ~ "not Hispanic or Latino",
+                                    category == "Some other race" ~ tolower(category),
+                                    category == "Two or more races" ~ "multiracial",
+                                    TRUE ~ category)) %>%
+  mutate(category_text2 = case_when(category == "Hispanic or Latino (of any race)" ~ "Hispanic or Latinos (of any race)",
+                                    category == "Some other race" ~ "Individuals of some other race",
+                                    category == "Two or more races" ~ "Multiracial individuals",
+                                    TRUE ~ sprintf("%ss", category))) %>%
   mutate(tooltip_text1 = sprintf("%s disparity criteria.",
                                  case_when( disparity_flag ~ "* Meets",
                                            !disparity_flag ~ "Does not meet",
@@ -235,13 +239,13 @@ df <-
          tooltip_text2 = sprintf("of COVID-19 %s in %s are %s.",
                                  tolower(metric),
                                  State_Name,
-                                 category_text),
+                                 category_text1),
          tooltip_text3 = sprintf("%s of the population are %s.",
                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
                                            TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
-                                 category_text),
-         tooltip_text4 = sprintf("%ss comprise %.1f times the number of %s than expected.",
-                                 category,
+                                 category_text1),
+         tooltip_text4 = sprintf("%s comprise %.1f times the number of %s than expected.",
+                                 category_text2,
                                  disparity_factor,
                                  tolower(metric)),
          tooltip_text5 = sprintf("%s is ranked %.0f%s out of %.0f states and territories.",
@@ -252,6 +256,7 @@ df <-
                                            disparity_rank == 3 ~ "rd",
                                            TRUE ~ "th"),
                                  denom_ranked)) %>%
+  select(-starts_with("category_text")) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
