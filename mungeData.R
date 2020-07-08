@@ -251,9 +251,9 @@ df <-
          tooltip_text5 = sprintf("%s is ranked %.0f%s out of %.0f states and territories.",
                                  State_Name,
                                  disparity_rank,
-                                 case_when(disparity_rank == 1 ~ "st",
-                                           disparity_rank == 2 ~ "nd",
-                                           disparity_rank == 3 ~ "rd",
+                                 case_when(grepl("(^|[2-9])1$", sprintf("%.0f", disparity_rank)) ~ "st",
+                                           grepl("(^|[2-9])2$", sprintf("%.0f", disparity_rank)) ~ "nd",
+                                           grepl("(^|[2-9])3$", sprintf("%.0f", disparity_rank)) ~ "rd",
                                            TRUE ~ "th"),
                                  denom_ranked)) %>%
   select(-starts_with("category_text")) %>%
