@@ -202,11 +202,12 @@ df <-
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
   left_join(oregon_categories) %>%
-  mutate(disparity_factor = percent / percent_ACS,
+  mutate(disparity_factor = case_when(percent_ACS == 0 ~ NA_real_,
+                                      TRUE ~ percent / percent_ACS),
          disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
   group_by(metric, category) %>%
   mutate(disparity_rank = rank(-disparity_factor),
-         denom_ranked = sum(!is.na(percent))) %>%
+         denom_ranked = sum(is.finite(disparity_factor))) %>%
   ungroup() %>%
   mutate(greater_than_ACS_flag = as.logical(disparity_excess_pct > 1/3)) %>%
   mutate(remains_elevated_incl_Unknown_flag = as.logical(percent_incl_Unknown > percent_ACS)) %>%
