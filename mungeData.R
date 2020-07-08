@@ -268,7 +268,6 @@ df <-
                                    TRUE ~ tooltip_text5)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   mutate(timestamp = Sys.time()) %>%
-  select(-starts_with("category_rep"), -category_text1) %>%
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
 
