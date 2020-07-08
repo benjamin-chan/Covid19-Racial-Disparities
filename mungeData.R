@@ -192,7 +192,9 @@ df <-
   mutate(percent_ACS = percent_ACS / 100) %>%
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
-  mutate(greater_than_ACS_flag = as.logical((percent - percent_ACS) / percent_ACS > 1/3)) %>%
+  mutate(disparity_factor = percent / percent_ACS,
+         disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
+  mutate(greater_than_ACS_flag = as.logical(disparity_excess_pct > 1/3)) %>%
   mutate(remains_elevated_incl_Unknown_flag = as.logical(percent_incl_Unknown > percent_ACS)) %>%
   mutate(disparity_flag = greater_than_ACS_flag &
                           remains_elevated_incl_Unknown_flag & 
