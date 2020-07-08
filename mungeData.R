@@ -184,6 +184,15 @@ temp <-
 acs <- bind_rows(acs, temp)
 
 
+# Identify race and ethnicity categories reported in Oregon
+oregon_categories <-
+  crdt %>%
+  filter(State == "OR" & !is.na(percent)) %>%
+  select(variable, category) %>%
+  unique() %>%
+  mutate(oregon_category_flag = TRUE)
+
+
 df <-
   acs %>%
   select(State_Name, percent, label) %>%
@@ -192,6 +201,7 @@ df <-
   mutate(percent_ACS = percent_ACS / 100) %>%
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
+  left_join(oregon_categories) %>%
   mutate(disparity_factor = percent / percent_ACS,
          disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
   mutate(greater_than_ACS_flag = as.logical(disparity_excess_pct > 1/3)) %>%
