@@ -256,7 +256,6 @@ df <-
                                            grepl("(^|[2-9])3$", sprintf("%.0f", disparity_rank)) ~ "rd",
                                            TRUE ~ "th"),
                                  denom_ranked)) %>%
-  select(-starts_with("category_text")) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
@@ -269,6 +268,7 @@ df <-
                                    TRUE ~ tooltip_text5)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   mutate(timestamp = Sys.time()) %>%
+  select(-starts_with("category_rep"), -category_text1) %>%
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
 
