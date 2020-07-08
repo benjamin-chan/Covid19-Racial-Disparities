@@ -193,6 +193,15 @@ oregon_categories <-
   mutate(oregon_category_flag = TRUE)
 
 
+nth <- function (x) {
+  str <- case_when(x == 1 ~ "st",
+                   x == 2 ~ "nd",
+                   x == 3 ~ "rd",
+                   TRUE ~ "th")
+  sprintf("%.0f%s", x)
+}
+
+
 df <-
   acs %>%
   select(State_Name, percent, label) %>%
@@ -204,6 +213,10 @@ df <-
   left_join(oregon_categories) %>%
   mutate(disparity_factor = percent / percent_ACS,
          disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
+  group_by(metric, category) %>%
+  mutate(disparity_rank = rank(-disparity_factor),
+         denom_ranked = sum(!is.na(percent))) %>%
+  ungroup() %>%
   mutate(greater_than_ACS_flag = as.logical(disparity_excess_pct > 1/3)) %>%
   mutate(remains_elevated_incl_Unknown_flag = as.logical(percent_incl_Unknown > percent_ACS)) %>%
   mutate(disparity_flag = greater_than_ACS_flag &
@@ -230,7 +243,15 @@ df <-
          tooltip_text4 = sprintf("%ss comprise %.1f times the number of %s than expected.",
                                  category,
                                  disparity_factor,
-                                 tolower(metric))) %>%
+                                 tolower(metric)),
+         tooltip_text5 = sprintf("%s is ranked %.0f%s out of %.0f states and territories.",
+                                 State_Name,
+                                 disparity_rank,
+                                 case_when(disparity_rank == 1 ~ "st",
+                                           disparity_rank == 2 ~ "nd",
+                                           disparity_rank == 3 ~ "rd",
+                                           TRUE ~ "th"),
+                                 denom_ranked)) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
@@ -238,8 +259,10 @@ df <-
          tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
                                    TRUE ~ tooltip_text3),
          tooltip_text4 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text4)) %>%
-  mutate(tooltip_text5 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
+                                   TRUE ~ tooltip_text4),
+         tooltip_text5 = case_when(is.na(percent) ~ NA_character_,
+                                   TRUE ~ tooltip_text5)) %>%
+  mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   mutate(timestamp = Sys.time()) %>%
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
