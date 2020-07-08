@@ -216,14 +216,20 @@ df <-
          tooltip_text3 = sprintf("%s of the population are %s.",
                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
                                            TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
-                                 category_text)) %>%
+                                 category_text),
+         tooltip_text4 = sprintf("%ss comprise %.1f times the number of %s than expected.",
+                                 category,
+                                 disparity_factor,
+                                 tolower(metric))) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text2),
          tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
-                                   TRUE ~ tooltip_text3)) %>%
-  mutate(tooltip_text4 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
+                                   TRUE ~ tooltip_text3),
+         tooltip_text4 = case_when(is.na(percent) ~ NA_character_,
+                                   TRUE ~ tooltip_text4)) %>%
+  mutate(tooltip_text5 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   mutate(timestamp = Sys.time()) %>%
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
