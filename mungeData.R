@@ -193,15 +193,6 @@ oregon_categories <-
   mutate(oregon_category_flag = TRUE)
 
 
-nth <- function (x) {
-  str <- case_when(x == 1 ~ "st",
-                   x == 2 ~ "nd",
-                   x == 3 ~ "rd",
-                   TRUE ~ "th")
-  sprintf("%.0f%s", x)
-}
-
-
 df <-
   acs %>%
   select(State_Name, percent, label) %>%
