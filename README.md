@@ -39,6 +39,7 @@ Links to source data from The COVID Racial Data Tracker:
 * [CSV](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pub?gid=43720681&single=true&output=csv)
   * Google Docs spreadsheet
   * The data is not currently packaged in The COVID Racial Data Tracker's data API
+  * Data is "updated twice per week"; from what I can tell it's updated on Sunday and Wednesday
 * [Github](https://github.com/COVID19Tracking)
   * This didn't prove to be too terribly useful; it houses the repos for their main data products
 
@@ -67,3 +68,16 @@ Links to OHA's data visualizations
   * https://community.tableau.com/s/question/0D54T00000C6ZzESAV/doughnut-selectionhover-issue
 * Automate or semi-automate the build workflow
   * Would like to combine steps 1 and 2
+* Add "the" before "District of Columbia"
+* Duplicate ranking dashboard for `disparity_excess_pct`
+* Develop hex map for disparity factor
+
+
+## Press
+
+* The NY Times has some disparity data I would like to get my hands on
+  * https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html
+  * Their data is from the CDC and was obtained by a FOIA request
+* Northwestern also has some disparity data
+  * https://www.ipr.northwestern.edu/news/2020/covid-magnifies-racial-disparities.html
+  * Survey data and not broken out by state
