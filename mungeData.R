@@ -274,3 +274,10 @@ df <-
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
 file.info(f)
+
+f <- file.path("Data", "disparity_factor_range.csv")
+df %>%
+  summarize(min = min(disparity_factor, na.rm = TRUE),
+            max = max(disparity_factor, na.rm = TRUE)) %>%
+  write_csv(f, na = "")
+file.info(f)
