@@ -224,6 +224,10 @@ df <-
                                     category == "Some other race" ~ "Individuals of some other race",
                                     category == "Two or more races" ~ "Multiracial individuals",
                                     TRUE ~ sprintf("%ss", category))) %>%
+  mutate(category_text3 = case_when(category == "Hispanic or Latino (of any race)" ~ "Hispanic or Latinos (of any race)",
+                                    category == "Some other race" ~ "individuals of some other race",
+                                    category == "Two or more races" ~ "multiracial individuals",
+                                    TRUE ~ sprintf("%ss", category))) %>%
   mutate(tooltip_text1 = sprintf("%s disparity criteria.",
                                  case_when( disparity_flag ~ "* Meets",
                                            !disparity_flag ~ "Does not meet",
@@ -240,14 +244,16 @@ df <-
                                  category_text2,
                                  disparity_factor,
                                  tolower(metric)),
-         tooltip_text5 = sprintf("%s is ranked %.0f%s out of %.0f states and territories.",
+         tooltip_text5 = sprintf("%s is ranked %.0f%s for disparity among %s out of %.0f states and territories reporting %s for this category and with a non-zero percentage in their population.",
                                  State_Name,
                                  disparity_rank,
                                  case_when(grepl("(^|[2-9])1$", sprintf("%.0f", disparity_rank)) ~ "st",
                                            grepl("(^|[2-9])2$", sprintf("%.0f", disparity_rank)) ~ "nd",
                                            grepl("(^|[2-9])3$", sprintf("%.0f", disparity_rank)) ~ "rd",
                                            TRUE ~ "th"),
-                                 denom_ranked)) %>%
+                                 category_text3,
+                                 denom_ranked,
+                                 tolower(metric))) %>%
   mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text1),
          tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
@@ -259,6 +265,8 @@ df <-
          tooltip_text5 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text5)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
+  rename(category_title_text = category_text2) %>%
+  select(-starts_with("category_text")) %>%
   mutate(timestamp = Sys.time()) %>%
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
