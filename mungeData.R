@@ -321,8 +321,15 @@ df %>% write_csv(f, na = "")
 file.info(f)
 
 f <- file.path("Data", "disparity_factor_range.csv")
+summary(df$disparity_factor)
 df %>%
   summarize(min = min(disparity_factor, na.rm = TRUE),
+            median = median(disparity_factor, na.rm = TRUE),
+            p90 = quantile(disparity_factor, probs = 0.90, na.rm = TRUE),
+            p95 = quantile(disparity_factor, probs = 0.95, na.rm = TRUE),
+            p99 = quantile(disparity_factor, probs = 0.99, na.rm = TRUE),
+            p995 = quantile(disparity_factor, probs = 0.995, na.rm = TRUE),
             max = max(disparity_factor, na.rm = TRUE)) %>%
+  pivot_longer(everything()) %>%
   write_csv(f, na = "")
 file.info(f)
