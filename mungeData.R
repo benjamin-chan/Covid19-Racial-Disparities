@@ -249,7 +249,8 @@ df <-
   left_join(oregon_categories) %>%
   mutate(disparity_factor = case_when(percent_ACS == 0 ~ NA_real_,
                                       TRUE ~ percent / percent_ACS),
-         disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
+         disparity_excess_pct = case_when(percent_ACS == 0 ~ NA_real_,
+                                          TRUE ~ (percent - percent_ACS) / percent_ACS)) %>%
   group_by(metric, category) %>%
   mutate(disparity_rank = rank(-disparity_factor),
          denom_ranked = sum(is.finite(disparity_factor))) %>%
