@@ -133,50 +133,95 @@ crdt <-
   select(Date, State, State_Name, everything())
 
 
-# ACS data seems a little off compared to https://covidtracking.com/race/dashboard
-# The "Two or more races" category is slightly off
-f <-
-  list.files("Data") %>%
-  grep("ACSDP5Y2018", ., value = TRUE) %>%
-  file.path("Data", .) %>%
-  list.files(full.names = TRUE) %>%
-  grep("data_with_overlays", ., value = TRUE)
-col <- c("NAME",
-         "DP05_0037PE",
-         "DP05_0038PE",
-         "DP05_0039PE",
-         "DP05_0044PE",
-         "DP05_0052PE",
-         "DP05_0057PE",
-         "DP05_0058PE",
-         "DP05_0071PE",
-         "DP05_0076PE")
-labels <- read_csv(f, n_max = 1) %>% select(col) %>% pivot_longer(everything(), values_to = "label")
-names <- read_csv(f, col_names = FALSE, n_max = 1) %>% pivot_longer(everything()) %>% filter(value %in% labels$name)
-acs <-
-  read_csv(f, col_names = FALSE, skip = 2) %>%
-  select(names$name) %>%
-  rename_all(list(~ names$value)) %>%
-  pivot_longer(starts_with("DP05")) %>%
-  rename(State_Name = NAME,
-         percent = value) %>%
-  inner_join(labels) %>%
-  rename(col_name = name) %>%
-  mutate(label = gsub("Percent Estimate!!", "", label) %>%
-                 gsub("Total population!!", "", .) %>%
-                 gsub("One race!!", "", .) %>%
-                 gsub("HISPANIC OR LATINO AND RACE!!", "", .) %>%
-                 gsub("RACE!!", "", .))
-
-
-# For states that report Hispanic or Latino as a race category, add the
-# ACS Hispanic or Latino ethnicity data with the "Hispanic or Latino"
-# label, so the left_join() can join it
+# Process ACS data in chunks
+# Some states report Hispanic and Latinos as a race category in addition to an ethnic category
+# This screws up a simple comparison to ACS
+# So need to build some logic to handle these cases
 lookup <-
   reporting_characteristics %>%
   filter(category == "Hispanic or Latino" & category_reporting_flag) %>%
   pull(State_Name) %>%
   unique()
+mungeACS <- function (col) {
+  require(magrittr)
+  require(dplyr)
+  require(readr)
+  f <-
+    list.files("Data") %>%
+    grep("ACSDP5Y2018", ., value = TRUE) %>%
+    file.path("Data", .) %>%
+    list.files(full.names = TRUE) %>%
+    grep("data_with_overlays", ., value = TRUE)
+  labels <- read_csv(f, n_max = 1) %>% select(col) %>% pivot_longer(everything(), values_to = "label")
+  names <- read_csv(f, col_names = FALSE, n_max = 1) %>% pivot_longer(everything()) %>% filter(value %in% labels$name)
+  read_csv(f, col_names = FALSE, skip = 2) %>%
+    select(names$name) %>%
+    rename_all(list(~ names$value)) %>%
+    pivot_longer(starts_with("DP05")) %>%
+    rename(State_Name = NAME,
+           percent = value) %>%
+    inner_join(labels) %>%
+    rename(col_name = name) %>%
+    mutate(label = gsub("Percent Estimate!!", "", label) %>%
+                   gsub("Total population!!", "", .) %>%
+                   gsub("One race!!", "", .) %>%
+                   gsub("HISPANIC OR LATINO AND RACE!!", "", .) %>%
+                   gsub("RACE!!", "", .))
+}
+acs1 <-
+  c("NAME",
+    "DP05_0037PE",      # RACE!!Total population!!One race!!White,
+    "DP05_0038PE",      # RACE!!Total population!!One race!!Black or African American,
+    "DP05_0039PE",      # RACE!!Total population!!One race!!American Indian and Alaska Native,
+    "DP05_0044PE",      # RACE!!Total population!!One race!!Asian,
+    "DP05_0052PE",      # RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander,
+    "DP05_0057PE",      # RACE!!Total population!!One race!!Some other race,
+    "DP05_0058PE") %>%  # RACE!!Total population!!Two or more races,
+  mungeACS()
+acs2 <-
+  c("NAME",
+    "DP05_0071PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
+    "DP05_0077PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone,
+    "DP05_0078PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone,
+    "DP05_0079PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone,
+    "DP05_0080PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone,
+    "DP05_0081PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,
+    "DP05_0082PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some other race alone,
+    "DP05_0083PE") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races,  
+  mungeACS()
+acs3 <-
+  c("NAME",
+    "DP05_0071PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
+    "DP05_0076PE") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino,
+  mungeACS()
+checkACS <- function (data, tol = 1/4) {
+  require(magrittr)
+  require(dplyr)
+  data %>%
+    group_by(State_Name) %>%
+    summarize(total = sum(percent)) %>%
+    mutate(error = abs(total - 100) > tol) %>%
+    pull(error)
+}
+if (any(c(acs1 %>% checkACS(), acs2 %>% checkACS(), acs3 %>% checkACS()))) {
+  warning("Something went screwy with the ACS munging!")
+  stop()
+}
+acs <-
+  bind_rows(acs1 %>%
+              filter(!(State_Name %in% lookup)),
+            acs2 %>%
+              filter(State_Name %in% lookup) %>%
+              mutate(label = gsub("Not Hispanic or Latino!!", "", label) %>%
+                             gsub("\\salone", "", .)),
+            acs3) %>%
+  unique() %>%
+  arrange(State_Name, col_name)
+  
+
+# For states that report Hispanic or Latino as a race category, add the
+# ACS Hispanic or Latino ethnicity data with the "Hispanic or Latino"
+# label, so the left_join() can join it
 temp <-
   acs %>%
   filter(State_Name %in% lookup & label == "Hispanic or Latino (of any race)") %>%
