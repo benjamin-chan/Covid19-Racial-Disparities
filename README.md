@@ -70,7 +70,6 @@ Links to OHA's data visualizations
   * Would like to combine steps 1 and 2
 * Add "the" before "District of Columbia"
 * Duplicate ranking dashboard for `disparity_excess_pct`
-* Develop hex map for disparity factor
 
 
 ## Press
