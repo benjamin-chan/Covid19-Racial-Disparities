@@ -4,6 +4,7 @@ checkpoint("2020-07-01")
 
 library(magrittr)
 library(tidyverse)
+library(censusapi)
 
 
 state <- read_csv(file.path("Data", "state_names.csv"))
@@ -145,22 +146,18 @@ lookup <-
 mungeACS <- function (col) {
   require(magrittr)
   require(dplyr)
-  require(readr)
-  f <-
-    list.files("Data") %>%
-    grep("ACSDP5Y2018", ., value = TRUE) %>%
-    file.path("Data", .) %>%
-    list.files(full.names = TRUE) %>%
-    grep("data_with_overlays", ., value = TRUE)
-  labels <- read_csv(f, n_max = 1) %>% select(col) %>% pivot_longer(everything(), values_to = "label")
-  names <- read_csv(f, col_names = FALSE, n_max = 1) %>% pivot_longer(everything()) %>% filter(value %in% labels$name)
-  read_csv(f, col_names = FALSE, skip = 2) %>%
-    select(names$name) %>%
-    rename_all(list(~ names$value)) %>%
+  require(censusapi)
+  metadata <-
+    listCensusMetadata(name = "acs/acs5/profile", vintage = 2018) %>%
+    select(name, label) %>%
+    filter(name %in% col)
+  getCensus("acs/acs5/profile", 2018, var = col, region = "state", key = "f1eed76ebb3f906330f30e4521c55dbebe54094a") %>%
+    select(-state) %>%
+    # rename_all(list(~ names$value)) %>%
     pivot_longer(starts_with("DP05")) %>%
     rename(State_Name = NAME,
            percent = value) %>%
-    inner_join(labels) %>%
+    inner_join(metadata) %>%
     rename(col_name = name) %>%
     mutate(label = gsub("Percent Estimate!!", "", label) %>%
                    gsub("Total population!!", "", .) %>%
