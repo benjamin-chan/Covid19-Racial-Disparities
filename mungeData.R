@@ -151,7 +151,8 @@ mungeACS <- function (col) {
     listCensusMetadata(name = "acs/acs5/profile", vintage = 2018) %>%
     select(name, label) %>%
     filter(name %in% col)
-  getCensus("acs/acs5/profile", 2018, var = col, region = "state", key = "f1eed76ebb3f906330f30e4521c55dbebe54094a") %>%
+  key <- read_csv("key.txt", col_names = FALSE) %>% pull(X1)
+  getCensus("acs/acs5/profile", 2018, var = col, region = "state", key = key) %>%
     select(-state) %>%
     # rename_all(list(~ names$value)) %>%
     pivot_longer(starts_with("DP05")) %>%
