@@ -64,6 +64,15 @@ transpose <- function(data, suffix) {
 }
 
 
+totals <-
+  read_csv(url) %>%
+  select(Date, State, Cases_Total, Deaths_Total) %>%
+  mutate(cases_reported_flag = !is.na(Cases_Total),
+         deaths_reported_flag = !is.na(Deaths_Total)) %>%
+  mutate(timestamp = Sys.time()) %>%
+  mutate(timestamp = Sys.time(),
+         Date = Date %>% as.character() %>% as.Date(format = "%Y%m%d"))
+
 pct_ex_Unknown <-
   read_csv(url) %>%
   mutate(Cases_Denom = Cases_Total - Cases_Unknown,
@@ -331,4 +340,8 @@ df %>%
             max = max(disparity_factor, na.rm = TRUE)) %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
+file.info(f)
+
+f <- file.path("Data", "totals.csv")
+totals %>% write_csv(f, na = "")
 file.info(f)
