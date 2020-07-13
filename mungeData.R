@@ -5,6 +5,7 @@ checkpoint("2020-07-01")
 library(magrittr)
 library(tidyverse)
 library(censusapi)
+library(dineq)
 
 
 state <- read_csv(file.path("Data", "state_names.csv"))
@@ -332,6 +333,26 @@ df <-
   filter(!(State_Name %in% c("American Samoa",
                              "Northern Mariana Islands")))
 
+
+#  Calculate disparity indices
+disparity_indices <-
+  df %>%
+  filter(!is.na(percent) & !is.na(percent_ACS)) %>%
+  group_by(Date, State, State_Name, metric, variable) %>%
+  summarize(theil_index = theil.wtd(percent, weights = percent_ACS),
+            mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
+  ungroup() %>%
+  pivot_longer(-c(Date, State, State_Name, metric, variable), names_to = "index") %>%
+  mutate(index = case_when(index == "theil_index" ~ "Theil Index",
+                           index == "mean_log_deviation" ~ "Mean Log Deviation"),
+         tooltip = sprintf("%s for %s is %.2g",
+                           index,
+                           State_Name,
+                           value)) %>%
+  mutate(timestamp = Sys.time())
+
+
+# Export for Tableau
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
 file.info(f)
@@ -352,4 +373,8 @@ file.info(f)
 
 f <- file.path("Data", "totals.csv")
 totals %>% write_csv(f, na = "")
+file.info(f)
+
+f <- file.path("Data", "disparity_indices.csv")
+disparity_indices %>% write_csv(f, na = "")
 file.info(f)
