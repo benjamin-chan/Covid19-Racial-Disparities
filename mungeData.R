@@ -338,6 +338,7 @@ df <-
 disparity_indices <-
   df %>%
   filter(!is.na(percent) & !is.na(percent_ACS)) %>%
+  filter(percent > 0 & percent_ACS > 0) %>%
   group_by(Date, State, State_Name, metric, variable) %>%
   summarize(theil_index = theil.wtd(percent, weights = percent_ACS),
             mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
