@@ -87,7 +87,7 @@ Links to OHA's data visualizations
 * https://www.rdocumentation.org/packages/dineq/versions/0.1.0
 * https://www.acepidemiology.org/assets/docs/Goodman%20ACE%20Final%20revised.pdf
 * Harper S, Lynch J. Selected Comparisons of Measures of Health Disparities: A Review Using Databases Relevant to Healthy People 2010 Cancer-Related Objectives. NCI Cancer Surveillance Monograph Series, Number 7. National Cancer Institute. NIH Pub. No. 07-6281, Bethesda, MD, 2007.
-  * https://seer.cancer.gov/publications/disparities2/HD2_Intro_and_Methods.pdf
+  * https://seer.cancer.gov/publications/disparities2
 * Lynne C. Messer, Invited Commentary: Measuring Social Disparities in Health—What Was the Question Again?, American Journal of Epidemiology, Volume 167, Issue 8, 15 April 2008, Pages 900–904, https://doi.org/10.1093/aje/kwn019
 * Rossen LM, Schoendorf KC. Measuring health disparities: trends in racial-ethnic and socioeconomic disparities in obesity among 2- to 18-year old youth in the United States, 2001-2010. Ann Epidemiol. 2012 Oct;22(10):698-704. doi: 10.1016/j.annepidem.2012.07.005. Epub 2012 Aug 11. PMID: 22884768; PMCID: PMC4669572.
   * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4669572/
