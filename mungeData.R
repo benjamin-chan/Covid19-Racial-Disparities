@@ -26,8 +26,16 @@ reporting_characteristics <-
 
 # The COVID Tracking Projects's Racial Data Dashboard
 # https://covidtracking.com/race/dashboard
-url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pub?gid=43720681&single=true&output=csv"
-
+readCRDT <- function () {
+  url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pub?gid=43720681&single=true&output=csv"
+  require(magrittr)
+  require(dplyr)
+  require(readr)
+  message(sprintf("CRDT data updated: %s",
+                  read_csv(url) %>% pull(Date) %>% unique() %>% max() %>% as.character() %>% as.Date(format = "%Y%m%d")))
+  read_csv(url) %>%
+    filter(Date == max(.$Date))
+}
 
 calculatePercent <- function(data) {
   require(magrittr)
@@ -65,7 +73,7 @@ transpose <- function(data, suffix) {
 
 
 totals <-
-  read_csv(url) %>%
+  readCRDT() %>%
   select(Date, State, Cases_Total, Deaths_Total) %>%
   mutate(cases_reported_flag = !is.na(Cases_Total),
          deaths_reported_flag = !is.na(Deaths_Total)) %>%
@@ -74,7 +82,7 @@ totals <-
          Date = Date %>% as.character() %>% as.Date(format = "%Y%m%d"))
 
 pct_ex_Unknown <-
-  read_csv(url) %>%
+  readCRDT() %>%
   mutate(Cases_Denom = Cases_Total - Cases_Unknown,
          Deaths_Denom = Deaths_Total - Deaths_Unknown) %>%
   calculatePercent() %>%
@@ -82,7 +90,7 @@ pct_ex_Unknown <-
   rename(percent = value)
 
 pct_incl_Unknown <-
-  read_csv(url) %>%
+  readCRDT() %>%
   mutate(Cases_Denom = Cases_Total,
          Deaths_Denom = Deaths_Total) %>%
   calculatePercent() %>%
@@ -90,7 +98,7 @@ pct_incl_Unknown <-
   rename(percent_incl_Unknown = value)
 
 small_numer_flag <-
-  read_csv(url) %>%
+  readCRDT() %>%
   mutate(Cases_Black_small_numer_flag = as.logical(Cases_Black < 30),
          Cases_LatinX_small_numer_flag = as.logical(Cases_LatinX < 30),
          Cases_Asian_small_numer_flag = as.logical(Cases_Asian < 30),
