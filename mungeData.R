@@ -343,6 +343,8 @@ disparity_indices <-
             mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
   ungroup() %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable), names_to = "index") %>%
+  mutate(index_type = "Relative") %>%
+  mutate(value = value * 1000) %>%
   mutate(index = case_when(index == "theil_index" ~ "Theil Index",
                            index == "mean_log_deviation" ~ "Mean Log Deviation"),
          tooltip = sprintf("%s for %s is %.2g",
