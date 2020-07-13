@@ -347,10 +347,10 @@ disparity_indices <-
   mutate(value = value * 1000) %>%
   mutate(index = case_when(index == "theil_index" ~ "Theil Index",
                            index == "mean_log_deviation" ~ "Mean Log Deviation"),
-         tooltip = sprintf("%s for %s is %.2g",
+         tooltip = sprintf("%s for %s is %s",
                            index,
                            State_Name,
-                           value)) %>%
+                           value %>% signif(digits = 2) %>% format(scientific = FALSE, trim = TRUE, drop0trailing = TRUE))) %>%
   mutate(timestamp = Sys.time())
 
 
