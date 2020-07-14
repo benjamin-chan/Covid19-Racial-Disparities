@@ -340,18 +340,30 @@ disparity_indices <-
   filter(!is.na(percent) & !is.na(percent_ACS)) %>%
   filter(percent > 0 & percent_ACS > 0) %>%
   group_by(Date, State, State_Name, metric, variable) %>%
-  summarize(theil_index = theil.wtd(percent, weights = percent_ACS),
+  summarize(between_group_variance = sum(percent_ACS * (percent - percent_ACS) ^ 2),
+            theil_index = theil.wtd(percent, weights = percent_ACS),
             mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
   ungroup() %>%
-  pivot_longer(-c(Date, State, State_Name, metric, variable), names_to = "index") %>%
+  pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
   mutate(index_type = "Relative") %>%
-  mutate(value = value * 1000) %>%
-  mutate(index = case_when(index == "theil_index" ~ "Theil Index",
-                           index == "mean_log_deviation" ~ "Mean Log Deviation"),
+  mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
+                                name == "theil_index" ~ "Relative",
+                                name == "mean_log_deviation" ~ "Relative"),
+         index = case_when(name == "between_group_variance" ~ "Between Group Variance",
+                           name == "theil_index" ~ "Theil Index",
+                           name == "mean_log_deviation" ~ "Mean Log Deviation"),
+         value = case_when(name == "between_group_variance" ~ value,
+                           name == "theil_index" ~ value * 1000,
+                           name == "mean_log_deviation" ~ value * 1000),
          tooltip = sprintf("%s for %s is %s",
                            index,
                            State_Name,
                            value %>% signif(digits = 2) %>% format(scientific = FALSE, trim = TRUE, drop0trailing = TRUE))) %>%
+  select(-name) %>%
+  group_by(Date, metric, variable, index_type, index) %>%
+  mutate(value_scaled = scale(value)) %>%
+  mutate(value_scaled = value_scaled + abs(min(value_scaled))) %>%
+  ungroup() %>%
   mutate(timestamp = Sys.time())
 
 
