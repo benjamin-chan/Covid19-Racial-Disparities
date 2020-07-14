@@ -415,14 +415,12 @@ disparity_indices <-
                            name == "mean_log_deviation" ~ value * 1000)) %>%
   select(-name) %>%
   group_by(Date, metric, variable, index_type, index) %>%
-  mutate(value_scaled = round(value / sd(value), digits = 3)) %>%
+  mutate(value_scaled = value / sd(value)) %>%
   ungroup() %>%
-  mutate(tooltip = sprintf("%s for %s is %s",
+  mutate(tooltip = sprintf("%s for %s is %.1f",
                            index,
                            State_Name,
-                           value_scaled %>%
-                             signif(digits = 2) %>%
-                             format(scientific = FALSE, trim = TRUE, drop0trailing = TRUE))) %>%
+                           value_scaled)) %>%
   mutate(timestamp = Sys.time())
 
 
