@@ -354,16 +354,17 @@ disparity_indices <-
                            name == "mean_log_deviation" ~ "Mean Log Deviation"),
          value = case_when(name == "between_group_variance" ~ value,
                            name == "theil_index" ~ value * 1000,
-                           name == "mean_log_deviation" ~ value * 1000),
-         tooltip = sprintf("%s for %s is %s",
-                           index,
-                           State_Name,
-                           value %>% signif(digits = 2) %>% format(scientific = FALSE, trim = TRUE, drop0trailing = TRUE))) %>%
+                           name == "mean_log_deviation" ~ value * 1000)) %>%
   select(-name) %>%
   group_by(Date, metric, variable, index_type, index) %>%
-  mutate(value_scaled = scale(value)) %>%
-  mutate(value_scaled = value_scaled + abs(min(value_scaled))) %>%
+  mutate(value_scaled = round(value / sd(value), digits = 3)) %>%
   ungroup() %>%
+  mutate(tooltip = sprintf("%s for %s is %s",
+                           index,
+                           State_Name,
+                           value_scaled %>%
+                             signif(digits = 2) %>%
+                             format(scientific = FALSE, trim = TRUE, drop0trailing = TRUE))) %>%
   mutate(timestamp = Sys.time())
 
 
@@ -392,4 +393,14 @@ file.info(f)
 
 f <- file.path("Data", "disparity_indices.csv")
 disparity_indices %>% write_csv(f, na = "")
+file.info(f)
+
+f <- file.path("Data", "disparity_indices_summaries.csv")
+disparity_indices %>%
+  group_by(metric, variable, index) %>%
+  summarize(mean = mean(value_scaled),
+            sd = sd(value_scaled),
+            min = min(value_scaled),
+            max = max(value_scaled)) %>%
+  write_csv(f, na = "")
 file.info(f)
