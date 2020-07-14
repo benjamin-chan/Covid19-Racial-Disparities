@@ -123,9 +123,34 @@ small_numer_flag <-
   transpose("_small_numer_flag") %>%
   rename(small_numer_flag = value)
   
+counts <-
+  readCRDT() %>%
+  mutate(Cases_Black_count = Cases_Black,
+         Cases_LatinX_count = Cases_LatinX,
+         Cases_Asian_count = Cases_Asian,
+         Cases_NHPI_count = Cases_NHPI,
+         Cases_AIAN_count = Cases_AIAN,
+         Cases_Multiracial_count = Cases_Multiracial,
+         Cases_White_count = Cases_White,
+         Cases_Other_count = Cases_Other,
+         Cases_Ethnicity_Hispanic_count = Cases_Ethnicity_Hispanic,
+         Cases_Ethnicity_NonHispanic_count = Cases_Ethnicity_NonHispanic,
+         Deaths_Black_count = Deaths_Black,
+         Deaths_LatinX_count = Deaths_LatinX,
+         Deaths_Asian_count = Deaths_Asian,
+         Deaths_NHPI_count = Deaths_NHPI,
+         Deaths_AIAN_count = Deaths_AIAN,
+         Deaths_Multiracial_count = Deaths_Multiracial,
+         Deaths_White_count = Deaths_White,
+         Deaths_Other_count = Deaths_Other,
+         Deaths_Ethnicity_Hispanic_count = Deaths_Ethnicity_Hispanic,
+         Deaths_Ethnicity_NonHispanic_count = Deaths_Ethnicity_NonHispanic) %>%
+  transpose("_count") %>%
+  rename(count = value)
 
 crdt <-
   pct_ex_Unknown %>%
+  inner_join(counts) %>%
   inner_join(small_numer_flag) %>%
   inner_join(pct_incl_Unknown) %>%
   mutate(metric = case_when(grepl("Cases", name) ~ "Cases",
@@ -146,7 +171,7 @@ crdt <-
   mutate(category = case_when(variable == "Ethnicity" & category == "Hispanic" ~ "Hispanic or Latino (of any race)",
                               variable == "Ethnicity" & category == "Not Hispanic" ~ "Not Hispanic or Latino",
                               TRUE ~ category)) %>%
-  select(Date, State, metric, variable, category, percent, percent_incl_Unknown, small_numer_flag) %>%
+  select(Date, State, metric, variable, category, percent, count, percent_incl_Unknown, small_numer_flag) %>%
   inner_join(state, by = c("State" = "State_Abbr")) %>%
   mutate(oregon_flag = as.logical(State == "OR")) %>%
   select(Date, State, State_Name, everything())
@@ -161,7 +186,7 @@ lookup <-
   filter(category == "Hispanic or Latino" & category_reporting_flag) %>%
   pull(State_Name) %>%
   unique()
-mungeACS <- function (col) {
+mungeACS <- function (col, variable) {
   require(magrittr)
   require(dplyr)
   require(censusapi)
@@ -173,12 +198,12 @@ mungeACS <- function (col) {
   getCensus("acs/acs5/profile", 2018, var = col, region = "state", key = key) %>%
     select(-state) %>%
     # rename_all(list(~ names$value)) %>%
-    pivot_longer(starts_with("DP05")) %>%
-    rename(State_Name = NAME,
-           percent = value) %>%
+    pivot_longer(starts_with("DP05"), values_to = variable) %>%
+    rename(State_Name = NAME) %>%
     inner_join(metadata) %>%
-    rename(col_name = name) %>%
+    select(-name) %>%
     mutate(label = gsub("Percent Estimate!!", "", label) %>%
+                   gsub("Estimate!!", "", .) %>%
                    gsub("Total population!!", "", .) %>%
                    gsub("One race!!", "", .) %>%
                    gsub("HISPANIC OR LATINO AND RACE!!", "", .) %>%
@@ -193,7 +218,7 @@ acs1 <-
     "DP05_0052PE",      # RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander,
     "DP05_0057PE",      # RACE!!Total population!!One race!!Some other race,
     "DP05_0058PE") %>%  # RACE!!Total population!!Two or more races,
-  mungeACS()
+  mungeACS("percent")
 acs2 <-
   c("NAME",
     "DP05_0071PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
@@ -204,12 +229,38 @@ acs2 <-
     "DP05_0081PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,
     "DP05_0082PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some other race alone,
     "DP05_0083PE") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races,  
-  mungeACS()
+  mungeACS("percent")
 acs3 <-
   c("NAME",
     "DP05_0071PE",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
     "DP05_0076PE") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino,
-  mungeACS()
+  mungeACS("percent")
+acs4 <-
+  c("NAME",
+    "DP05_0037E",      # RACE!!Total population!!One race!!White,
+    "DP05_0038E",      # RACE!!Total population!!One race!!Black or African American,
+    "DP05_0039E",      # RACE!!Total population!!One race!!American Indian and Alaska Native,
+    "DP05_0044E",      # RACE!!Total population!!One race!!Asian,
+    "DP05_0052E",      # RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander,
+    "DP05_0057E",      # RACE!!Total population!!One race!!Some other race,
+    "DP05_0058E") %>%  # RACE!!Total population!!Two or more races,
+  mungeACS("count")
+acs5 <-
+  c("NAME",
+    "DP05_0071E",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
+    "DP05_0077E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone,
+    "DP05_0078E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone,
+    "DP05_0079E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone,
+    "DP05_0080E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone,
+    "DP05_0081E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,
+    "DP05_0082E",      # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some other race alone,
+    "DP05_0083E") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races,  
+  mungeACS("count")
+acs6 <-
+  c("NAME",
+    "DP05_0071E",      # HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),
+    "DP05_0076E") %>%  # HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino,
+  mungeACS("count")
 checkACS <- function (data, tol = 1/4) {
   require(magrittr)
   require(dplyr)
@@ -223,16 +274,22 @@ if (any(c(acs1 %>% checkACS(), acs2 %>% checkACS(), acs3 %>% checkACS()))) {
   warning("Something went screwy with the ACS munging!")
   stop()
 }
-acs <-
-  bind_rows(acs1 %>%
+bindACS <- function(data1, data2, data3) {
+  require(magrittr)
+  require(dplyr)
+  bind_rows(data1 %>%
               filter(!(State_Name %in% lookup)),
-            acs2 %>%
+            data2 %>%
               filter(State_Name %in% lookup) %>%
               mutate(label = gsub("Not Hispanic or Latino!!", "", label) %>%
                              gsub("\\salone", "", .)),
-            acs3) %>%
-  unique() %>%
-  arrange(State_Name, col_name)
+            data3) %>%
+    unique()
+}
+acs <-
+  inner_join(bindACS(acs1, acs2, acs3),
+             bindACS(acs4, acs5, acs6)) %>%
+  arrange(State_Name)
   
 
 # For states that report Hispanic or Latino as a race category, add the
@@ -256,8 +313,9 @@ oregon_categories <-
 
 df <-
   acs %>%
-  select(State_Name, percent, label) %>%
+  select(State_Name, percent, count, label) %>%
   rename(percent_ACS = percent,
+         count_ACS = count,
          category = label) %>%
   mutate(percent_ACS = percent_ACS / 100) %>%
   left_join(crdt, .) %>%
