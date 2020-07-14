@@ -95,4 +95,8 @@ Links to OHA's data visualizations
   * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4730638/
 * Keppel K, Pamuk E, Lynch J, Carter-Pokras O, Kim Insun, Mays V, Pearcy J, Schoenbach V, Weissman JS. Methodological issues in measuring health disparities. Vital Health Stat 2. 2005 Jul;(141):1-16. PMID: 16032956; PMCID: PMC3681823.
   * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3681823/
-
+* Haughton, Jonathan; Khandker, Shahidur R.. 2009. Handbook on Poverty and Inequality. Washington, DC: World Bank. © World Bank. https://openknowledge.worldbank.org/handle/10986/11985 License: CC BY 3.0 IGO.
+* Borrell LN, Talih M. A symmetrized Theil index measure of health disparities: An example using dental caries in U.S. children and adolescents. Stat Med. 2011 Feb 10;30(3):277-90. doi: 10.1002/sim.4114. Epub 2010 Nov 5. PMID: 21213344; PMCID: PMC3059777.
+  * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3059777/
+* Health Equity Assessment Toolkit (HEAT): Software for exploring and comparing health inequalities in countries. Built-in database edition. Version 2.0. Geneva, World Health Organization, 2017.
+  * https://www.who.int/gho/health_equity/heat_technical_notes.pdf
