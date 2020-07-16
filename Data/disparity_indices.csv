@@ -1,565 +1,565 @@
 Date,State,State_Name,metric,variable,value,index_type,index,value_scaled,tooltip,timestamp
-20200712,AK,Alaska,Cases,Ethnicity,5.783124767651307e-4,Absolute,Between Group Variance,0.01343442158641372,Between Group Variance for Alaska is 0.0,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Cases,Ethnicity,46.73842332070008,Relative,Theil Index,3.6943766028753005,Theil Index for Alaska is 3.7,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Cases,Ethnicity,93.19000196519312,Relative,Mean Log Deviation,4.204647116910563,Mean Log Deviation for Alaska is 4.2,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Cases,Race,7.800248319876971e-4,Absolute,Between Group Variance,0.020872571094465164,Between Group Variance for Alaska is 0.0,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Cases,Race,222.4893670955523,Relative,Theil Index,4.670613183140835,Theil Index for Alaska is 4.7,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Cases,Race,380.6060728975067,Relative,Mean Log Deviation,5.208885415850009,Mean Log Deviation for Alaska is 5.2,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Ethnicity,0.004432491000000007,Absolute,Between Group Variance,0.26035512853811416,Between Group Variance for Alaska is 0.3,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Alaska is 0.0,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Alaska is -0.0,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Race,3.668451176470588e-4,Absolute,Between Group Variance,0.010794508826438568,Between Group Variance for Alaska is 0.0,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Race,109.66356356064362,Relative,Theil Index,1.592464986178809,Theil Index for Alaska is 1.6,2020-07-14T18:20:44Z
-20200712,AK,Alaska,Deaths,Race,158.6427408961043,Relative,Mean Log Deviation,1.2919216790909303,Mean Log Deviation for Alaska is 1.3,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Ethnicity,0.009098400416740744,Absolute,Between Group Variance,0.2113593461517851,Between Group Variance for Alabama is 0.2,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Ethnicity,23.210260361867,Relative,Theil Index,1.8346242071359857,Theil Index for Alabama is 1.8,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Ethnicity,41.212111604941235,Relative,Mean Log Deviation,1.8594525441284384,Mean Log Deviation for Alabama is 1.9,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Race,0.04180370991129679,Absolute,Between Group Variance,1.1186193969138953,Between Group Variance for Alabama is 1.1,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Race,20.297432507471946,Relative,Theil Index,0.4260943212292726,Theil Index for Alabama is 0.4,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Cases,Race,59.00955564531447,Relative,Mean Log Deviation,0.8075909337354183,Mean Log Deviation for Alabama is 0.8,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Ethnicity,4.878396675579537e-5,Absolute,Between Group Variance,0.002865466830119716,Between Group Variance for Alabama is 0.0,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Ethnicity,36.05061921185849,Relative,Theil Index,0.8629827148027611,Theil Index for Alabama is 0.9,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Ethnicity,97.96761834761652,Relative,Mean Log Deviation,1.5622683169261817,Mean Log Deviation for Alabama is 1.6,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Race,0.028292691353713366,Absolute,Between Group Variance,0.8325194798835827,Between Group Variance for Alabama is 0.8,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Race,26.689423035956516,Relative,Theil Index,0.38756693933779945,Theil Index for Alabama is 0.4,2020-07-14T18:20:44Z
-20200712,AL,Alabama,Deaths,Race,86.75753638909644,Relative,Mean Log Deviation,0.7065179374264476,Mean Log Deviation for Alabama is 0.7,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Ethnicity,0.028396639830189873,Absolute,Between Group Variance,0.6596648809139448,Between Group Variance for Arkansas is 0.7,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Ethnicity,23.04263693738984,Relative,Theil Index,1.8213746361516778,Theil Index for Arkansas is 1.8,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Ethnicity,32.505125857493326,Relative,Mean Log Deviation,1.466601361083479,Mean Log Deviation for Arkansas is 1.5,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Race,0.04797626911165731,Absolute,Between Group Variance,1.2837900113108895,Between Group Variance for Arkansas is 1.3,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Race,60.837635021631264,Relative,Theil Index,1.2771354598761941,Theil Index for Arkansas is 1.3,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Cases,Race,117.46887791921057,Relative,Mean Log Deviation,1.6076515026453997,Mean Log Deviation for Arkansas is 1.6,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Ethnicity,4.2623604881377526e-4,Absolute,Between Group Variance,0.025036202279144656,Between Group Variance for Arkansas is 0.0,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Ethnicity,49.37838814070016,Relative,Theil Index,1.1820239535921444,Theil Index for Arkansas is 1.2,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Ethnicity,98.00550132780552,Relative,Mean Log Deviation,1.562872428577544,Mean Log Deviation for Arkansas is 1.6,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Race,0.03204119655308108,Absolute,Between Group Variance,0.9428201776823069,Between Group Variance for Arkansas is 0.9,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Race,61.69429110323269,Relative,Theil Index,0.8958855178428624,Theil Index for Arkansas is 0.9,2020-07-14T18:20:44Z
-20200712,AR,Arkansas,Deaths,Race,113.83705916837235,Relative,Mean Log Deviation,0.9270425094325174,Mean Log Deviation for Arkansas is 0.9,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Ethnicity,0.021829753480242853,Absolute,Between Group Variance,0.5071135816081831,Between Group Variance for Arizona is 0.5,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Ethnicity,2.803005160853543,Relative,Theil Index,0.2215598205558154,Theil Index for Arizona is 0.2,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Ethnicity,2.8674885536746837,Relative,Mean Log Deviation,0.1293784443151483,Mean Log Deviation for Arizona is 0.1,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Race,0.03647127423258444,Absolute,Between Group Variance,0.9759295257120237,Between Group Variance for Arizona is 1.0,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Race,83.46068809720435,Relative,Theil Index,1.7520504246542066,Theil Index for Arizona is 1.8,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Cases,Race,154.20489829589002,Relative,Mean Log Deviation,2.1104120585127886,Mean Log Deviation for Arizona is 2.1,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Ethnicity,8.93795218523664e-4,Absolute,Between Group Variance,0.05249963711273863,Between Group Variance for Arizona is 0.1,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Ethnicity,69.10317355845602,Relative,Theil Index,1.654197504029181,Theil Index for Arizona is 1.7,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Ethnicity,82.05586384765253,Relative,Mean Log Deviation,1.3085270262703583,Mean Log Deviation for Arizona is 1.3,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Race,0.004483955747939233,Absolute,Between Group Variance,0.13194151310760416,Between Group Variance for Arizona is 0.1,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Race,95.41888298774639,Relative,Theil Index,1.3856127344817712,Theil Index for Arizona is 1.4,2020-07-14T18:20:44Z
-20200712,AZ,Arizona,Deaths,Race,181.97140524337632,Relative,Mean Log Deviation,1.4819007921864007,Mean Log Deviation for Arizona is 1.5,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Ethnicity,0.025136590247952607,Absolute,Between Group Variance,0.5839326734309399,Between Group Variance for California is 0.6,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Ethnicity,4.428929031823375,Relative,Theil Index,0.350078813713786,Theil Index for California is 0.4,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Ethnicity,4.3796328678717416,Relative,Mean Log Deviation,0.1976050039992667,Mean Log Deviation for California is 0.2,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Race,0.02546259260376348,Absolute,Between Group Variance,0.681349814232374,Between Group Variance for California is 0.7,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Race,284.15426752777796,Relative,Theil Index,5.96511503127692,Theil Index for California is 6.0,2020-07-14T18:20:44Z
-20200712,CA,California,Cases,Race,412.14878290764517,Relative,Mean Log Deviation,5.640571544495785,Mean Log Deviation for California is 5.6,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Ethnicity,0.002444676517999621,Absolute,Between Group Variance,0.14359511820281182,Between Group Variance for California is 0.1,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Ethnicity,6.967697319583098,Relative,Theil Index,0.16679331673725667,Theil Index for California is 0.2,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Ethnicity,7.130206397571226,Relative,Mean Log Deviation,0.11370385170071763,Mean Log Deviation for California is 0.1,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Race,0.0025877951525668367,Absolute,Between Group Variance,0.07614651598627217,Between Group Variance for California is 0.1,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Race,113.25105750425524,Relative,Theil Index,1.6445603067012977,Theil Index for California is 1.6,2020-07-14T18:20:44Z
-20200712,CA,California,Deaths,Race,214.11066765710837,Relative,Mean Log Deviation,1.743629816960911,Mean Log Deviation for California is 1.7,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Ethnicity,0.06024405890077742,Absolute,Between Group Variance,1.399492692734142,Between Group Variance for Colorado is 1.4,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Ethnicity,2.085170980885842,Relative,Theil Index,0.16481957108226664,Theil Index for Colorado is 0.2,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Ethnicity,2.1538925718118525,Relative,Mean Log Deviation,0.09718165040479743,Mean Log Deviation for Colorado is 0.1,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Race,0.06178930053930511,Absolute,Between Group Variance,1.6534109114160387,Between Group Variance for Colorado is 1.7,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Race,77.22141538941428,Relative,Theil Index,1.6210723480717877,Theil Index for Colorado is 1.6,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Cases,Race,178.75023893244682,Relative,Mean Log Deviation,2.4463338316350502,Mean Log Deviation for Colorado is 2.4,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Ethnicity,1.2574021881166334e-4,Absolute,Between Group Variance,0.007385713999446621,Between Group Variance for Colorado is 0.0,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Ethnicity,74.0216927135383,Relative,Theil Index,1.7719374237880647,Theil Index for Colorado is 1.8,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Ethnicity,99.77257663185202,Relative,Mean Log Deviation,1.5910515943845456,Mean Log Deviation for Colorado is 1.6,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Race,0.0012119237046407684,Absolute,Between Group Variance,0.035661156431966455,Between Group Variance for Colorado is 0.0,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Race,143.43510903250893,Relative,Theil Index,2.082874033148643,Theil Index for Colorado is 2.1,2020-07-14T18:20:44Z
-20200712,CO,Colorado,Deaths,Race,268.34223365156737,Relative,Mean Log Deviation,2.1852695377797575,Mean Log Deviation for Colorado is 2.2,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Ethnicity,0.013387046986099996,Absolute,Between Group Variance,0.31098625783485845,Between Group Variance for Connecticut is 0.3,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Ethnicity,39.25766656669842,Relative,Theil Index,3.103070119681525,Theil Index for Connecticut is 3.1,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Ethnicity,50.72234244261599,Relative,Mean Log Deviation,2.2885454063404005,Mean Log Deviation for Connecticut is 2.3,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Race,0.022479896948811685,Absolute,Between Group Variance,0.6015362947672453,Between Group Variance for Connecticut is 0.6,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Race,105.05486629210536,Relative,Theil Index,2.2053667097101193,Theil Index for Connecticut is 2.2,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Cases,Race,228.83106085810832,Relative,Mean Log Deviation,3.1317282105434705,Mean Log Deviation for Connecticut is 3.1,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Ethnicity,0.0048326758512676265,Absolute,Between Group Variance,0.2838611386779626,Between Group Variance for Connecticut is 0.3,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Ethnicity,111.9604242065023,Relative,Theil Index,2.680117927084425,Theil Index for Connecticut is 2.7,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Ethnicity,215.03740161463458,Relative,Mean Log Deviation,3.429154706044233,Mean Log Deviation for Connecticut is 3.4,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Race,0.0040028355383477255,Absolute,Between Group Variance,0.11778443127883598,Between Group Variance for Connecticut is 0.1,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Race,230.50260146611254,Relative,Theil Index,3.347213150290573,Theil Index for Connecticut is 3.3,2020-07-14T18:20:44Z
-20200712,CT,Connecticut,Deaths,Race,465.93868481847295,Relative,Mean Log Deviation,3.7944143214111805,Mean Log Deviation for Connecticut is 3.8,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Ethnicity,0.04437365973376614,Absolute,Between Group Variance,1.0308172072130348,Between Group Variance for District of Columbia is 1.0,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Ethnicity,18.46833307990406,Relative,Theil Index,1.4598048624008122,Theil Index for District of Columbia is 1.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Ethnicity,22.81101547039071,Relative,Mean Log Deviation,1.0292120228434398,Mean Log Deviation for District of Columbia is 1.0,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Race,0.019362210001550532,Absolute,Between Group Variance,0.5181105629335941,Between Group Variance for District of Columbia is 0.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Race,120.22726466995347,Relative,Theil Index,2.523873633472494,Theil Index for District of Columbia is 2.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Cases,Race,184.1875393489331,Relative,Mean Log Deviation,2.5207474494352513,Mean Log Deviation for District of Columbia is 2.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Ethnicity,4.529103352509404e-4,Absolute,Between Group Variance,0.026602993339523703,Between Group Variance for District of Columbia is 0.0,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Ethnicity,63.087167980134446,Relative,Theil Index,1.5101858631822258,Theil Index for District of Columbia is 1.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Ethnicity,109.68194233374888,Relative,Mean Log Deviation,1.7490740954723767,Mean Log Deviation for District of Columbia is 1.7,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Race,0.07283410870997815,Absolute,Between Group Variance,2.143161763684846,Between Group Variance for District of Columbia is 2.1,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Race,377.9350766742349,Relative,Theil Index,5.488134409563504,Theil Index for District of Columbia is 5.5,2020-07-14T18:20:44Z
-20200712,DC,District of Columbia,Deaths,Race,606.8642637310672,Relative,Mean Log Deviation,4.942054670457186,Mean Log Deviation for District of Columbia is 4.9,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Ethnicity,0.04203824047934836,Absolute,Between Group Variance,0.9765645183892057,Between Group Variance for Delaware is 1.0,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Ethnicity,19.17901846801322,Relative,Theil Index,1.5159800451154803,Theil Index for Delaware is 1.5,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Ethnicity,24.656045759692496,Relative,Mean Log Deviation,1.112458091337171,Mean Log Deviation for Delaware is 1.1,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Race,0.05109546903135278,Absolute,Between Group Variance,1.3672562285539842,Between Group Variance for Delaware is 1.4,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Race,38.33072345658086,Relative,Theil Index,0.8046585984432472,Theil Index for Delaware is 0.8,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Cases,Race,88.39837108006941,Relative,Mean Log Deviation,1.209799366569401,Mean Log Deviation for Delaware is 1.2,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Ethnicity,6.945088256300376e-4,Absolute,Between Group Variance,0.04079397669792512,Between Group Variance for Delaware is 0.0,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Ethnicity,70.15435755615962,Relative,Theil Index,1.6793608338117962,Theil Index for Delaware is 1.7,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Ethnicity,154.63623361199353,Relative,Mean Log Deviation,2.4659504078542347,Mean Log Deviation for Delaware is 2.5,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Race,0.001142831469237832,Absolute,Between Group Variance,0.03362810022099919,Between Group Variance for Delaware is 0.0,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Race,157.43026388081745,Relative,Theil Index,2.2861028299199364,Theil Index for Delaware is 2.3,2020-07-14T18:20:44Z
-20200712,DE,Delaware,Deaths,Race,352.721238450462,Relative,Mean Log Deviation,2.872417685523885,Mean Log Deviation for Delaware is 2.9,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Ethnicity,0.036153180731966994,Absolute,Between Group Variance,0.8398523136831949,Between Group Variance for Florida is 0.8,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Ethnicity,4.695876601722563,Relative,Theil Index,0.3711793298707612,Theil Index for Florida is 0.4,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Ethnicity,4.8957499590964595,Relative,Mean Log Deviation,0.22089173212292115,Mean Log Deviation for Florida is 0.2,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Race,0.03243212402805941,Absolute,Between Group Variance,0.8678464925214829,Between Group Variance for Florida is 0.9,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Race,17.518647978259462,Relative,Theil Index,0.3677606227488697,Theil Index for Florida is 0.4,2020-07-14T18:20:44Z
-20200712,FL,Florida,Cases,Race,19.800381796981878,Relative,Mean Log Deviation,0.27098337970643704,Mean Log Deviation for Florida is 0.3,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Ethnicity,8.191810716184068e-4,Absolute,Between Group Variance,0.048116960236851025,Between Group Variance for Florida is 0.0,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Ethnicity,57.53240400315161,Relative,Theil Index,1.377215462069992,Theil Index for Florida is 1.4,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Ethnicity,70.34952322295452,Relative,Mean Log Deviation,1.1218485566538057,Mean Log Deviation for Florida is 1.1,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Race,0.002399495731980076,Absolute,Between Group Variance,0.07060575870272393,Between Group Variance for Florida is 0.1,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Race,53.964285590534566,Relative,Theil Index,0.7836352614928244,Theil Index for Florida is 0.8,2020-07-14T18:20:44Z
-20200712,FL,Florida,Deaths,Race,60.93621746754714,Relative,Mean Log Deviation,0.4962396636835766,Mean Log Deviation for Florida is 0.5,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Ethnicity,0.021709810267330064,Absolute,Between Group Variance,0.5043272545731643,Between Group Variance for Georgia is 0.5,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Ethnicity,29.64876366854903,Relative,Theil Index,2.3435471506963563,Theil Index for Georgia is 2.3,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Ethnicity,41.41797990482528,Relative,Mean Log Deviation,1.8687411323387277,Mean Log Deviation for Georgia is 1.9,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Race,0.022082673710519692,Absolute,Between Group Variance,0.5909070558743045,Between Group Variance for Georgia is 0.6,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Race,46.27499043861863,Relative,Theil Index,0.9714288067505987,Theil Index for Georgia is 1.0,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Cases,Race,101.97344508114766,Relative,Mean Log Deviation,1.3955846443632811,Mean Log Deviation for Georgia is 1.4,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Ethnicity,0.0015653509365244592,Absolute,Between Group Variance,0.09194539690798746,Between Group Variance for Georgia is 0.1,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Ethnicity,75.81056948480143,Relative,Theil Index,1.8147597044107635,Theil Index for Georgia is 1.8,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Ethnicity,175.58722775437468,Relative,Mean Log Deviation,2.800051357829451,Mean Log Deviation for Georgia is 2.8,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Race,0.010674242631129607,Absolute,Between Group Variance,0.31409224425914667,Between Group Variance for Georgia is 0.3,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Race,103.85422433881432,Relative,Theil Index,1.5081054322556635,Theil Index for Georgia is 1.5,2020-07-14T18:20:44Z
-20200712,GA,Georgia,Deaths,Race,228.00353340614188,Relative,Mean Log Deviation,1.8567676406299487,Mean Log Deviation for Georgia is 1.9,2020-07-14T18:20:44Z
-20200712,HI,Hawaii,Cases,Race,0.007745903218283102,Absolute,Between Group Variance,0.20727149827072505,Between Group Variance for Hawaii is 0.2,2020-07-14T18:20:44Z
-20200712,HI,Hawaii,Cases,Race,56.364794610387456,Relative,Theil Index,1.1832392541223777,Theil Index for Hawaii is 1.2,2020-07-14T18:20:44Z
-20200712,HI,Hawaii,Cases,Race,105.19215928846931,Relative,Mean Log Deviation,1.4396352118297173,Mean Log Deviation for Hawaii is 1.4,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Ethnicity,0.042453548662241804,Absolute,Between Group Variance,0.9862122874438995,Between Group Variance for Iowa is 1.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Ethnicity,15.901830441404488,Relative,Theil Index,1.2569390696497076,Theil Index for Iowa is 1.3,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Ethnicity,21.722222561939645,Relative,Mean Log Deviation,0.9800866889353954,Mean Log Deviation for Iowa is 1.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Race,0.013787925562959515,Absolute,Between Group Variance,0.368949095921353,Between Group Variance for Iowa is 0.4,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Race,55.877288253332175,Relative,Theil Index,1.1730052656497982,Theil Index for Iowa is 1.2,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Cases,Race,130.85278115456447,Relative,Mean Log Deviation,1.7908204621920758,Mean Log Deviation for Iowa is 1.8,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Ethnicity,3.2123668639052897e-4,Absolute,Between Group Variance,0.01886876223242504,Between Group Variance for Iowa is 0.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Ethnicity,42.68480609941684,Relative,Theil Index,1.0217924311376956,Theil Index for Iowa is 1.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Ethnicity,91.00868832269397,Relative,Mean Log Deviation,1.4512957723138697,Mean Log Deviation for Iowa is 1.5,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Race,4.071721621461017e-4,Absolute,Between Group Variance,0.011981142140740739,Between Group Variance for Iowa is 0.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Race,67.72644638504299,Relative,Theil Index,0.9834806658170971,Theil Index for Iowa is 1.0,2020-07-14T18:20:44Z
-20200712,IA,Iowa,Deaths,Race,194.68335554500695,Relative,Mean Log Deviation,1.5854217228349607,Mean Log Deviation for Iowa is 1.6,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Ethnicity,0.04818858032554568,Absolute,Between Group Variance,1.1194392819698136,Between Group Variance for Idaho is 1.1,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Ethnicity,16.269723694903973,Relative,Theil Index,1.2860187033112527,Theil Index for Idaho is 1.3,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Ethnicity,19.375362867520764,Relative,Mean Log Deviation,0.8741985395648482,Mean Log Deviation for Idaho is 0.9,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Race,0.028037262221582374,Absolute,Between Group Variance,0.7502450242806765,Between Group Variance for Idaho is 0.8,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Race,69.86634232035735,Relative,Theil Index,1.4666708066059972,Theil Index for Idaho is 1.5,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Cases,Race,176.78185765035545,Relative,Mean Log Deviation,2.4193950272301112,Mean Log Deviation for Idaho is 2.4,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Ethnicity,0.0020063303597686617,Absolute,Between Group Variance,0.11784759375878932,Between Group Variance for Idaho is 0.1,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Ethnicity,90.77449127031052,Relative,Theil Index,2.1729673060795585,Theil Index for Idaho is 2.2,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Ethnicity,183.90542010820212,Relative,Mean Log Deviation,2.9326997633706724,Mean Log Deviation for Idaho is 2.9,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Race,0.0011990762964244497,Absolute,Between Group Variance,0.035283118249865485,Between Group Variance for Idaho is 0.0,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Race,65.49529005397623,Relative,Theil Index,0.9510812231895541,Theil Index for Idaho is 1.0,2020-07-14T18:20:44Z
-20200712,ID,Idaho,Deaths,Race,230.7790372254645,Relative,Mean Log Deviation,1.879370209990061,Mean Log Deviation for Idaho is 1.9,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Ethnicity,0.05854323259253392,Absolute,Between Group Variance,1.3599818424788972,Between Group Variance for Illinois is 1.4,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Ethnicity,7.590129584631261,Relative,Theil Index,0.5999517133440465,Theil Index for Illinois is 0.6,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Ethnicity,8.252869119301051,Relative,Mean Log Deviation,0.372361858750364,Mean Log Deviation for Illinois is 0.4,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Race,0.07977814691741915,Absolute,Between Group Variance,2.134771836782732,Between Group Variance for Illinois is 2.1,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Race,55.22454669680849,Relative,Theil Index,1.1593025734318188,Theil Index for Illinois is 1.2,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Cases,Race,88.2516428128748,Relative,Mean Log Deviation,1.2077912779299724,Mean Log Deviation for Illinois is 1.2,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Ethnicity,0.0015369410424108038,Absolute,Between Group Variance,0.09027665993058244,Between Group Variance for Illinois is 0.1,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Ethnicity,65.2144209791298,Relative,Theil Index,1.5611082220287409,Theil Index for Illinois is 1.6,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Ethnicity,92.4923010852746,Relative,Mean Log Deviation,1.4749546225815453,Mean Log Deviation for Illinois is 1.5,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Race,0.01969512094117568,Absolute,Between Group Variance,0.5795338321548477,Between Group Variance for Illinois is 0.6,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Race,74.90515153760947,Relative,Theil Index,1.0877252866408746,Theil Index for Illinois is 1.1,2020-07-14T18:20:44Z
-20200712,IL,Illinois,Deaths,Race,115.00775040076739,Relative,Mean Log Deviation,0.9365761406223828,Mean Log Deviation for Illinois is 0.9,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Ethnicity,0.033758405213143605,Absolute,Between Group Variance,0.7842207559747103,Between Group Variance for Indiana is 0.8,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Ethnicity,20.073585604802105,Relative,Theil Index,1.5866899164600345,Theil Index for Indiana is 1.6,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Ethnicity,27.9050966816905,Relative,Mean Log Deviation,1.2590522785223695,Mean Log Deviation for Indiana is 1.3,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Race,0.04884867370975556,Absolute,Between Group Variance,1.3071345591383505,Between Group Variance for Indiana is 1.3,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Race,63.240849963497546,Relative,Theil Index,1.3275850051103317,Theil Index for Indiana is 1.3,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Cases,Race,116.11770360300658,Relative,Mean Log Deviation,1.5891596479664507,Mean Log Deviation for Indiana is 1.6,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Ethnicity,0.0010098672843491688,Absolute,Between Group Variance,0.05931746429336544,Between Group Variance for Indiana is 0.1,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Ethnicity,58.711325160075525,Relative,Theil Index,1.4054365745718806,Theil Index for Indiana is 1.4,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Ethnicity,155.43789310139445,Relative,Mean Log Deviation,2.4787342974942828,Mean Log Deviation for Indiana is 2.5,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Race,0.016663846398386018,Absolute,Between Group Variance,0.49033782481154575,Between Group Variance for Indiana is 0.5,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Race,76.55486008343487,Relative,Theil Index,1.11168131188142,Theil Index for Indiana is 1.1,2020-07-14T18:20:44Z
-20200712,IN,Indiana,Deaths,Race,167.44901912972165,Relative,Mean Log Deviation,1.3636364118158755,Mean Log Deviation for Indiana is 1.4,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Ethnicity,0.1214650792817035,Absolute,Between Group Variance,2.8216805769526867,Between Group Variance for Kansas is 2.8,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Ethnicity,0.9180758447720101,Relative,Theil Index,0.07256808594757465,Theil Index for Kansas is 0.1,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Ethnicity,0.9516357045336148,Relative,Mean Log Deviation,0.042936927106310356,Mean Log Deviation for Kansas is 0.0,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Race,0.003183618747654453,Absolute,Between Group Variance,0.08518999129650505,Between Group Variance for Kansas is 0.1,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Race,88.71580501743956,Relative,Theil Index,1.8623685881107817,Theil Index for Kansas is 1.9,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Cases,Race,190.13982559723615,Relative,Mean Log Deviation,2.6022090425036826,Mean Log Deviation for Kansas is 2.6,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Ethnicity,2.0698177846448828e-4,Absolute,Between Group Variance,0.01215767105611026,Between Group Variance for Kansas is 0.0,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Ethnicity,67.47443943687786,Relative,Theil Index,1.615208731446072,Theil Index for Kansas is 1.6,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Ethnicity,116.39811388034862,Relative,Mean Log Deviation,1.8561754233934422,Mean Log Deviation for Kansas is 1.9,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Race,0.016651083072097707,Absolute,Between Group Variance,0.4899622607610888,Between Group Variance for Kansas is 0.5,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Race,74.11543730576675,Relative,Theil Index,1.076257555496052,Theil Index for Kansas is 1.1,2020-07-14T18:20:44Z
-20200712,KS,Kansas,Deaths,Race,171.54072442188436,Relative,Mean Log Deviation,1.3969575883256662,Mean Log Deviation for Kansas is 1.4,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Ethnicity,0.015140361708406873,Absolute,Between Group Variance,0.35171643416598874,Between Group Variance for Kentucky is 0.4,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Ethnicity,17.9465355967416,Relative,Theil Index,1.4185600732899901,Theil Index for Kentucky is 1.4,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Ethnicity,30.326303204289292,Relative,Mean Log Deviation,1.3682948883518278,Mean Log Deviation for Kentucky is 1.4,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Race,0.011397515026292203,Absolute,Between Group Variance,0.3049844478416185,Between Group Variance for Kentucky is 0.3,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Race,73.41931773243091,Relative,Theil Index,1.5412567250956624,Theil Index for Kentucky is 1.5,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Cases,Race,144.15989428149499,Relative,Mean Log Deviation,1.9729384903313705,Mean Log Deviation for Kentucky is 2.0,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Ethnicity,1.2231156264807126e-5,Absolute,Between Group Variance,7.184322001993043e-4,Between Group Variance for Kentucky is 0.0,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Ethnicity,30.236391405805886,Relative,Theil Index,0.7238012470154201,Theil Index for Kentucky is 0.7,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Ethnicity,79.75456978138898,Relative,Mean Log Deviation,1.2718287899725558,Mean Log Deviation for Kentucky is 1.3,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Race,0.0031584548631082504,Absolute,Between Group Variance,0.09293831990025717,Between Group Variance for Kentucky is 0.1,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Race,75.6862727537218,Relative,Theil Index,1.099068235440203,Theil Index for Kentucky is 1.1,2020-07-14T18:20:44Z
-20200712,KY,Kentucky,Deaths,Race,169.31102181349831,Relative,Mean Log Deviation,1.3787998010772347,Mean Log Deviation for Kentucky is 1.4,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Ethnicity,8.153841624014747e-4,Absolute,Between Group Variance,0.04789393783540184,Between Group Variance for Louisiana is 0.0,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Ethnicity,45.738865590946425,Relative,Theil Index,1.094900760725066,Theil Index for Louisiana is 1.1,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Ethnicity,140.88857657588272,Relative,Mean Log Deviation,2.246719509096699,Mean Log Deviation for Louisiana is 2.2,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Race,0.029389222944256138,Absolute,Between Group Variance,0.8647851946585318,Between Group Variance for Louisiana is 0.9,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Race,37.04615982676589,Relative,Theil Index,0.5379609277778465,Theil Index for Louisiana is 0.5,2020-07-14T18:20:44Z
-20200712,LA,Louisiana,Deaths,Race,134.7346286143404,Relative,Mean Log Deviation,1.0972237787112389,Mean Log Deviation for Louisiana is 1.1,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Ethnicity,0.03114556161398423,Absolute,Between Group Variance,0.7235233927657793,Between Group Variance for Massachusetts is 0.7,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Ethnicity,25.01957457920917,Relative,Theil Index,1.9776390466810359,Theil Index for Massachusetts is 2.0,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Ethnicity,31.99761161600049,Relative,Mean Log Deviation,1.4437027856216935,Mean Log Deviation for Massachusetts is 1.4,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Race,0.05473744072751575,Absolute,Between Group Variance,1.4647112197732772,Between Group Variance for Massachusetts is 1.5,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Race,85.19073349712386,Relative,Theil Index,1.7883684427140356,Theil Index for Massachusetts is 1.8,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Cases,Race,152.0791333816739,Relative,Mean Log Deviation,2.0813193386439495,Mean Log Deviation for Massachusetts is 2.1,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Ethnicity,0.002148663850767678,Absolute,Between Group Variance,0.1262079614040541,Between Group Variance for Massachusetts is 0.1,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Ethnicity,88.30736040603712,Relative,Theil Index,2.113908922685023,Theil Index for Massachusetts is 2.1,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Ethnicity,187.1647710712996,Relative,Mean Log Deviation,2.984675924772517,Mean Log Deviation for Massachusetts is 3.0,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Race,0.0012085619490903507,Absolute,Between Group Variance,0.0355622359387783,Between Group Variance for Massachusetts is 0.0,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Race,205.99733828197077,Relative,Theil Index,2.991363200400313,Theil Index for Massachusetts is 3.0,2020-07-14T18:20:44Z
-20200712,MA,Massachusetts,Deaths,Race,402.1616142535375,Relative,Mean Log Deviation,3.2750399105409542,Mean Log Deviation for Massachusetts is 3.3,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Ethnicity,0.05036012684146274,Absolute,Between Group Variance,1.1698851439586873,Between Group Variance for Maryland is 1.2,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Ethnicity,16.227528426337916,Relative,Theil Index,1.2826834343426599,Theil Index for Maryland is 1.3,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Ethnicity,20.05006598861341,Relative,Mean Log Deviation,0.9046405233941044,Mean Log Deviation for Maryland is 0.9,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Race,0.043134712128321054,Absolute,Between Group Variance,1.1542354917642808,Between Group Variance for Maryland is 1.2,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Race,62.475481003873476,Relative,Theil Index,1.3115179795286025,Theil Index for Maryland is 1.3,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Cases,Race,115.04456592884966,Relative,Mean Log Deviation,1.5744729375375806,Mean Log Deviation for Maryland is 1.6,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Ethnicity,1.9000714112593444e-4,Absolute,Between Group Variance,0.011160616829453726,Between Group Variance for Maryland is 0.0,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Ethnicity,61.60167956810725,Relative,Theil Index,1.4746261182833758,Theil Index for Maryland is 1.5,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Ethnicity,113.5592270256305,Relative,Mean Log Deviation,1.8109043117417603,Mean Log Deviation for Maryland is 1.8,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Race,0.007377399568255094,Absolute,Between Group Variance,0.21708181716162514,Between Group Variance for Maryland is 0.2,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Race,88.0647717614023,Relative,Theil Index,1.2788209774736086,Theil Index for Maryland is 1.3,2020-07-14T18:20:44Z
-20200712,MD,Maryland,Deaths,Race,152.84111903120933,Relative,Mean Log Deviation,1.244675640483627,Mean Log Deviation for Maryland is 1.2,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Ethnicity,9.651490799178927e-4,Absolute,Between Group Variance,0.022420784877207882,Between Group Variance for Maine is 0.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Ethnicity,12.91277854190296,Relative,Theil Index,1.0206734317070665,Theil Index for Maine is 1.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Ethnicity,32.80102410890358,Relative,Mean Log Deviation,1.4799520178433716,Mean Log Deviation for Maine is 1.5,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Race,0.07076321244683827,Absolute,Between Group Variance,1.8935425156986156,Between Group Variance for Maine is 1.9,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Race,41.47776877098957,Relative,Theil Index,0.8707230199717884,Theil Index for Maine is 0.9,2020-07-14T18:20:44Z
-20200712,ME,Maine,Cases,Race,140.53572209668536,Relative,Mean Log Deviation,1.9233389201136148,Mean Log Deviation for Maine is 1.9,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Ethnicity,2.5190399999999697e-4,Absolute,Between Group Variance,0.014796307155336403,Between Group Variance for Maine is 0.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Maine is 0.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Maine is -0.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Race,0.0011178235942183024,Absolute,Between Group Variance,0.03289223727873019,Between Group Variance for Maine is 0.0,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Race,12.255486003541611,Relative,Theil Index,0.17796642490513223,Theil Index for Maine is 0.2,2020-07-14T18:20:44Z
-20200712,ME,Maine,Deaths,Race,39.016580893812616,Relative,Mean Log Deviation,0.3177350972127544,Mean Log Deviation for Maine is 0.3,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Ethnicity,0.003550795560519378,Absolute,Between Group Variance,0.08248634854640538,Between Group Variance for Michigan is 0.1,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Ethnicity,31.353360702427004,Relative,Theil Index,2.4782847595386372,Theil Index for Michigan is 2.5,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Ethnicity,59.91105271130908,Relative,Mean Log Deviation,2.7031315564063414,Mean Log Deviation for Michigan is 2.7,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Race,0.07730661404697792,Absolute,Between Group Variance,2.0686364479655133,Between Group Variance for Michigan is 2.1,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Race,58.45668508738581,Relative,Theil Index,1.2271533133293473,Theil Index for Michigan is 1.2,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Cases,Race,121.3286082435912,Relative,Mean Log Deviation,1.6604748662946558,Mean Log Deviation for Michigan is 1.7,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Ethnicity,7.032479316145385e-4,Absolute,Between Group Variance,0.04130729326459225,Between Group Variance for Michigan is 0.0,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Ethnicity,45.3167094020186,Relative,Theil Index,1.0847951508366267,Theil Index for Michigan is 1.1,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Ethnicity,136.3612174752513,Relative,Mean Log Deviation,2.1745226975220104,Mean Log Deviation for Michigan is 2.2,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Race,0.05831767559922598,Absolute,Between Group Variance,1.7160121089545952,Between Group Variance for Michigan is 1.7,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Race,72.60307022596602,Relative,Theil Index,1.054295916254771,Theil Index for Michigan is 1.1,2020-07-14T18:20:44Z
-20200712,MI,Michigan,Deaths,Race,202.32861521771,Relative,Mean Log Deviation,1.6476815946554635,Mean Log Deviation for Michigan is 1.6,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Ethnicity,0.04066881629129353,Absolute,Between Group Variance,0.9447522670335556,Between Group Variance for Minnesota is 0.9,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Ethnicity,15.364259787814785,Relative,Theil Index,1.2144475112291948,Theil Index for Minnesota is 1.2,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Ethnicity,21.401608544219318,Relative,Mean Log Deviation,0.9656208795478991,Mean Log Deviation for Minnesota is 1.0,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Race,0.09321140153864421,Absolute,Between Group Variance,2.49423034452931,Between Group Variance for Minnesota is 2.5,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Race,78.21065271407672,Relative,Theil Index,1.6418389354828575,Theil Index for Minnesota is 1.6,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Cases,Race,160.09253340891274,Relative,Mean Log Deviation,2.1909888513122273,Mean Log Deviation for Minnesota is 2.2,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Ethnicity,1.5387412130278796e-4,Absolute,Between Group Variance,0.00903823981379244,Between Group Variance for Minnesota is 0.0,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Ethnicity,44.619068817214306,Relative,Theil Index,1.0680949726151951,Theil Index for Minnesota is 1.1,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Ethnicity,115.53000109746132,Relative,Mean Log Deviation,1.8423318175255199,Mean Log Deviation for Minnesota is 1.8,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Race,0.0013527133089466156,Absolute,Between Group Variance,0.03980392555507201,Between Group Variance for Minnesota is 0.0,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Race,137.61532171301025,Relative,Theil Index,1.9983627585520989,Theil Index for Minnesota is 2.0,2020-07-14T18:20:44Z
-20200712,MN,Minnesota,Deaths,Race,337.72906911007516,Relative,Mean Log Deviation,2.750327582453031,Mean Log Deviation for Minnesota is 2.8,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Ethnicity,0.012453160201419127,Absolute,Between Group Variance,0.2892917081174423,Between Group Variance for Missouri is 0.3,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Ethnicity,21.097502538921958,Relative,Theil Index,1.6676240707584071,Theil Index for Missouri is 1.7,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Ethnicity,36.09533661677997,Relative,Mean Log Deviation,1.6285883661247935,Mean Log Deviation for Missouri is 1.6,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Race,0.059789539492464454,Absolute,Between Group Variance,1.5998995962496234,Between Group Variance for Missouri is 1.6,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Race,40.20625701142728,Relative,Theil Index,0.8440307799593489,Theil Index for Missouri is 0.8,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Cases,Race,73.87376480587113,Relative,Mean Log Deviation,1.0110190128649328,Mean Log Deviation for Missouri is 1.0,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Ethnicity,1.5221587082640107e-4,Absolute,Between Group Variance,0.008940837694774465,Between Group Variance for Missouri is 0.0,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Ethnicity,36.164453236392774,Relative,Theil Index,0.865707683129996,Theil Index for Missouri is 0.9,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Ethnicity,103.84313599987601,Relative,Mean Log Deviation,1.655963919906907,Mean Log Deviation for Missouri is 1.7,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Race,0.0454557294470021,Absolute,Between Group Variance,1.3375461444738181,Between Group Variance for Missouri is 1.3,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Race,46.72952525615979,Relative,Theil Index,0.6785766427336776,Theil Index for Missouri is 0.7,2020-07-14T18:20:44Z
-20200712,MO,Missouri,Deaths,Race,126.19758805548462,Relative,Mean Log Deviation,1.0277016076307015,Mean Log Deviation for Missouri is 1.0,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Ethnicity,0.001127676484870176,Absolute,Between Group Variance,0.026196359095644682,Between Group Variance for Mississippi is 0.0,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Ethnicity,22.725009414488504,Relative,Theil Index,1.7962681904124986,Theil Index for Mississippi is 1.8,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Ethnicity,52.33102926988846,Relative,Mean Log Deviation,2.3611278753570826,Mean Log Deviation for Mississippi is 2.4,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Race,0.04699952856933689,Absolute,Between Group Variance,1.2576535531182982,Between Group Variance for Mississippi is 1.3,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Race,67.12795365289614,Relative,Theil Index,1.409185119187439,Theil Index for Mississippi is 1.4,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Cases,Race,110.31308103392188,Relative,Mean Log Deviation,1.5097189453669386,Mean Log Deviation for Mississippi is 1.5,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Ethnicity,1.3594134360519504e-4,Absolute,Between Group Variance,0.007984906452821775,Between Group Variance for Mississippi is 0.0,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Ethnicity,27.583019957016226,Relative,Theil Index,0.6602846210512419,Theil Index for Mississippi is 0.7,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Ethnicity,89.5222566330228,Relative,Mean Log Deviation,1.4275919692285637,Mean Log Deviation for Mississippi is 1.4,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Race,0.019828744180571567,Absolute,Between Group Variance,0.5834657292080994,Between Group Variance for Mississippi is 0.6,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Race,34.21169453776052,Relative,Theil Index,0.49680061362496813,Theil Index for Mississippi is 0.5,2020-07-14T18:20:44Z
-20200712,MS,Mississippi,Deaths,Race,82.33498917583685,Relative,Mean Log Deviation,0.6705025194543446,Mean Log Deviation for Mississippi is 0.7,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Ethnicity,0.001796957651692042,Absolute,Between Group Variance,0.041744018390886733,Between Group Variance for Montana is 0.0,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Ethnicity,26.30088852184301,Relative,Theil Index,2.078918805694812,Theil Index for Montana is 2.1,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Ethnicity,56.28031552431882,Relative,Mean Log Deviation,2.539316036247425,Mean Log Deviation for Montana is 2.5,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Race,0.0037014732967050297,Absolute,Between Group Variance,0.0990471858990236,Between Group Variance for Montana is 0.1,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Race,53.29244473033037,Relative,Theil Index,1.1187428782265667,Theil Index for Montana is 1.1,2020-07-14T18:20:44Z
-20200712,MT,Montana,Cases,Race,135.4937985722655,Relative,Mean Log Deviation,1.8543363376948785,Mean Log Deviation for Montana is 1.9,2020-07-14T18:20:44Z
-20200712,MT,Montana,Deaths,Race,0.0625374816033058,Absolute,Between Group Variance,1.8401809501512834,Between Group Variance for Montana is 1.8,2020-07-14T18:20:44Z
-20200712,MT,Montana,Deaths,Race,7.191845872609896,Relative,Theil Index,0.10443544205813172,Theil Index for Montana is 0.1,2020-07-14T18:20:44Z
-20200712,MT,Montana,Deaths,Race,8.49378296888284,Relative,Mean Log Deviation,0.0691698989377618,Mean Log Deviation for Montana is 0.1,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Ethnicity,0.12424354621043131,Absolute,Between Group Variance,2.886225433901359,Between Group Variance for North Carolina is 2.9,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Ethnicity,1.8378136792082858,Relative,Theil Index,0.14526754166104303,Theil Index for North Carolina is 0.1,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Ethnicity,1.9552345397845956,Relative,Mean Log Deviation,0.08821838284390054,Mean Log Deviation for North Carolina is 0.1,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Race,0.012662191783735514,Absolute,Between Group Variance,0.33882574936017,Between Group Variance for North Carolina is 0.3,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Race,90.61593724046445,Relative,Theil Index,1.9022571577373888,Theil Index for North Carolina is 1.9,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Cases,Race,164.4711154218211,Relative,Mean Log Deviation,2.250913097437652,Mean Log Deviation for North Carolina is 2.3,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Ethnicity,6.514878339015718e-5,Absolute,Between Group Variance,0.0038267014808707114,Between Group Variance for North Carolina is 0.0,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Ethnicity,60.83576283860458,Relative,Theil Index,1.456291540043409,Theil Index for North Carolina is 1.5,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Ethnicity,116.76461312727021,Relative,Mean Log Deviation,1.8620199072269807,Mean Log Deviation for North Carolina is 1.9,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Race,0.011257729796473803,Absolute,Between Group Variance,0.3312614992210766,Between Group Variance for North Carolina is 0.3,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Race,80.639876701753,Relative,Theil Index,1.1710013423583867,Theil Index for North Carolina is 1.2,2020-07-14T18:20:44Z
-20200712,NC,North Carolina,Deaths,Race,169.8093469901801,Relative,Mean Log Deviation,1.3828579577590687,Mean Log Deviation for North Carolina is 1.4,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Ethnicity,0.20748025,Absolute,Between Group Variance,4.819846123580262,Between Group Variance for Nebraska is 4.8,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Ethnicity,3.4346389934991546,Relative,Theil Index,0.27148647804913556,Theil Index for Nebraska is 0.3,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Ethnicity,3.222789599977103,Relative,Mean Log Deviation,0.14540930050644613,Mean Log Deviation for Nebraska is 0.1,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Race,0.017505187548759914,Absolute,Between Group Variance,0.46841876905683,Between Group Variance for Nebraska is 0.5,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Race,71.1875671100033,Relative,Theil Index,1.49440664855193,Theil Index for Nebraska is 1.5,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Cases,Race,149.22736084023174,Relative,Mean Log Deviation,2.042290648724859,Mean Log Deviation for Nebraska is 2.0,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Ethnicity,0.02592100000000001,Absolute,Between Group Variance,1.5225446113339989,Between Group Variance for Nebraska is 1.5,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Ethnicity,28.008180507151668,Relative,Theil Index,0.6704621495876235,Theil Index for Nebraska is 0.7,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Ethnicity,37.27804784483106,Relative,Mean Log Deviation,0.5944649267494905,Mean Log Deviation for Nebraska is 0.6,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Race,0.004728589507949921,Absolute,Between Group Variance,0.13913992233986452,Between Group Variance for Nebraska is 0.1,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Race,77.10143536950144,Relative,Theil Index,1.1196183328673406,Theil Index for Nebraska is 1.1,2020-07-14T18:20:44Z
-20200712,NE,Nebraska,Deaths,Race,171.42946063249454,Relative,Mean Log Deviation,1.3960515014741748,Mean Log Deviation for Nebraska is 1.4,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Ethnicity,0.006441771243752214,Absolute,Between Group Variance,0.1496448271977208,Between Group Variance for New Hampshire is 0.1,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Ethnicity,21.84699366505315,Relative,Theil Index,1.7268666015011036,Theil Index for New Hampshire is 1.7,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Ethnicity,41.2566345508857,Relative,Mean Log Deviation,1.8614613784706855,Mean Log Deviation for New Hampshire is 1.9,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Race,0.02435979203623078,Absolute,Between Group Variance,0.6518401341492585,Between Group Variance for New Hampshire is 0.7,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Race,54.55788265866916,Relative,Theil Index,1.145307613196608,Theil Index for New Hampshire is 1.1,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Cases,Race,118.6481782226108,Relative,Mean Log Deviation,1.62379112991021,Mean Log Deviation for New Hampshire is 1.6,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Ethnicity,1.0012029405212227e-5,Absolute,Between Group Variance,5.880853909734737e-4,Between Group Variance for New Hampshire is 0.0,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Ethnicity,31.113356883699815,Relative,Theil Index,0.7447941194111393,Theil Index for New Hampshire is 0.7,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Ethnicity,86.3856146893465,Relative,Mean Log Deviation,1.3775726218891224,Mean Log Deviation for New Hampshire is 1.4,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Race,2.1633924927600917e-5,Absolute,Between Group Variance,6.365836216639362e-4,Between Group Variance for New Hampshire is 0.0,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Race,72.14088699728738,Relative,Theil Index,1.0475843834085599,Theil Index for New Hampshire is 1.0,2020-07-14T18:20:44Z
-20200712,NH,New Hampshire,Deaths,Race,222.7279016353271,Relative,Mean Log Deviation,1.8138050504911403,Mean Log Deviation for New Hampshire is 1.8,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Ethnicity,0.011243399932760073,Absolute,Between Group Variance,0.26118851110781005,Between Group Variance for New Jersey is 0.3,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Ethnicity,37.431603573277904,Relative,Theil Index,2.958731395373695,Theil Index for New Jersey is 3.0,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Ethnicity,45.46890709253848,Relative,Mean Log Deviation,2.0515152385888245,Mean Log Deviation for New Jersey is 2.1,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Race,0.02488356721288121,Absolute,Between Group Variance,0.665855757965097,Between Group Variance for New Jersey is 0.7,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Race,77.69287576586859,Relative,Theil Index,1.630969490925587,Theil Index for New Jersey is 1.6,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Cases,Race,118.80179356031924,Relative,Mean Log Deviation,1.6258934733808457,Mean Log Deviation for New Jersey is 1.6,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Ethnicity,7.189385830537404e-6,Absolute,Between Group Variance,4.222892888038936e-4,Between Group Variance for New Jersey is 0.0,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Ethnicity,79.7692939908617,Relative,Theil Index,1.9095239802008543,Theil Index for New Jersey is 1.9,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Ethnicity,112.76664191798572,Relative,Mean Log Deviation,1.7982651292952974,Mean Log Deviation for New Jersey is 1.8,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Race,6.76396460113122e-4,Absolute,Between Group Variance,0.019903134068387777,Between Group Variance for New Jersey is 0.0,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Race,152.581332548949,Relative,Theil Index,2.215689712603028,Theil Index for New Jersey is 2.2,2020-07-14T18:20:44Z
-20200712,NJ,New Jersey,Deaths,Race,211.6914486274256,Relative,Mean Log Deviation,1.7239286853915607,Mean Log Deviation for New Jersey is 1.7,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Ethnicity,0.013854451816351346,Absolute,Between Group Variance,0.3218442520739711,Between Group Variance for New Mexico is 0.3,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Ethnicity,35.239097578039406,Relative,Theil Index,2.7854276706225534,Theil Index for New Mexico is 2.8,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Ethnicity,36.29643660533065,Relative,Mean Log Deviation,1.6376618125164588,Mean Log Deviation for New Mexico is 1.6,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Race,0.04167382985881362,Absolute,Between Group Variance,1.11514395546891,Between Group Variance for New Mexico is 1.1,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Race,130.7414672259535,Relative,Theil Index,2.7445932737381633,Theil Index for New Mexico is 2.7,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Cases,Race,184.83549469480988,Relative,Mean Log Deviation,2.5296152142755894,Mean Log Deviation for New Mexico is 2.5,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Ethnicity,0.11340648531602734,Absolute,Between Group Variance,6.661256630077761,Between Group Variance for New Mexico is 6.7,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Ethnicity,265.58764406131314,Relative,Theil Index,6.357659066635649,Theil Index for New Mexico is 6.4,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Ethnicity,336.195000109121,Relative,Mean Log Deviation,5.361228596124715,Mean Log Deviation for New Mexico is 5.4,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Race,0.08389108904840786,Absolute,Between Group Variance,2.4685161601736882,Between Group Variance for New Mexico is 2.5,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Race,147.42294412055097,Relative,Theil Index,2.1407828548408214,Theil Index for New Mexico is 2.1,2020-07-14T18:20:44Z
-20200712,NM,New Mexico,Deaths,Race,188.2123126476515,Relative,Mean Log Deviation,1.5327241927860065,Mean Log Deviation for New Mexico is 1.5,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Ethnicity,0.018007378469195836,Absolute,Between Group Variance,0.41831833782056943,Between Group Variance for Nevada is 0.4,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Ethnicity,9.772649190489945,Relative,Theil Index,0.7724660772085606,Theil Index for Nevada is 0.8,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Ethnicity,10.310419734732998,Relative,Mean Log Deviation,0.46519664875610706,Mean Log Deviation for Nevada is 0.5,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Race,0.0236706111801009,Absolute,Between Group Variance,0.6333984437996593,Between Group Variance for Nevada is 0.6,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Race,94.01324396800172,Relative,Theil Index,1.9735751977675626,Theil Index for Nevada is 2.0,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Cases,Race,143.99841608290137,Relative,Mean Log Deviation,1.9707285375914454,Mean Log Deviation for Nevada is 2.0,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Ethnicity,0.01284670668642755,Absolute,Between Group Variance,0.754588327564859,Between Group Variance for Nevada is 0.8,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Ethnicity,136.01575469264344,Relative,Theil Index,3.255956424792646,Theil Index for Nevada is 3.3,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Ethnicity,192.464821115093,Relative,Mean Log Deviation,3.069194670876577,Mean Log Deviation for Nevada is 3.1,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Race,0.004388988966079814,Absolute,Between Group Variance,0.12914709193178187,Between Group Variance for Nevada is 0.1,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Race,150.01640983370928,Relative,Theil Index,2.1784435254132855,Theil Index for Nevada is 2.2,2020-07-14T18:20:44Z
-20200712,NV,Nevada,Deaths,Race,188.58803060440783,Relative,Mean Log Deviation,1.5357838863516589,Mean Log Deviation for Nevada is 1.5,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Ethnicity,0.00598662363082738,Absolute,Between Group Variance,0.3516415859419391,Between Group Variance for New York is 0.4,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Ethnicity,49.22300448492718,Relative,Theil Index,1.1783043667438045,Theil Index for New York is 1.2,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Ethnicity,63.215722962065016,Relative,Mean Log Deviation,1.008087394395863,Mean Log Deviation for New York is 1.0,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Race,0.02932897249295218,Absolute,Between Group Variance,0.8630123101437563,Between Group Variance for New York is 0.9,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Race,48.47809032640701,Relative,Theil Index,0.7039681999657582,Theil Index for New York is 0.7,2020-07-14T18:20:44Z
-20200712,NY,New York,Deaths,Race,71.26384680534534,Relative,Mean Log Deviation,0.580343658355826,Mean Log Deviation for New York is 0.6,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Ethnicity,0.0032160400135400912,Absolute,Between Group Variance,0.07470984825081046,Between Group Variance for Ohio is 0.1,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Ethnicity,24.757773777906344,Relative,Theil Index,1.9569453500128642,Theil Index for Ohio is 2.0,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Ethnicity,50.22169870904344,Relative,Mean Log Deviation,2.2659568218723862,Mean Log Deviation for Ohio is 2.3,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Race,0.06503491186078991,Absolute,Between Group Variance,1.7402597529844068,Between Group Variance for Ohio is 1.7,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Race,58.554711743695236,Relative,Theil Index,1.22921114017849,Theil Index for Ohio is 1.2,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Cases,Race,117.97835981207659,Relative,Mean Log Deviation,1.6146241522964841,Mean Log Deviation for Ohio is 1.6,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Ethnicity,2.335596825826696e-4,Absolute,Between Group Variance,0.013718800823314021,Between Group Variance for Ohio is 0.0,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Ethnicity,33.60433659296599,Relative,Theil Index,0.8044233984365049,Theil Index for Ohio is 0.8,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Ethnicity,104.03514916866152,Relative,Mean Log Deviation,1.6590259121762485,Mean Log Deviation for Ohio is 1.7,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Race,0.0018437586984077835,Absolute,Between Group Variance,0.05425305827004039,Between Group Variance for Ohio is 0.1,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Race,110.52468958245828,Relative,Theil Index,1.604969714220671,Theil Index for Ohio is 1.6,2020-07-14T18:20:44Z
-20200712,OH,Ohio,Deaths,Race,272.32070295921403,Relative,Mean Log Deviation,2.2176685666865557,Mean Log Deviation for Ohio is 2.2,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Ethnicity,0.02231658630033596,Absolute,Between Group Variance,0.5184228955344841,Between Group Variance for Oklahoma is 0.5,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Ethnicity,30.22293496052456,Relative,Theil Index,2.38893175797252,Theil Index for Oklahoma is 2.4,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Ethnicity,41.20687965773549,Relative,Mean Log Deviation,1.8592164834859815,Mean Log Deviation for Oklahoma is 1.9,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Race,0.0010823227196833868,Absolute,Between Group Variance,0.02896171632918309,Between Group Variance for Oklahoma is 0.0,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Race,140.87959185185525,Relative,Theil Index,2.957418089360591,Theil Index for Oklahoma is 3.0,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Cases,Race,246.7358466983428,Relative,Mean Log Deviation,3.376768908730728,Mean Log Deviation for Oklahoma is 3.4,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Ethnicity,0.0035399384885282823,Absolute,Between Group Variance,0.20792848540421108,Between Group Variance for Oklahoma is 0.2,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Ethnicity,87.93380562222141,Relative,Theil Index,2.1049667372659497,Theil Index for Oklahoma is 2.1,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Ethnicity,214.51177719451778,Relative,Mean Log Deviation,3.4207726876589595,Mean Log Deviation for Oklahoma is 3.4,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Race,0.00340500874999999,Absolute,Between Group Variance,0.10019322934355572,Between Group Variance for Oklahoma is 0.1,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Race,164.01636599955182,Relative,Theil Index,2.381742043884406,Theil Index for Oklahoma is 2.4,2020-07-14T18:20:44Z
-20200712,OK,Oklahoma,Deaths,Race,334.54860312631746,Relative,Mean Log Deviation,2.7244271666456745,Mean Log Deviation for Oklahoma is 2.7,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Ethnicity,0.08575648628353184,Absolute,Between Group Variance,1.99215620756937,Between Group Variance for Oregon is 2.0,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Ethnicity,4.83950760238195,Relative,Theil Index,0.3825324515762723,Theil Index for Oregon is 0.4,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Ethnicity,5.256379570511324,Relative,Mean Log Deviation,0.23716300826769943,Mean Log Deviation for Oregon is 0.2,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Race,0.12063903466516032,Absolute,Between Group Variance,3.228162392471016,Between Group Variance for Oregon is 3.2,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Race,96.60627091364366,Relative,Theil Index,2.0280093758797837,Theil Index for Oregon is 2.0,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Cases,Race,203.79640695303078,Relative,Mean Log Deviation,2.7891098108309498,Mean Log Deviation for Oregon is 2.8,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Ethnicity,2.844444444444414e-5,Absolute,Between Group Variance,0.0016707663906206439,Between Group Variance for Oregon is 0.0,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Ethnicity,73.29690630040126,Relative,Theil Index,1.7545874264749697,Theil Index for Oregon is 1.8,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Ethnicity,124.9565262002482,Relative,Mean Log Deviation,1.9926545645227838,Mean Log Deviation for Oregon is 2.0,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Race,0.0021545456160086645,Absolute,Between Group Variance,0.06339804061763699,Between Group Variance for Oregon is 0.1,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Race,137.72223794560713,Relative,Theil Index,1.9999153285337459,Theil Index for Oregon is 2.0,2020-07-14T18:20:44Z
-20200712,OR,Oregon,Deaths,Race,369.81239406550134,Relative,Mean Log Deviation,3.0116010754165656,Mean Log Deviation for Oregon is 3.0,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Ethnicity,0.04082934710856334,Absolute,Between Group Variance,0.9484814597510942,Between Group Variance for Pennsylvania is 0.9,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Ethnicity,18.01756804114837,Relative,Theil Index,1.4241747385272143,Theil Index for Pennsylvania is 1.4,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Ethnicity,24.176282432511602,Relative,Mean Log Deviation,1.090811611587294,Mean Log Deviation for Pennsylvania is 1.1,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Race,0.018837781637733073,Absolute,Between Group Variance,0.5040774605773007,Between Group Variance for Pennsylvania is 0.5,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Race,71.18626392732719,Relative,Theil Index,1.4943792914594696,Theil Index for Pennsylvania is 1.5,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Cases,Race,151.76720527875116,Relative,Mean Log Deviation,2.077050363811944,Mean Log Deviation for Pennsylvania is 2.1,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Ethnicity,1.2357166035694927e-4,Absolute,Between Group Variance,0.007258337471165008,Between Group Variance for Pennsylvania is 0.0,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Ethnicity,55.44996435985105,Relative,Theil Index,1.327365849051493,Theil Index for Pennsylvania is 1.3,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Ethnicity,126.71538425365874,Relative,Mean Log Deviation,2.0207026916198796,Mean Log Deviation for Pennsylvania is 2.0,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Race,0.008049356166170895,Absolute,Between Group Variance,0.236854307180599,Between Group Variance for Pennsylvania is 0.2,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Race,85.81854328588771,Relative,Theil Index,1.2462026666867565,Theil Index for Pennsylvania is 1.2,2020-07-14T18:20:44Z
-20200712,PA,Pennsylvania,Deaths,Race,169.94939570774113,Relative,Mean Log Deviation,1.38399845730745,Mean Log Deviation for Pennsylvania is 1.4,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Ethnicity,0.09334322535442222,Absolute,Between Group Variance,2.168399078403803,Between Group Variance for Rhode Island is 2.2,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Ethnicity,1.8638133080326365,Relative,Theil Index,0.14732264779402168,Theil Index for Rhode Island is 0.1,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Ethnicity,1.945529928215374,Relative,Mean Log Deviation,0.08778051970198855,Mean Log Deviation for Rhode Island is 0.1,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Race,0.11408265902936746,Absolute,Between Group Variance,3.0527212898699845,Between Group Variance for Rhode Island is 3.1,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Race,44.93389470304453,Relative,Theil Index,0.9432758235128142,Theil Index for Rhode Island is 0.9,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Cases,Race,76.6117388745261,Relative,Mean Log Deviation,1.048490283584864,Mean Log Deviation for Rhode Island is 1.0,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Ethnicity,0.002154764162976438,Absolute,Between Group Variance,0.12656628081614865,Between Group Variance for Rhode Island is 0.1,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Ethnicity,99.20732480822561,Relative,Theil Index,2.374833175213809,Theil Index for Rhode Island is 2.4,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Ethnicity,181.37580478589948,Relative,Mean Log Deviation,2.89236053762751,Mean Log Deviation for Rhode Island is 2.9,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Race,0.006571714781444388,Absolute,Between Group Variance,0.19337434192428865,Between Group Variance for Rhode Island is 0.2,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Race,157.99357954415532,Relative,Theil Index,2.2942829440882635,Theil Index for Rhode Island is 2.3,2020-07-14T18:20:44Z
-20200712,RI,Rhode Island,Deaths,Race,288.6893180984363,Relative,Mean Log Deviation,2.350967882089247,Mean Log Deviation for Rhode Island is 2.4,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Ethnicity,0.015152603473383602,Absolute,Between Group Variance,0.35200081508161263,Between Group Variance for South Carolina is 0.4,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Ethnicity,25.317316556231752,Relative,Theil Index,2.001173665854184,Theil Index for South Carolina is 2.0,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Ethnicity,40.48923593490497,Relative,Mean Log Deviation,1.8268370592286953,Mean Log Deviation for South Carolina is 1.8,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Race,0.01869143717631812,Absolute,Between Group Variance,0.5001614504069822,Between Group Variance for South Carolina is 0.5,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Race,33.296928824985905,Relative,Theil Index,0.6989865482483552,Theil Index for South Carolina is 0.7,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Cases,Race,66.86807479737318,Relative,Mean Log Deviation,0.9151407830841432,Mean Log Deviation for South Carolina is 0.9,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Ethnicity,1.2818643426848412e-4,Absolute,Between Group Variance,0.007529399511654654,Between Group Variance for South Carolina is 0.0,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Ethnicity,46.38550013537443,Relative,Theil Index,1.1103799521185989,Theil Index for South Carolina is 1.1,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Ethnicity,116.64508459791377,Relative,Mean Log Deviation,1.860113811748373,Mean Log Deviation for South Carolina is 1.9,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Race,0.02970610996001538,Absolute,Between Group Variance,0.8741096739116206,Between Group Variance for South Carolina is 0.9,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Race,27.583480025658723,Relative,Theil Index,0.4005498700900165,Theil Index for South Carolina is 0.4,2020-07-14T18:20:44Z
-20200712,SC,South Carolina,Deaths,Race,75.87615884900922,Relative,Mean Log Deviation,0.6179044435911489,Mean Log Deviation for South Carolina is 0.6,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Ethnicity,0.012803681471775913,Absolute,Between Group Variance,0.29743445223964954,Between Group Variance for South Dakota is 0.3,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Ethnicity,19.248635866039532,Relative,Theil Index,1.5214828598907395,Theil Index for South Dakota is 1.5,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Ethnicity,33.199389048957514,Relative,Mean Log Deviation,1.4979258772848771,Mean Log Deviation for South Dakota is 1.5,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Race,0.17510527452822164,Absolute,Between Group Variance,4.685616587734213,Between Group Variance for South Dakota is 4.7,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Race,35.168886080163695,Relative,Theil Index,0.7382836542109722,Theil Index for South Dakota is 0.7,2020-07-14T18:20:44Z
-20200712,SD,South Dakota,Cases,Race,45.18276291947433,Relative,Mean Log Deviation,0.6183606925327129,Mean Log Deviation for South Dakota is 0.6,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Ethnicity,0.06413017139561537,Absolute,Between Group Variance,1.489768582820266,Between Group Variance for Tennessee is 1.5,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Ethnicity,10.336495659925198,Relative,Theil Index,0.8170345725983671,Theil Index for Tennessee is 0.8,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Ethnicity,13.28943738064152,Relative,Mean Log Deviation,0.5996071830618512,Mean Log Deviation for Tennessee is 0.6,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Race,0.04950137755641831,Absolute,Between Group Variance,1.3246001664939302,Between Group Variance for Tennessee is 1.3,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Race,49.600250565841336,Relative,Theil Index,1.0412344068578112,Theil Index for Tennessee is 1.0,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Cases,Race,98.81717664286843,Relative,Mean Log Deviation,1.3523886950409285,Mean Log Deviation for Tennessee is 1.4,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Ethnicity,0.002057589088954588,Absolute,Between Group Variance,0.12085842288983599,Between Group Variance for Tennessee is 0.1,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Ethnicity,34.92445609722612,Relative,Theil Index,0.8360245286960301,Theil Index for Tennessee is 0.8,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Ethnicity,69.05606331232875,Relative,Mean Log Deviation,1.1012220325873054,Mean Log Deviation for Tennessee is 1.1,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Race,0.04271574659706525,Absolute,Between Group Variance,1.256921467641157,Between Group Variance for Tennessee is 1.3,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Race,37.14238868951355,Relative,Theil Index,0.5393583025266684,Theil Index for Tennessee is 0.5,2020-07-14T18:20:44Z
-20200712,TN,Tennessee,Deaths,Race,78.27286921389894,Relative,Mean Log Deviation,0.637422273788818,Mean Log Deviation for Tennessee is 0.6,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Ethnicity,0.012026541502787372,Absolute,Between Group Variance,0.2793811914256265,Between Group Variance for Texas is 0.3,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Ethnicity,0.005294599742882615,Relative,Theil Index,4.185046054609214e-4,Theil Index for Texas is 0.0,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Ethnicity,0.0052920792487365365,Relative,Mean Log Deviation,2.3877374489135933e-4,Mean Log Deviation for Texas is 0.0,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Race,0.00975115912953649,Absolute,Between Group Variance,0.260929849715225,Between Group Variance for Texas is 0.3,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Race,94.37358328858792,Relative,Theil Index,1.9811396292867154,Theil Index for Texas is 2.0,2020-07-14T18:20:44Z
-20200712,TX,Texas,Cases,Race,142.7763126251883,Relative,Mean Log Deviation,1.9540031163991889,Mean Log Deviation for Texas is 2.0,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Ethnicity,0.0031964031071053073,Absolute,Between Group Variance,0.18774994507829307,Between Group Variance for Texas is 0.2,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Ethnicity,47.962490837714256,Relative,Theil Index,1.148130086437409,Theil Index for Texas is 1.1,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Ethnicity,52.14776616665634,Relative,Mean Log Deviation,0.8315890929548596,Mean Log Deviation for Texas is 0.8,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Race,0.0035783390299788708,Absolute,Between Group Variance,0.10529351594167587,Between Group Variance for Texas is 0.1,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Race,91.76292391089099,Relative,Theil Index,1.3325232065495947,Theil Index for Texas is 1.3,2020-07-14T18:20:44Z
-20200712,TX,Texas,Deaths,Race,157.80979232417675,Relative,Mean Log Deviation,1.285138486165981,Mean Log Deviation for Texas is 1.3,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Ethnicity,0.10333947879748676,Absolute,Between Group Variance,2.4006158961870883,Between Group Variance for Utah is 2.4,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Ethnicity,1.3909260354275885,Relative,Theil Index,0.10994390132407263,Theil Index for Utah is 0.1,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Ethnicity,1.446382127020758,Relative,Mean Log Deviation,0.06525943032601582,Mean Log Deviation for Utah is 0.1,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Race,0.1208558619743188,Absolute,Between Group Variance,3.233964442918691,Between Group Variance for Utah is 3.2,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Race,41.8413423092113,Relative,Theil Index,0.8783553458794363,Theil Index for Utah is 0.9,2020-07-14T18:20:44Z
-20200712,UT,Utah,Cases,Race,94.27802888509551,Relative,Mean Log Deviation,1.2902669838032343,Mean Log Deviation for Utah is 1.3,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Ethnicity,0.013990525874257703,Absolute,Between Group Variance,0.8217738428139324,Between Group Variance for Utah is 0.8,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Ethnicity,39.09747782062549,Relative,Theil Index,0.935918669060906,Theil Index for Utah is 0.9,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Ethnicity,52.115472626765495,Relative,Mean Log Deviation,0.8310741148930898,Mean Log Deviation for Utah is 0.8,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Race,0.048184260585446295,Absolute,Between Group Variance,1.4178338518476017,Between Group Variance for Utah is 1.4,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Race,62.27317243532348,Relative,Theil Index,0.9042916668186556,Theil Index for Utah is 0.9,2020-07-14T18:20:44Z
-20200712,UT,Utah,Deaths,Race,107.36067999325525,Relative,Mean Log Deviation,0.8743015229172479,Mean Log Deviation for Utah is 0.9,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Ethnicity,0.11686864617286016,Absolute,Between Group Variance,2.7149036654059033,Between Group Variance for Virginia is 2.7,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Ethnicity,2.555728478553964,Relative,Theil Index,0.20201416358626167,Theil Index for Virginia is 0.2,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Ethnicity,2.7525171711654908,Relative,Mean Log Deviation,0.12419104135560059,Mean Log Deviation for Virginia is 0.1,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Race,0.08107078394896104,Absolute,Between Group Variance,2.169361323211572,Between Group Variance for Virginia is 2.2,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Race,91.31311176806011,Relative,Theil Index,1.9168926101279735,Theil Index for Virginia is 1.9,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Cases,Race,188.18841889281006,Relative,Mean Log Deviation,2.575502548186094,Mean Log Deviation for Virginia is 2.6,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Ethnicity,5.555365767566946e-4,Absolute,Between Group Variance,0.0326310412923823,Between Group Variance for Virginia is 0.0,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Ethnicity,56.766017211758864,Relative,Theil Index,1.3588696314494866,Theil Index for Virginia is 1.4,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Ethnicity,103.86838264769291,Relative,Mean Log Deviation,1.656366522712387,Mean Log Deviation for Virginia is 1.7,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Race,0.0025747630022463913,Absolute,Between Group Variance,0.07576304172180924,Between Group Variance for Virginia is 0.1,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Race,130.55361090031352,Relative,Theil Index,1.8958170556165828,Theil Index for Virginia is 1.9,2020-07-14T18:20:44Z
-20200712,VA,Virginia,Deaths,Race,197.26670583273557,Relative,Mean Log Deviation,1.6064594723251069,Mean Log Deviation for Virginia is 1.6,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Ethnicity,2.266749321856798e-4,Absolute,Between Group Variance,0.005265745984053747,Between Group Variance for Vermont is 0.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Ethnicity,16.21757215888379,Relative,Theil Index,1.2818964544036469,Theil Index for Vermont is 1.3,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Ethnicity,45.05684380160846,Relative,Mean Log Deviation,2.032923322163705,Mean Log Deviation for Vermont is 2.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Race,0.012626557161709028,Absolute,Between Group Variance,0.33787220768922493,Between Group Variance for Vermont is 0.3,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Race,28.87038386553795,Relative,Theil Index,0.606062200836804,Theil Index for Vermont is 0.6,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Cases,Race,77.83867302334193,Relative,Mean Log Deviation,1.0652818164821758,Mean Log Deviation for Vermont is 1.1,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Ethnicity,3.5414100000000063e-4,Absolute,Between Group Variance,0.020801491886980997,Between Group Variance for Vermont is 0.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Vermont is 0.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Vermont is -0.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Race,1.7806959183673587e-5,Absolute,Between Group Variance,5.239742028272758e-4,Between Group Variance for Vermont is 0.0,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Race,18.719765141342865,Relative,Theil Index,0.271836602506483,Theil Index for Vermont is 0.3,2020-07-14T18:20:44Z
-20200712,VT,Vermont,Deaths,Race,53.00123019834377,Relative,Mean Log Deviation,0.431620368665798,Mean Log Deviation for Vermont is 0.4,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Ethnicity,0.09887045113429846,Absolute,Between Group Variance,2.296798662216187,Between Group Variance for Washington is 2.3,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Ethnicity,2.863753563341245,Relative,Theil Index,0.22636159735672903,Theil Index for Washington is 0.2,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Ethnicity,3.049566269333295,Relative,Mean Log Deviation,0.13759362326195834,Mean Log Deviation for Washington is 0.1,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Race,0.08857830981834121,Absolute,Between Group Variance,2.3702541166536215,Between Group Variance for Washington is 2.4,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Race,128.3445067885938,Relative,Theil Index,2.694275026334497,Theil Index for Washington is 2.7,2020-07-14T18:20:44Z
-20200712,WA,Washington,Cases,Race,240.71029571470592,Relative,Mean Log Deviation,3.2943046316838958,Mean Log Deviation for Washington is 3.3,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Ethnicity,1.1650508571506609e-5,Absolute,Between Group Variance,6.843261851335961e-4,Between Group Variance for Washington is 0.0,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Ethnicity,73.2258451368128,Relative,Theil Index,1.7528863584430938,Theil Index for Washington is 1.8,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Ethnicity,126.68039572937589,Relative,Mean Log Deviation,2.0201447372277546,Mean Log Deviation for Washington is 2.0,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Race,3.9503231124303694e-5,Absolute,Between Group Variance,0.0011623924008561976,Between Group Variance for Washington is 0.0,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Race,219.1999018196089,Relative,Theil Index,3.1830824869057452,Theil Index for Washington is 3.2,2020-07-14T18:20:44Z
-20200712,WA,Washington,Deaths,Race,414.96033944503364,Relative,Mean Log Deviation,3.3792675004465638,Mean Log Deviation for Washington is 3.4,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Ethnicity,0.05801213378354885,Absolute,Between Group Variance,1.3476442125805104,Between Group Variance for Wisconsin is 1.3,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Ethnicity,12.832577456689368,Relative,Theil Index,1.0143340434331989,Theil Index for Wisconsin is 1.0,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Ethnicity,16.371781731989152,Relative,Mean Log Deviation,0.7386797232154619,Mean Log Deviation for Wisconsin is 0.7,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Race,0.03560395197045489,Absolute,Between Group Variance,0.9527209753739789,Between Group Variance for Wisconsin is 1.0,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Race,66.89161303550836,Relative,Theil Index,1.4042237333122707,Theil Index for Wisconsin is 1.4,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Cases,Race,133.61170404172532,Relative,Mean Log Deviation,1.8285784335270652,Mean Log Deviation for Wisconsin is 1.8,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Ethnicity,0.0028350724904964344,Absolute,Between Group Variance,0.16652615034707782,Between Group Variance for Wisconsin is 0.2,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Ethnicity,40.23922103720422,Relative,Theil Index,0.9632498129411377,Theil Index for Wisconsin is 1.0,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Ethnicity,73.75454664338655,Relative,Mean Log Deviation,1.1761477250714485,Mean Log Deviation for Wisconsin is 1.2,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Race,0.020695469642402792,Absolute,Between Group Variance,0.6089693414896112,Between Group Variance for Wisconsin is 0.6,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Race,72.30099113635254,Relative,Theil Index,1.0499093145645912,Theil Index for Wisconsin is 1.0,2020-07-14T18:20:44Z
-20200712,WI,Wisconsin,Deaths,Race,176.6643361556872,Relative,Mean Log Deviation,1.4386821893805584,Mean Log Deviation for Wisconsin is 1.4,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Cases,Race,0.019474815942683514,Absolute,Between Group Variance,0.521123768943931,Between Group Variance for West Virginia is 0.5,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Cases,Race,28.207166699735076,Relative,Theil Index,0.5921395991488148,Theil Index for West Virginia is 0.6,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Cases,Race,58.777415762082555,Relative,Mean Log Deviation,0.8044139217581832,Mean Log Deviation for West Virginia is 0.8,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Deaths,Race,3.3634977264175933e-4,Absolute,Between Group Variance,0.00989717571502532,Between Group Variance for West Virginia is 0.0,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Deaths,Race,29.99761218371014,Relative,Theil Index,0.4356063720755572,Theil Index for West Virginia is 0.4,2020-07-14T18:20:44Z
-20200712,WV,West Virginia,Deaths,Race,74.24739160577121,Relative,Mean Log Deviation,0.604640428484965,Mean Log Deviation for West Virginia is 0.6,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Ethnicity,0.00306321610996905,Absolute,Between Group Variance,0.07115969010700023,Between Group Variance for Wyoming is 0.1,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Ethnicity,50.68028540800822,Relative,Theil Index,4.005955856783565,Theil Index for Wyoming is 4.0,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Ethnicity,83.78849806293002,Relative,Mean Log Deviation,3.780459913952475,Mean Log Deviation for Wyoming is 3.8,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Race,0.08976745617695187,Absolute,Between Group Variance,2.4020743112089367,Between Group Variance for Wyoming is 2.4,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Race,36.23193931567071,Relative,Theil Index,0.7605998238372141,Theil Index for Wyoming is 0.8,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Cases,Race,96.20294790315877,Relative,Mean Log Deviation,1.3166109738598044,Mean Log Deviation for Wyoming is 1.3,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Ethnicity,4.0000000000000074e-6,Absolute,Between Group Variance,2.34951523681031e-4,Between Group Variance for Wyoming is 0.0,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Ethnicity,64.93272976120987,Relative,Theil Index,1.554365074274522,Theil Index for Wyoming is 1.6,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Ethnicity,124.18690386898729,Relative,Mean Log Deviation,1.9803815644804483,Mean Log Deviation for Wyoming is 2.0,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Race,0.20113596800000003,Absolute,Between Group Variance,5.918475883817376,Between Group Variance for Wyoming is 5.9,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Race,-1.1102230246251564e-13,Relative,Theil Index,-1.612195734080264e-15,Theil Index for Wyoming is -0.0,2020-07-14T18:20:44Z
-20200712,WY,Wyoming,Deaths,Race,1.1102230246251565e-13,Relative,Mean Log Deviation,9.041202805985844e-16,Mean Log Deviation for Wyoming is 0.0,2020-07-14T18:20:44Z
+20200715,AK,Alaska,Cases,Ethnicity,7.872975778546674e-4,Absolute,Between Group Variance,0.018963304318890276,Between Group Variance for Alaska is 0.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Cases,Ethnicity,45.93305826117447,Relative,Theil Index,3.6768081081108894,Theil Index for Alaska is 3.7,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Cases,Ethnicity,90.332541026701,Relative,Mean Log Deviation,4.111384232373725,Mean Log Deviation for Alaska is 4.1,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Cases,Race,0.00166437692267481,Absolute,Between Group Variance,0.045723978281416625,Between Group Variance for Alaska is 0.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Cases,Race,217.4020938464891,Relative,Theil Index,4.540452448846353,Theil Index for Alaska is 4.5,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Cases,Race,373.9706234178039,Relative,Mean Log Deviation,5.043153095116479,Mean Log Deviation for Alaska is 5.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Ethnicity,0.004432491000000007,Absolute,Between Group Variance,0.25945522537957,Between Group Variance for Alaska is 0.3,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Alaska is 0.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Alaska is -0.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Race,3.668451176470588e-4,Absolute,Between Group Variance,0.010733766245233579,Between Group Variance for Alaska is 0.0,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Race,109.66356356064362,Relative,Theil Index,1.5875233226462075,Theil Index for Alaska is 1.6,2020-07-16T14:59:20Z
+20200715,AK,Alaska,Deaths,Race,158.6427408961043,Relative,Mean Log Deviation,1.2815841633503358,Mean Log Deviation for Alaska is 1.3,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Ethnicity,0.00860657382599543,Absolute,Between Group Variance,0.20730290959370257,Between Group Variance for Alabama is 0.2,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Ethnicity,23.4901659346475,Relative,Theil Index,1.8803196616757072,Theil Index for Alabama is 1.9,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Ethnicity,41.9934961804205,Relative,Mean Log Deviation,1.9112868529558338,Mean Log Deviation for Alabama is 1.9,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Race,0.04021237951737071,Absolute,Between Group Variance,1.1047196957894763,Between Group Variance for Alabama is 1.1,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Race,20.20441465834326,Relative,Theil Index,0.42197010336873214,Theil Index for Alabama is 0.4,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Cases,Race,58.30625868212228,Relative,Mean Log Deviation,0.7862847253884278,Mean Log Deviation for Alabama is 0.8,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Ethnicity,7.73198189602101e-5,Absolute,Between Group Variance,0.00452590452064738,Between Group Variance for Alabama is 0.0,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Ethnicity,36.33391311810635,Relative,Theil Index,0.8634209388529351,Theil Index for Alabama is 0.9,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Ethnicity,100.18881904989576,Relative,Mean Log Deviation,1.5738505226252568,Mean Log Deviation for Alabama is 1.6,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Race,0.026883433754215445,Absolute,Between Group Variance,0.7866003386873325,Between Group Variance for Alabama is 0.8,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Race,26.878396996451503,Relative,Theil Index,0.38909990448754755,Theil Index for Alabama is 0.4,2020-07-16T14:59:20Z
+20200715,AL,Alabama,Deaths,Race,86.75304773311542,Relative,Mean Log Deviation,0.7008283610653797,Mean Log Deviation for Alabama is 0.7,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Ethnicity,0.028462085493519123,Absolute,Between Group Variance,0.6855542350766749,Between Group Variance for Arkansas is 0.7,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Ethnicity,23.013711445174984,Relative,Theil Index,1.842180861509659,Theil Index for Arkansas is 1.8,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Ethnicity,32.453729234501424,Relative,Mean Log Deviation,1.4770950660738684,Mean Log Deviation for Arkansas is 1.5,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Race,0.04506743398353028,Absolute,Between Group Variance,1.2380983805942454,Between Group Variance for Arkansas is 1.2,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Race,62.39921191566858,Relative,Theil Index,1.303210330387328,Theil Index for Arkansas is 1.3,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Cases,Race,120.07168354013339,Relative,Mean Log Deviation,1.6192177795868063,Mean Log Deviation for Arkansas is 1.6,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Ethnicity,6.81162973784597e-4,Absolute,Between Group Variance,0.039871777039930924,Between Group Variance for Arkansas is 0.0,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Ethnicity,48.220676546928864,Relative,Theil Index,1.145892039784867,Theil Index for Arkansas is 1.1,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Ethnicity,93.95440401616622,Relative,Mean Log Deviation,1.4759150698257641,Mean Log Deviation for Arkansas is 1.5,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Race,0.034338206703442176,Absolute,Between Group Variance,1.0047245180726918,Between Group Variance for Arkansas is 1.0,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Race,59.601467451185655,Relative,Theil Index,0.8628090914661202,Theil Index for Arkansas is 0.9,2020-07-16T14:59:20Z
+20200715,AR,Arkansas,Deaths,Race,102.75045577425546,Relative,Mean Log Deviation,0.83006229061281,Mean Log Deviation for Arkansas is 0.8,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Ethnicity,0.02164435318321859,Absolute,Between Group Variance,0.5213383957275213,Between Group Variance for Arizona is 0.5,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Ethnicity,2.8874244875008377,Relative,Theil Index,0.23112995670429268,Theil Index for Arizona is 0.2,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Ethnicity,2.954964271446932,Relative,Mean Log Deviation,0.13449188271216195,Mean Log Deviation for Arizona is 0.1,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Race,0.0363423187210551,Absolute,Between Group Variance,0.9984008845948859,Between Group Variance for Arizona is 1.0,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Race,83.26522211827748,Relative,Theil Index,1.738997886274378,Theil Index for Arizona is 1.7,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Cases,Race,154.2049270636227,Relative,Mean Log Deviation,2.079519102585469,Mean Log Deviation for Arizona is 2.1,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Ethnicity,4.1538697439849517e-4,Absolute,Between Group Variance,0.024314617009329305,Between Group Variance for Arizona is 0.0,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Ethnicity,63.57187142590859,Relative,Theil Index,1.5106901569554034,Theil Index for Arizona is 1.5,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Ethnicity,74.69197466267697,Relative,Mean Log Deviation,1.1733245732762123,Mean Log Deviation for Arizona is 1.2,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Race,0.004520171484793619,Absolute,Between Group Variance,0.13225871566000955,Between Group Variance for Arizona is 0.1,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Race,92.40027827226541,Relative,Theil Index,1.337614719177926,Theil Index for Arizona is 1.3,2020-07-16T14:59:20Z
+20200715,AZ,Arizona,Deaths,Race,178.07396424572937,Relative,Mean Log Deviation,1.4385579270330475,Mean Log Deviation for Arizona is 1.4,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Ethnicity,0.02479880584178163,Absolute,Between Group Variance,0.5973183649367061,Between Group Variance for California is 0.6,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Ethnicity,4.229017119349705,Relative,Theil Index,0.3385205562702101,Theil Index for California is 0.3,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Ethnicity,4.182731235006669,Relative,Mean Log Deviation,0.19037231824111273,Mean Log Deviation for California is 0.2,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Race,0.02540098008329833,Absolute,Between Group Variance,0.6978190131288865,Between Group Variance for California is 0.7,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Race,285.5443959960019,Relative,Theil Index,5.963607475509773,Theil Index for California is 6.0,2020-07-16T14:59:20Z
+20200715,CA,California,Cases,Race,415.8186394347369,Relative,Mean Log Deviation,5.607491410173107,Mean Log Deviation for California is 5.6,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Ethnicity,0.0025187619807740375,Absolute,Between Group Variance,0.14743537153244507,Between Group Variance for California is 0.1,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Ethnicity,6.802884220659382,Relative,Theil Index,0.16166033814239686,Theil Index for California is 0.2,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Ethnicity,6.959203650429652,Relative,Mean Log Deviation,0.1093210440661013,Mean Log Deviation for California is 0.1,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Race,0.002591601516852816,Absolute,Between Group Variance,0.07582939923287794,Between Group Variance for California is 0.1,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Race,113.8359262793138,Relative,Theil Index,1.6479237228462753,Theil Index for California is 1.6,2020-07-16T14:59:20Z
+20200715,CA,California,Deaths,Race,215.01279905061696,Relative,Mean Log Deviation,1.7369656917448373,Mean Log Deviation for California is 1.7,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Ethnicity,0.05896522245244058,Absolute,Between Group Variance,1.420270414960052,Between Group Variance for Colorado is 1.4,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Ethnicity,2.354517409426639,Relative,Theil Index,0.18847229053297435,Theil Index for Colorado is 0.2,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Ethnicity,2.4374705492226365,Relative,Mean Log Deviation,0.11093873668390548,Mean Log Deviation for Colorado is 0.1,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Race,0.060456931798806665,Absolute,Between Group Variance,1.6608806568209211,Between Group Variance for Colorado is 1.7,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Race,77.10679294453458,Relative,Theil Index,1.6103788176709624,Theil Index for Colorado is 1.6,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Cases,Race,178.67904281462955,Relative,Mean Log Deviation,2.4095629746733453,Mean Log Deviation for Colorado is 2.4,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Ethnicity,1.231439545193609e-4,Absolute,Between Group Variance,0.007208213727665154,Between Group Variance for Colorado is 0.0,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Ethnicity,74.07769958445515,Relative,Theil Index,1.7603454028022794,Theil Index for Colorado is 1.8,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Ethnicity,99.86641778123806,Relative,Mean Log Deviation,1.5687859714110215,Mean Log Deviation for Colorado is 1.6,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Race,0.0011097403943808475,Absolute,Between Group Variance,0.032470635189528585,Between Group Variance for Colorado is 0.0,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Race,143.92311076339863,Relative,Theil Index,2.083475017464112,Theil Index for Colorado is 2.1,2020-07-16T14:59:20Z
+20200715,CO,Colorado,Deaths,Race,269.9559303179949,Relative,Mean Log Deviation,2.1808198921917694,Mean Log Deviation for Colorado is 2.2,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Ethnicity,0.012735182415658363,Absolute,Between Group Variance,0.30674696137486407,Between Group Variance for Connecticut is 0.3,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Ethnicity,40.12207551138738,Relative,Theil Index,3.211655790818542,Theil Index for Connecticut is 3.2,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Ethnicity,52.05208242776555,Relative,Mean Log Deviation,2.369092118115836,Mean Log Deviation for Connecticut is 2.4,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Race,0.021553692601915773,Absolute,Between Group Variance,0.5921258333902533,Between Group Variance for Connecticut is 0.6,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Race,106.612363637411,Relative,Theil Index,2.2266039806249,Theil Index for Connecticut is 2.2,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Cases,Race,231.52549062788742,Relative,Mean Log Deviation,3.1222198256837848,Mean Log Deviation for Connecticut is 3.1,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Ethnicity,0.004937047849576096,Absolute,Between Group Variance,0.28898938825177206,Between Group Variance for Connecticut is 0.3,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Ethnicity,112.33889767879229,Relative,Theil Index,2.6695653778945867,Theil Index for Connecticut is 2.7,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Ethnicity,216.3476382244797,Relative,Mean Log Deviation,3.3985712848732463,Mean Log Deviation for Connecticut is 3.4,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Race,0.003996924942279315,Absolute,Between Group Variance,0.11694869569300333,Between Group Variance for Connecticut is 0.1,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Race,231.05856485345447,Relative,Theil Index,3.3448745298083895,Theil Index for Connecticut is 3.3,2020-07-16T14:59:20Z
+20200715,CT,Connecticut,Deaths,Race,463.62938015615606,Relative,Mean Log Deviation,3.745397160410842,Mean Log Deviation for Connecticut is 3.7,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Ethnicity,0.04377675378712352,Absolute,Between Group Variance,1.0544321835975456,Between Group Variance for District of Columbia is 1.1,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Ethnicity,18.722788489787785,Relative,Theil Index,1.4987049225913391,Theil Index for District of Columbia is 1.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Ethnicity,23.169762262291027,Relative,Mean Log Deviation,1.0545457279329016,Mean Log Deviation for District of Columbia is 1.1,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Race,0.019373548802595994,Absolute,Between Group Variance,0.5322326407051132,Between Group Variance for District of Columbia is 0.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Race,119.95696322198684,Relative,Theil Index,2.5053065395130645,Theil Index for District of Columbia is 2.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Cases,Race,184.24069205141416,Relative,Mean Log Deviation,2.4845641828059604,Mean Log Deviation for District of Columbia is 2.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Ethnicity,4.242445612668314e-4,Absolute,Between Group Variance,0.024833094587116446,Between Group Variance for District of Columbia is 0.0,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Ethnicity,63.290023849975285,Relative,Theil Index,1.503992472127603,Theil Index for District of Columbia is 1.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Ethnicity,110.23325238863899,Relative,Mean Log Deviation,1.7316369583729696,Mean Log Deviation for District of Columbia is 1.7,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Race,0.07332111266606652,Absolute,Between Group Variance,2.145351393105294,Between Group Variance for District of Columbia is 2.1,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Race,379.3554263089455,Relative,Theil Index,5.491665301436345,Theil Index for District of Columbia is 5.5,2020-07-16T14:59:20Z
+20200715,DC,District of Columbia,Deaths,Race,609.7211187940642,Relative,Mean Log Deviation,4.925588939606565,Mean Log Deviation for District of Columbia is 4.9,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Ethnicity,0.041369478437225445,Absolute,Between Group Variance,0.9964491587241894,Between Group Variance for Delaware is 1.0,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Ethnicity,19.443537182560124,Relative,Theil Index,1.556398765279268,Theil Index for Delaware is 1.6,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Ethnicity,25.05547460178196,Relative,Mean Log Deviation,1.1403718088917438,Mean Log Deviation for Delaware is 1.1,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Race,0.05042059625529484,Absolute,Between Group Variance,1.3851611475170749,Between Group Variance for Delaware is 1.4,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Race,38.600058166720245,Relative,Theil Index,0.8061639404101212,Theil Index for Delaware is 0.8,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Cases,Race,88.56249016496682,Relative,Mean Log Deviation,1.1943028901703083,Mean Log Deviation for Delaware is 1.2,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Ethnicity,6.184042674527418e-4,Absolute,Between Group Variance,0.03619820515995154,Between Group Variance for Delaware is 0.0,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Ethnicity,69.70771426728587,Relative,Theil Index,1.6564992573827384,Theil Index for Delaware is 1.7,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Ethnicity,152.59284415005675,Relative,Mean Log Deviation,2.397057174561946,Mean Log Deviation for Delaware is 2.4,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Race,0.0010722205454194952,Absolute,Between Group Variance,0.03137281687620135,Between Group Variance for Delaware is 0.0,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Race,155.58136996925612,Relative,Theil Index,2.252243547227591,Theil Index for Delaware is 2.3,2020-07-16T14:59:20Z
+20200715,DE,Delaware,Deaths,Race,349.41712427843163,Relative,Mean Log Deviation,2.8227415282236255,Mean Log Deviation for Delaware is 2.8,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Ethnicity,0.03451200833578442,Absolute,Between Group Variance,0.8312761719792428,Between Group Variance for Florida is 0.8,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Ethnicity,5.403465006686779,Relative,Theil Index,0.43253170375708866,Theil Index for Florida is 0.4,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Ethnicity,5.652809739200807,Relative,Mean Log Deviation,0.25728129161659646,Mean Log Deviation for Florida is 0.3,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Race,0.03148295194582337,Absolute,Between Group Variance,0.864903731477037,Between Group Variance for Florida is 0.9,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Race,16.5240106798255,Relative,Theil Index,0.3451047017465909,Theil Index for Florida is 0.3,2020-07-16T14:59:20Z
+20200715,FL,Florida,Cases,Race,18.805613675227796,Relative,Mean Log Deviation,0.25360170792301534,Mean Log Deviation for Florida is 0.3,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Ethnicity,7.041346080211323e-4,Absolute,Between Group Variance,0.041216418357460344,Between Group Variance for Florida is 0.0,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Ethnicity,58.53474857704728,Relative,Theil Index,1.3909904889030218,Theil Index for Florida is 1.4,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Ethnicity,71.76180022925041,Relative,Mean Log Deviation,1.1272949203951372,Mean Log Deviation for Florida is 1.1,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Race,0.0021235809361427344,Absolute,Between Group Variance,0.06213527255750615,Between Group Variance for Florida is 0.1,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Race,56.14698252141533,Relative,Theil Index,0.8128009099363674,Theil Index for Florida is 0.8,2020-07-16T14:59:20Z
+20200715,FL,Florida,Deaths,Race,63.4264543373803,Relative,Mean Log Deviation,0.5123861259399478,Mean Log Deviation for Florida is 0.5,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Ethnicity,0.0209361804816852,Absolute,Between Group Variance,0.5042809388938521,Between Group Variance for Georgia is 0.5,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Ethnicity,30.162992555223276,Relative,Theil Index,2.4144600814807062,Theil Index for Georgia is 2.4,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Ethnicity,42.32235781494031,Relative,Mean Log Deviation,1.9262546211978202,Mean Log Deviation for Georgia is 1.9,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Race,0.02187423056626526,Absolute,Between Group Variance,0.600931693842062,Between Group Variance for Georgia is 0.6,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Race,46.86762396576175,Relative,Theil Index,0.9788324217208985,Theil Index for Georgia is 1.0,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Cases,Race,103.14701414685807,Relative,Mean Log Deviation,1.3909814062202237,Mean Log Deviation for Georgia is 1.4,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Ethnicity,0.001458521968245747,Absolute,Between Group Variance,0.0853743743624643,Between Group Variance for Georgia is 0.1,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Ethnicity,75.36232204662014,Relative,Theil Index,1.790872528486447,Theil Index for Georgia is 1.8,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Ethnicity,173.26619736367581,Relative,Mean Log Deviation,2.721811653836395,Mean Log Deviation for Georgia is 2.7,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Race,0.010894074891676916,Absolute,Between Group Variance,0.3187570113931047,Between Group Variance for Georgia is 0.3,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Race,103.21786300446615,Relative,Theil Index,1.494213387864937,Theil Index for Georgia is 1.5,2020-07-16T14:59:20Z
+20200715,GA,Georgia,Deaths,Race,226.3198050001519,Relative,Mean Log Deviation,1.8283085396935002,Mean Log Deviation for Georgia is 1.8,2020-07-16T14:59:20Z
+20200715,HI,Hawaii,Cases,Race,0.007745903218283102,Absolute,Between Group Variance,0.2127964559575493,Between Group Variance for Hawaii is 0.2,2020-07-16T14:59:20Z
+20200715,HI,Hawaii,Cases,Race,56.364794610387456,Relative,Theil Index,1.177181255200631,Theil Index for Hawaii is 1.2,2020-07-16T14:59:20Z
+20200715,HI,Hawaii,Cases,Race,105.19215928846931,Relative,Mean Log Deviation,1.4185610592865991,Mean Log Deviation for Hawaii is 1.4,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Ethnicity,0.04117065908122304,Absolute,Between Group Variance,0.9916602808482621,Between Group Variance for Iowa is 1.0,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Ethnicity,16.258387468048188,Relative,Theil Index,1.3014367675547749,Theil Index for Iowa is 1.3,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Ethnicity,22.321378506235384,Relative,Mean Log Deviation,1.0159324933442924,Mean Log Deviation for Iowa is 1.0,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Race,0.012652185185430974,Absolute,Between Group Variance,0.34758246930111836,Between Group Variance for Iowa is 0.3,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Race,56.40984084434928,Relative,Theil Index,1.1781220478106955,Theil Index for Iowa is 1.2,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Cases,Race,132.9921940931435,Relative,Mean Log Deviation,1.7934563660040623,Mean Log Deviation for Iowa is 1.8,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Ethnicity,4.214282916269918e-4,Absolute,Between Group Variance,0.024668244647402134,Between Group Variance for Iowa is 0.0,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Ethnicity,42.21551652387659,Relative,Theil Index,1.0031884204909116,Theil Index for Iowa is 1.0,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Ethnicity,89.06774458246696,Relative,Mean Log Deviation,1.399151299411532,Mean Log Deviation for Iowa is 1.4,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Race,6.618247301381942e-4,Absolute,Between Group Variance,0.019364771689432153,Between Group Variance for Iowa is 0.0,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Race,54.691038110399035,Relative,Theil Index,0.7917242128647225,Theil Index for Iowa is 0.8,2020-07-16T14:59:20Z
+20200715,IA,Iowa,Deaths,Race,139.0487117178336,Relative,Mean Log Deviation,1.1232951842942964,Mean Log Deviation for Iowa is 1.1,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Ethnicity,0.047090017590491536,Absolute,Between Group Variance,1.1342373697931392,Between Group Variance for Idaho is 1.1,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Ethnicity,16.736346330980222,Relative,Theil Index,1.33969598845358,Theil Index for Idaho is 1.3,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Ethnicity,19.994635874615913,Relative,Mean Log Deviation,0.910033413569658,Mean Log Deviation for Idaho is 0.9,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Race,0.028203086112672013,Absolute,Between Group Variance,0.7747988327141055,Between Group Variance for Idaho is 0.8,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Race,69.86096068847807,Relative,Theil Index,1.4590492870815635,Theil Index for Idaho is 1.5,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Cases,Race,177.4071182951961,Relative,Mean Log Deviation,2.3924105309377612,Mean Log Deviation for Idaho is 2.4,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Ethnicity,0.0023549960840156745,Absolute,Between Group Variance,0.1378493582381308,Between Group Variance for Idaho is 0.1,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Ethnicity,92.2787411052664,Relative,Theil Index,2.192865850212298,Theil Index for Idaho is 2.2,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Ethnicity,189.78508252637062,Relative,Mean Log Deviation,2.9813042428601886,Mean Log Deviation for Idaho is 3.0,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Race,1.7274617355371907e-4,Absolute,Between Group Variance,0.005054495637224512,Between Group Variance for Idaho is 0.0,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Race,65.69308748030669,Relative,Theil Index,0.9509932481261452,Theil Index for Idaho is 1.0,2020-07-16T14:59:20Z
+20200715,ID,Idaho,Deaths,Race,234.1845474974764,Relative,Mean Log Deviation,1.8918433057752364,Mean Log Deviation for Idaho is 1.9,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Ethnicity,0.05694569094533505,Absolute,Between Group Variance,1.3716268123019744,Between Group Variance for Illinois is 1.4,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Ethnicity,8.13420237128449,Relative,Theil Index,0.6511193106650529,Theil Index for Illinois is 0.7,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Ethnicity,8.874809512876697,Relative,Mean Log Deviation,0.40392699554168787,Mean Log Deviation for Illinois is 0.4,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Race,0.07819356872441646,Absolute,Between Group Variance,2.148143842535259,Between Group Variance for Illinois is 2.1,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Race,54.23863376766298,Relative,Theil Index,1.1327762909512702,Theil Index for Illinois is 1.1,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Cases,Race,87.84833082353596,Relative,Mean Log Deviation,1.1846721473589417,Mean Log Deviation for Illinois is 1.2,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Ethnicity,0.001543903093386077,Absolute,Between Group Variance,0.09037214628494435,Between Group Variance for Illinois is 0.1,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Ethnicity,65.17966664000502,Relative,Theil Index,1.5488969982809146,Theil Index for Illinois is 1.5,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Ethnicity,92.4287351821306,Relative,Mean Log Deviation,1.4519485762132962,Mean Log Deviation for Illinois is 1.5,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Race,0.01962331105600038,Absolute,Between Group Variance,0.5741715609672216,Between Group Variance for Illinois is 0.6,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Race,74.961041505363,Relative,Theil Index,1.0851589882341017,Theil Index for Illinois is 1.1,2020-07-16T14:59:20Z
+20200715,IL,Illinois,Deaths,Race,114.9950501241169,Relative,Mean Log Deviation,0.9289793801486527,Mean Log Deviation for Illinois is 0.9,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Ethnicity,0.033146870182971695,Absolute,Between Group Variance,0.7983946657263503,Between Group Variance for Indiana is 0.8,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Ethnicity,20.30013852254486,Relative,Theil Index,1.624967218404383,Theil Index for Indiana is 1.6,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Ethnicity,28.297770900386613,Relative,Mean Log Deviation,1.2879412863719202,Mean Log Deviation for Indiana is 1.3,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Race,0.046849261542928,Absolute,Between Group Variance,1.2870489779722705,Between Group Variance for Indiana is 1.3,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Race,64.14975045234172,Relative,Theil Index,1.3397704059827813,Theil Index for Indiana is 1.3,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Cases,Race,118.38911848692908,Relative,Mean Log Deviation,1.5965276734007863,Mean Log Deviation for Indiana is 1.6,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Ethnicity,0.0010261675774497084,Absolute,Between Group Variance,0.06006657206623116,Between Group Variance for Indiana is 0.1,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Ethnicity,58.77685868682646,Relative,Theil Index,1.3967438724599157,Theil Index for Indiana is 1.4,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Ethnicity,155.9171565281469,Relative,Mean Log Deviation,2.449278278905148,Mean Log Deviation for Indiana is 2.4,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Race,0.016610194583925895,Absolute,Between Group Variance,0.4860087742076424,Between Group Variance for Indiana is 0.5,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Race,76.82110275344006,Relative,Theil Index,1.1120858043706192,Theil Index for Indiana is 1.1,2020-07-16T14:59:20Z
+20200715,IN,Indiana,Deaths,Race,168.23115039940834,Relative,Mean Log Deviation,1.3590434514447087,Mean Log Deviation for Indiana is 1.4,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Ethnicity,0.11042339967669737,Absolute,Between Group Variance,2.6597218013824584,Between Group Variance for Kansas is 2.7,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Ethnicity,1.9254430693118503,Relative,Theil Index,0.15412613392075739,Theil Index for Kansas is 0.2,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Ethnicity,2.0308468666870616,Relative,Mean Log Deviation,0.09243171609215277,Mean Log Deviation for Kansas is 0.1,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Race,0.0027485727952676676,Absolute,Between Group Variance,0.07550914764772079,Between Group Variance for Kansas is 0.1,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Race,89.75206025692184,Relative,Theil Index,1.874475790791135,Theil Index for Kansas is 1.9,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Cases,Race,193.5596490124642,Relative,Mean Log Deviation,2.6102342854783602,Mean Log Deviation for Kansas is 2.6,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Ethnicity,1.530324710254783e-4,Absolute,Between Group Variance,0.008957733757453297,Between Group Variance for Kansas is 0.0,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Ethnicity,68.11894799260332,Relative,Theil Index,1.6187446102560934,Theil Index for Kansas is 1.6,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Ethnicity,118.1323659079896,Relative,Mean Log Deviation,1.8557228998842157,Mean Log Deviation for Kansas is 1.9,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Race,0.01686316225358698,Absolute,Between Group Variance,0.4934105241645708,Between Group Variance for Kansas is 0.5,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Race,73.99760979535804,Relative,Theil Index,1.071212055818724,Theil Index for Kansas is 1.1,2020-07-16T14:59:20Z
+20200715,KS,Kansas,Deaths,Race,171.36813893679883,Relative,Mean Log Deviation,1.384385391500851,Mean Log Deviation for Kansas is 1.4,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Ethnicity,0.014945622001803972,Absolute,Between Group Variance,0.3599888863212391,Between Group Variance for Kentucky is 0.4,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Ethnicity,18.015434699975387,Relative,Theil Index,1.4420833030401856,Theil Index for Kentucky is 1.4,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Ethnicity,30.498829106695702,Relative,Mean Log Deviation,1.3881199805733941,Mean Log Deviation for Kentucky is 1.4,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Race,0.008996552863784247,Absolute,Between Group Variance,0.2471544649214411,Between Group Variance for Kentucky is 0.2,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Race,75.90294918211755,Relative,Theil Index,1.585236486875591,Theil Index for Kentucky is 1.6,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Cases,Race,151.41184915496308,Relative,Mean Log Deviation,2.041853257682402,Mean Log Deviation for Kentucky is 2.0,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Ethnicity,1.65623474850982e-5,Absolute,Between Group Variance,9.694746361720533e-4,Between Group Variance for Kentucky is 0.0,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Ethnicity,30.162810977791395,Relative,Theil Index,0.7167739540806604,Theil Index for Kentucky is 0.7,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Ethnicity,79.23830383773483,Relative,Mean Log Deviation,1.2447421487706178,Mean Log Deviation for Kentucky is 1.2,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Race,0.0034420472847611215,Absolute,Between Group Variance,0.10071315981152745,Between Group Variance for Kentucky is 0.1,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Race,75.23009242883602,Relative,Theil Index,1.0890538517797015,Theil Index for Kentucky is 1.1,2020-07-16T14:59:20Z
+20200715,KY,Kentucky,Deaths,Race,166.51850007897255,Relative,Mean Log Deviation,1.3452079269471533,Mean Log Deviation for Kentucky is 1.3,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Ethnicity,0.019041117602546884,Absolute,Between Group Variance,1.114569089716751,Between Group Variance for Louisiana is 1.1,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Ethnicity,21.568831730341977,Relative,Theil Index,0.5125509295417019,Theil Index for Louisiana is 0.5,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Ethnicity,33.97421096949079,Relative,Mean Log Deviation,0.533695577981458,Mean Log Deviation for Louisiana is 0.5,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Race,0.029389222944256138,Absolute,Between Group Variance,0.8599188977518343,Between Group Variance for Louisiana is 0.9,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Race,37.04615982676589,Relative,Theil Index,0.5362915523618487,Theil Index for Louisiana is 0.5,2020-07-16T14:59:20Z
+20200715,LA,Louisiana,Deaths,Race,134.7346286143404,Relative,Mean Log Deviation,1.0884441690282716,Mean Log Deviation for Louisiana is 1.1,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Ethnicity,0.030860336452579615,Absolute,Between Group Variance,0.7433198932585038,Between Group Variance for Massachusetts is 0.7,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Ethnicity,25.188538939401322,Relative,Theil Index,2.0162694954309273,Theil Index for Massachusetts is 2.0,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Ethnicity,32.250822818851034,Relative,Mean Log Deviation,1.4678600082699937,Mean Log Deviation for Massachusetts is 1.5,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Race,0.054382126116725674,Absolute,Between Group Variance,1.4939928087096266,Between Group Variance for Massachusetts is 1.5,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Race,85.49765035814312,Relative,Theil Index,1.7856222498636682,Theil Index for Massachusetts is 1.8,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Cases,Race,152.58165460175545,Relative,Mean Log Deviation,2.0576285822406732,Mean Log Deviation for Massachusetts is 2.1,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Ethnicity,0.0021764595194559387,Absolute,Between Group Variance,0.1273987460211313,Between Group Variance for Massachusetts is 0.1,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Ethnicity,88.42260172834418,Relative,Theil Index,2.1012304827156223,Theil Index for Massachusetts is 2.1,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Ethnicity,187.65601073729522,Relative,Mean Log Deviation,2.9478589863962488,Mean Log Deviation for Massachusetts is 2.9,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Race,0.0012489070314322596,Absolute,Between Group Variance,0.03654260474667092,Between Group Variance for Massachusetts is 0.0,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Race,206.33341783381206,Relative,Theil Index,2.9869457312623475,Theil Index for Massachusetts is 3.0,2020-07-16T14:59:20Z
+20200715,MA,Massachusetts,Deaths,Race,403.40742169487817,Relative,Mean Log Deviation,3.258898327788802,Mean Log Deviation for Massachusetts is 3.3,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Ethnicity,0.049061539528853115,Absolute,Between Group Variance,1.1817245862410735,Between Group Variance for Maryland is 1.2,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Ethnicity,16.692745010219472,Relative,Theil Index,1.336205829170348,Theil Index for Maryland is 1.3,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Ethnicity,20.70690271185742,Relative,Mean Log Deviation,0.9424514393507754,Mean Log Deviation for Maryland is 0.9,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Race,0.04223281817020917,Absolute,Between Group Variance,1.160225448015873,Between Group Variance for Maryland is 1.2,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Race,61.65768869526536,Relative,Theil Index,1.287723584779746,Theil Index for Maryland is 1.3,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Cases,Race,114.77116624197058,Relative,Mean Log Deviation,1.547738046837628,Mean Log Deviation for Maryland is 1.5,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Ethnicity,2.2544205640852966e-4,Absolute,Between Group Variance,0.013196218459441588,Between Group Variance for Maryland is 0.0,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Ethnicity,61.260488896999476,Relative,Theil Index,1.455763618581411,Theil Index for Maryland is 1.5,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Ethnicity,112.51795469999703,Relative,Mean Log Deviation,1.767526990423185,Mean Log Deviation for Maryland is 1.8,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Race,0.007477573205013062,Absolute,Between Group Variance,0.21879130729348492,Between Group Variance for Maryland is 0.2,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Race,87.48328166238753,Relative,Theil Index,1.2664347707784116,Theil Index for Maryland is 1.3,2020-07-16T14:59:20Z
+20200715,MD,Maryland,Deaths,Race,151.72631358393454,Relative,Mean Log Deviation,1.225710294428432,Mean Log Deviation for Maryland is 1.2,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Ethnicity,9.886496379850394e-4,Absolute,Between Group Variance,0.023813186369705606,Between Group Variance for Maine is 0.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Ethnicity,12.892582207558839,Relative,Theil Index,1.0320138172751934,Theil Index for Maine is 1.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Ethnicity,32.674145779037225,Relative,Mean Log Deviation,1.4871270777438483,Mean Log Deviation for Maine is 1.5,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Race,0.07118035304680671,Absolute,Between Group Variance,1.9554758735450568,Between Group Variance for Maine is 2.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Race,41.54725103399254,Relative,Theil Index,0.8677161951960292,Theil Index for Maine is 0.9,2020-07-16T14:59:20Z
+20200715,ME,Maine,Cases,Race,142.64727342407176,Relative,Mean Log Deviation,1.9236592219566453,Mean Log Deviation for Maine is 1.9,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Ethnicity,2.5190399999999697e-4,Absolute,Between Group Variance,0.014745164534798674,Between Group Variance for Maine is 0.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Maine is 0.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Maine is -0.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Race,0.0012341705226059131,Absolute,Between Group Variance,0.036111419395132426,Between Group Variance for Maine is 0.0,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Race,12.353309090698714,Relative,Theil Index,0.17883028470524492,Theil Index for Maine is 0.2,2020-07-16T14:59:20Z
+20200715,ME,Maine,Deaths,Race,40.21979459304026,Relative,Mean Log Deviation,0.3249127663357815,Mean Log Deviation for Maine is 0.3,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Ethnicity,0.0035508821591736014,Absolute,Between Group Variance,0.08552859919677953,Between Group Variance for Michigan is 0.1,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Ethnicity,31.353260944903838,Relative,Theil Index,2.5097376143007835,Theil Index for Michigan is 2.5,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Ethnicity,59.910728307539415,Relative,Mean Log Deviation,2.7267695662500655,Mean Log Deviation for Michigan is 2.7,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Race,0.07568898943506691,Absolute,Between Group Variance,2.079337716068268,Between Group Variance for Michigan is 2.1,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Race,59.16308984174604,Relative,Theil Index,1.2356237762040798,Theil Index for Michigan is 1.2,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Cases,Race,122.61570146176622,Relative,Mean Log Deviation,1.653524944513985,Mean Log Deviation for Michigan is 1.7,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Ethnicity,7.062610094595457e-4,Absolute,Between Group Variance,0.041340886960882436,Between Group Variance for Michigan is 0.0,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Ethnicity,45.3283592608515,Relative,Theil Index,1.0771604583973118,Theil Index for Michigan is 1.1,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Ethnicity,136.48198161209535,Relative,Mean Log Deviation,2.1439741492726028,Mean Log Deviation for Michigan is 2.1,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Race,0.057990984326362766,Absolute,Between Group Variance,1.6967969318568163,Between Group Variance for Michigan is 1.7,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Race,72.66752688360614,Relative,Theil Index,1.05195736834642,Theil Index for Michigan is 1.1,2020-07-16T14:59:20Z
+20200715,MI,Michigan,Deaths,Race,202.22966104772036,Relative,Mean Log Deviation,1.6336980153929568,Mean Log Deviation for Michigan is 1.6,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Ethnicity,0.03868473776832736,Absolute,Between Group Variance,0.9317829438726895,Between Group Variance for Minnesota is 0.9,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Ethnicity,15.886208746083124,Relative,Theil Index,1.2716449401783647,Theil Index for Minnesota is 1.3,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Ethnicity,22.312232071037663,Relative,Mean Log Deviation,1.0155162036105272,Mean Log Deviation for Minnesota is 1.0,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Race,0.08965713816122346,Absolute,Between Group Variance,2.463072506118085,Between Group Variance for Minnesota is 2.5,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Race,79.44873937939246,Relative,Theil Index,1.6592904736586271,Theil Index for Minnesota is 1.7,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Cases,Race,162.45770289878357,Relative,Mean Log Deviation,2.1908112987906656,Mean Log Deviation for Minnesota is 2.2,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Ethnicity,1.3098894551099858e-4,Absolute,Between Group Variance,0.00766741915094431,Between Group Variance for Minnesota is 0.0,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Ethnicity,44.43595589366378,Relative,Theil Index,1.0559538311169496,Theil Index for Minnesota is 1.1,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Ethnicity,114.29703488186412,Relative,Mean Log Deviation,1.7954742833504458,Mean Log Deviation for Minnesota is 1.8,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Race,0.0016993331017034876,Absolute,Between Group Variance,0.049721921892993244,Between Group Variance for Minnesota is 0.0,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Race,136.86253040967242,Relative,Theil Index,1.9812638944710177,Theil Index for Minnesota is 2.0,2020-07-16T14:59:20Z
+20200715,MN,Minnesota,Deaths,Race,332.5816504348891,Relative,Mean Log Deviation,2.6867373433582546,Mean Log Deviation for Minnesota is 2.7,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Ethnicity,0.012039796125832728,Absolute,Between Group Variance,0.2899974854408967,Between Group Variance for Missouri is 0.3,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Ethnicity,21.285636773178464,Relative,Theil Index,1.7038534954263842,Theil Index for Missouri is 1.7,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Ethnicity,36.58042199938365,Relative,Mean Log Deviation,1.664916856234432,Mean Log Deviation for Missouri is 1.7,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Race,0.0590259392258545,Absolute,Between Group Variance,1.6215682436078251,Between Group Variance for Missouri is 1.6,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Race,40.49414264786492,Relative,Theil Index,0.8457219794730191,Theil Index for Missouri is 0.8,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Cases,Race,74.05027385191258,Relative,Mean Log Deviation,0.9985994738235818,Mean Log Deviation for Missouri is 1.0,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Ethnicity,1.718049313571447e-4,Absolute,Between Group Variance,0.010056577032325494,Between Group Variance for Missouri is 0.0,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Ethnicity,36.287437799288114,Relative,Theil Index,0.8623165226212705,Theil Index for Missouri is 0.9,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Ethnicity,104.95710422809465,Relative,Mean Log Deviation,1.6487547703337482,Mean Log Deviation for Missouri is 1.6,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Race,0.04552041805227578,Absolute,Between Group Variance,1.3319123064587868,Between Group Variance for Missouri is 1.3,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Race,46.596020379603765,Relative,Theil Index,0.6745382576794755,Theil Index for Missouri is 0.7,2020-07-16T14:59:20Z
+20200715,MO,Missouri,Deaths,Race,124.14221159503441,Relative,Mean Log Deviation,1.002874077217796,Mean Log Deviation for Missouri is 1.0,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Ethnicity,9.964044722638908e-4,Absolute,Between Group Variance,0.02399997378847697,Between Group Variance for Mississippi is 0.0,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Ethnicity,22.916181421437965,Relative,Theil Index,1.8343738659462125,Theil Index for Mississippi is 1.8,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Ethnicity,53.2909019024781,Relative,Mean Log Deviation,2.4254755962866223,Mean Log Deviation for Mississippi is 2.4,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Race,0.044466890822410364,Absolute,Between Group Variance,1.2216001811287236,Between Group Variance for Mississippi is 1.2,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Race,62.97482493149803,Relative,Theil Index,1.315232033955446,Theil Index for Mississippi is 1.3,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Cases,Race,107.13230525067394,Relative,Mean Log Deviation,1.4447247537095664,Mean Log Deviation for Mississippi is 1.4,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Ethnicity,1.3504109759221285e-4,Absolute,Between Group Variance,0.007904611292226433,Between Group Variance for Mississippi is 0.0,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Ethnicity,27.578087098191258,Relative,Theil Index,0.6553518685611179,Theil Index for Mississippi is 0.7,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Ethnicity,89.45912847144379,Relative,Mean Log Deviation,1.4052994878426837,Mean Log Deviation for Mississippi is 1.4,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Race,0.018906491425089003,Absolute,Between Group Variance,0.5531976567551451,Between Group Variance for Mississippi is 0.6,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Race,33.58488249834897,Relative,Theil Index,0.48618504198960666,Theil Index for Mississippi is 0.5,2020-07-16T14:59:20Z
+20200715,MS,Mississippi,Deaths,Race,81.85818816181225,Relative,Mean Log Deviation,0.6612855841758006,Mean Log Deviation for Mississippi is 0.7,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Ethnicity,0.0015766096909680383,Absolute,Between Group Variance,0.037975131897913045,Between Group Variance for Montana is 0.0,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Ethnicity,26.59851801140805,Relative,Theil Index,2.1291342312110624,Theil Index for Montana is 2.1,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Ethnicity,57.539610651830095,Relative,Mean Log Deviation,2.618850807052262,Mean Log Deviation for Montana is 2.6,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Race,0.0035311540710295758,Absolute,Between Group Variance,0.09700832176440742,Between Group Variance for Montana is 0.1,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Race,53.987808113345466,Relative,Theil Index,1.1275377859478013,Theil Index for Montana is 1.1,2020-07-16T14:59:20Z
+20200715,MT,Montana,Cases,Race,129.58983461959363,Relative,Mean Log Deviation,1.7475740997636948,Mean Log Deviation for Montana is 1.7,2020-07-16T14:59:20Z
+20200715,MT,Montana,Deaths,Race,0.06586700634567902,Absolute,Between Group Variance,1.9272467190582598,Between Group Variance for Montana is 1.9,2020-07-16T14:59:20Z
+20200715,MT,Montana,Deaths,Race,6.575431594929591,Relative,Theil Index,0.09518796101900276,Theil Index for Montana is 0.1,2020-07-16T14:59:20Z
+20200715,MT,Montana,Deaths,Race,7.697601599022101,Relative,Mean Log Deviation,0.06218453015475603,Mean Log Deviation for Montana is 0.1,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Ethnicity,0.12098137344936537,Absolute,Between Group Variance,2.9140272575068566,Between Group Variance for North Carolina is 2.9,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Ethnicity,2.139846407333411,Relative,Theil Index,0.17128849936050977,Theil Index for North Carolina is 0.2,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Ethnicity,2.2887831060079966,Relative,Mean Log Deviation,0.10417139456514521,Mean Log Deviation for North Carolina is 0.1,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Race,0.012280216178597042,Absolute,Between Group Variance,0.337363688592178,Between Group Variance for North Carolina is 0.3,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Race,91.20564467791922,Relative,Theil Index,1.9048339664055005,Theil Index for North Carolina is 1.9,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Cases,Race,165.89062091452942,Relative,Mean Log Deviation,2.2371056599845067,Mean Log Deviation for North Carolina is 2.2,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Ethnicity,1.3052279977481516e-4,Absolute,Between Group Variance,0.007640133377089114,Between Group Variance for North Carolina is 0.0,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Ethnicity,59.939357765749214,Relative,Theil Index,1.424368919144991,Theil Index for North Carolina is 1.4,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Ethnicity,113.80527946867662,Relative,Mean Log Deviation,1.787749374309812,Mean Log Deviation for North Carolina is 1.8,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Race,0.011418544750267464,Absolute,Between Group Variance,0.33410282518201223,Between Group Variance for North Carolina is 0.3,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Race,80.426704725721,Relative,Theil Index,1.1642816024764304,Theil Index for North Carolina is 1.2,2020-07-16T14:59:20Z
+20200715,NC,North Carolina,Deaths,Race,170.21406544467712,Relative,Mean Log Deviation,1.3750622904091079,Mean Log Deviation for North Carolina is 1.4,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Ethnicity,0.19759371992653815,Absolute,Between Group Variance,4.759356497296637,Between Group Variance for Nebraska is 4.8,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Ethnicity,2.2735946491188908,Relative,Theil Index,0.18199465824603953,Theil Index for Nebraska is 0.2,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Ethnicity,2.1568254404296177,Relative,Mean Log Deviation,0.09816548950110601,Mean Log Deviation for Nebraska is 0.1,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Race,0.016006383879690035,Absolute,Between Group Variance,0.4397294500471513,Between Group Variance for Nebraska is 0.4,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Race,71.99383020848776,Relative,Theil Index,1.5035943623559345,Theil Index for Nebraska is 1.5,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Cases,Race,152.09113586574477,Relative,Mean Log Deviation,2.051013728220546,Mean Log Deviation for Nebraska is 2.1,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Ethnicity,0.02457982026164052,Absolute,Between Group Variance,1.4387762560089241,Between Group Variance for Nebraska is 1.4,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Ethnicity,28.88353223297603,Relative,Theil Index,0.6863738138229172,Theil Index for Nebraska is 0.7,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Ethnicity,38.69231180031272,Relative,Mean Log Deviation,0.6078114876089552,Mean Log Deviation for Nebraska is 0.6,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Race,0.005007660677685945,Absolute,Between Group Variance,0.14652248745870658,Between Group Variance for Nebraska is 0.1,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Race,76.88073813150703,Relative,Theil Index,1.1129491043625421,Theil Index for Nebraska is 1.1,2020-07-16T14:59:20Z
+20200715,NE,Nebraska,Deaths,Race,169.00937752660604,Relative,Mean Log Deviation,1.3653303042567098,Mean Log Deviation for Nebraska is 1.4,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Ethnicity,0.0067613706663535635,Absolute,Between Group Variance,0.16285828023028562,Between Group Variance for New Hampshire is 0.2,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Ethnicity,21.65857510835186,Relative,Theil Index,1.733706127637246,Theil Index for New Hampshire is 1.7,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Ethnicity,40.666259617347194,Relative,Mean Log Deviation,1.8508791702312157,Mean Log Deviation for New Hampshire is 1.9,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Race,0.02472325854446272,Absolute,Between Group Variance,0.6792005592796425,Between Group Variance for New Hampshire is 0.7,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Race,54.23152866074202,Relative,Theil Index,1.1326279004755953,Theil Index for New Hampshire is 1.1,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Cases,Race,117.24817027407772,Relative,Mean Log Deviation,1.5811415009297456,Mean Log Deviation for New Hampshire is 1.6,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Ethnicity,2.7812365406821192e-5,Absolute,Between Group Variance,0.001627992822763935,Between Group Variance for New Hampshire is 0.0,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Ethnicity,31.399788093340376,Relative,Theil Index,0.7461688595777691,Theil Index for New Hampshire is 0.7,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Ethnicity,88.77060590315793,Relative,Mean Log Deviation,1.3944835942708038,Mean Log Deviation for New Hampshire is 1.4,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Race,5.177512689990899e-5,Absolute,Between Group Variance,0.001514923008994785,Between Group Variance for New Hampshire is 0.0,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Race,72.48521584201525,Relative,Theil Index,1.0493181778887672,Theil Index for New Hampshire is 1.0,2020-07-16T14:59:20Z
+20200715,NH,New Hampshire,Deaths,Race,226.34491410688833,Relative,Mean Log Deviation,1.828511381836592,Mean Log Deviation for New Hampshire is 1.8,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Ethnicity,0.011132284241960352,Absolute,Between Group Variance,0.26813862989382925,Between Group Variance for New Jersey is 0.3,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Ethnicity,37.612666579625504,Relative,Theil Index,3.010784883107464,Theil Index for New Jersey is 3.0,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Ethnicity,45.7187529923954,Relative,Mean Log Deviation,2.0808377362169304,Mean Log Deviation for New Jersey is 2.1,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Race,0.024768250708982857,Absolute,Between Group Variance,0.6804365898477944,Between Group Variance for New Jersey is 0.7,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Race,77.42708654981975,Relative,Theil Index,1.6170681639359241,Theil Index for New Jersey is 1.6,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Cases,Race,117.9048323326279,Relative,Mean Log Deviation,1.5899968683988719,Mean Log Deviation for New Jersey is 1.6,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Ethnicity,8.145698358553607e-6,Absolute,Between Group Variance,4.768072859014302e-4,Between Group Variance for New Jersey is 0.0,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Ethnicity,79.6872765869825,Relative,Theil Index,1.8936485850481897,Theil Index for New Jersey is 1.9,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Ethnicity,112.61655936303828,Relative,Mean Log Deviation,1.7690759556862994,Mean Log Deviation for New Jersey is 1.8,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Race,6.810316922635837e-4,Absolute,Between Group Variance,0.019926761019036194,Between Group Variance for New Jersey is 0.0,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Race,152.4721607376017,Relative,Theil Index,2.207233682419498,Theil Index for New Jersey is 2.2,2020-07-16T14:59:20Z
+20200715,NJ,New Jersey,Deaths,Race,211.59403267332246,Relative,Mean Log Deviation,1.7093474293359405,Mean Log Deviation for New Jersey is 1.7,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Ethnicity,0.011607282303044204,Absolute,Between Group Variance,0.2795797076217207,Between Group Variance for New Mexico is 0.3,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Ethnicity,30.11475301599305,Relative,Theil Index,2.4105986462598086,Theil Index for New Mexico is 2.4,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Ethnicity,30.894242073342223,Relative,Mean Log Deviation,1.4061167580122806,Mean Log Deviation for New Mexico is 1.4,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Race,0.03940856525951208,Absolute,Between Group Variance,1.0826372064399157,Between Group Variance for New Mexico is 1.1,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Race,129.66933439642656,Relative,Theil Index,2.708149845678405,Theil Index for New Mexico is 2.7,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Cases,Race,185.0618225829431,Relative,Mean Log Deviation,2.4956374776646006,Mean Log Deviation for New Mexico is 2.5,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Ethnicity,0.11340648531602734,Absolute,Between Group Variance,6.638232363511786,Between Group Variance for New Mexico is 6.6,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Ethnicity,265.58764406131314,Relative,Theil Index,6.31129193923469,Theil Index for New Mexico is 6.3,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Ethnicity,336.195000109121,Relative,Mean Log Deviation,5.281234788906207,Mean Log Deviation for New Mexico is 5.3,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Race,0.08389108904840786,Absolute,Between Group Variance,2.4546253898083035,Between Group Variance for New Mexico is 2.5,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Race,147.42294412055097,Relative,Theil Index,2.134139676713326,Theil Index for New Mexico is 2.1,2020-07-16T14:59:20Z
+20200715,NM,New Mexico,Deaths,Race,188.2123126476515,Relative,Mean Log Deviation,1.5204598576290451,Mean Log Deviation for New Mexico is 1.5,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Ethnicity,0.021553848302440993,Absolute,Between Group Variance,0.5191584428802037,Between Group Variance for Nevada is 0.5,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Ethnicity,7.045466767985259,Relative,Theil Index,0.5639691829501025,Theil Index for Nevada is 0.6,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Ethnicity,7.364020894650699,Relative,Mean Log Deviation,0.3351651470115104,Mean Log Deviation for Nevada is 0.3,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Race,0.025336035476831532,Absolute,Between Group Variance,0.6960348464926353,Between Group Variance for Nevada is 0.7,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Race,99.584892302194,Relative,Theil Index,2.0798349276289603,Theil Index for Nevada is 2.1,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Cases,Race,150.81796921088014,Relative,Mean Log Deviation,2.033844533759765,Mean Log Deviation for Nevada is 2.0,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Ethnicity,0.013260137812481787,Absolute,Between Group Variance,0.7761802662885531,Between Group Variance for Nevada is 0.8,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Ethnicity,137.43128953246713,Relative,Theil Index,3.265848427890904,Theil Index for Nevada is 3.3,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Ethnicity,195.13742353883012,Relative,Mean Log Deviation,3.0653833325192132,Mean Log Deviation for Nevada is 3.1,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Race,0.004551294066487965,Absolute,Between Group Variance,0.13316935205881994,Between Group Variance for Nevada is 0.1,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Race,152.10896667400493,Relative,Theil Index,2.2019759739529325,Theil Index for Nevada is 2.2,2020-07-16T14:59:20Z
+20200715,NV,Nevada,Deaths,Race,191.62612633641103,Relative,Mean Log Deviation,1.5480381100938592,Mean Log Deviation for Nevada is 1.5,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Ethnicity,0.0057681050178242585,Absolute,Between Group Variance,0.3376352004804114,Between Group Variance for New York is 0.3,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Ethnicity,49.755654897889784,Relative,Theil Index,1.1823684975943387,Theil Index for New York is 1.2,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Ethnicity,64.02846056129815,Relative,Mean Log Deviation,1.0058130944442407,Mean Log Deviation for New York is 1.0,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Race,0.029057102341051525,Absolute,Between Group Variance,0.8502011592607523,Between Group Variance for New York is 0.9,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Race,48.71869490558634,Relative,Theil Index,0.7052667440332938,Theil Index for New York is 0.7,2020-07-16T14:59:20Z
+20200715,NY,New York,Deaths,Race,71.42532926246653,Relative,Mean Log Deviation,0.5770044713537111,Mean Log Deviation for New York is 0.6,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Ethnicity,0.0029765368525951513,Absolute,Between Group Variance,0.07169458631634867,Between Group Variance for Ohio is 0.1,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Ethnicity,24.98520473900127,Relative,Theil Index,1.9999931823573192,Theil Index for Ohio is 2.0,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Ethnicity,51.06920508694914,Relative,Mean Log Deviation,2.3243575589474457,Mean Log Deviation for Ohio is 2.3,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Race,0.06454824181803887,Absolute,Between Group Variance,1.773277655309265,Between Group Variance for Ohio is 1.8,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Race,58.838609721119276,Relative,Theil Index,1.2288469943790525,Theil Index for Ohio is 1.2,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Cases,Race,119.09235432716373,Relative,Mean Log Deviation,1.6060111081472477,Mean Log Deviation for Ohio is 1.6,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Ethnicity,2.2653903788842622e-4,Absolute,Between Group Variance,0.013260430113137845,Between Group Variance for Ohio is 0.0,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Ethnicity,33.56905925941752,Relative,Theil Index,0.7977183346027302,Theil Index for Ohio is 0.8,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Ethnicity,103.64345099797539,Relative,Mean Log Deviation,1.6281187967552802,Mean Log Deviation for Ohio is 1.6,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Race,0.0019756446548632126,Absolute,Between Group Variance,0.05780670612427031,Between Group Variance for Ohio is 0.1,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Race,110.04517401616128,Relative,Theil Index,1.593047632440909,Theil Index for Ohio is 1.6,2020-07-16T14:59:20Z
+20200715,OH,Ohio,Deaths,Race,270.5696591577101,Relative,Mean Log Deviation,2.1857778572214173,Mean Log Deviation for Ohio is 2.2,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Ethnicity,0.024934326867383044,Absolute,Between Group Variance,0.6005826026561851,Between Group Variance for Oklahoma is 0.6,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Ethnicity,28.468438184448768,Relative,Theil Index,2.2788159183015058,Theil Index for Oklahoma is 2.3,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Ethnicity,38.29931771165532,Relative,Mean Log Deviation,1.7431504656093706,Mean Log Deviation for Oklahoma is 1.7,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Race,8.843767143121357e-4,Absolute,Between Group Variance,0.024295711582453493,Between Group Variance for Oklahoma is 0.0,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Race,141.43653944277062,Relative,Theil Index,2.9539084491188885,Theil Index for Oklahoma is 3.0,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Cases,Race,248.1387295078007,Relative,Mean Log Deviation,3.346256425969205,Mean Log Deviation for Oklahoma is 3.3,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Ethnicity,0.0036628809073724136,Absolute,Between Group Variance,0.2144062089152199,Between Group Variance for Oklahoma is 0.2,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Ethnicity,88.33009185609473,Relative,Theil Index,2.0990321243805004,Theil Index for Oklahoma is 2.1,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Ethnicity,216.91565397800747,Relative,Mean Log Deviation,3.4074941556988203,Mean Log Deviation for Oklahoma is 3.4,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Race,0.0036192659062296343,Absolute,Between Group Variance,0.10589851778861159,Between Group Variance for Oklahoma is 0.1,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Race,164.6198249182513,Relative,Theil Index,2.3830869884429777,Theil Index for Oklahoma is 2.4,2020-07-16T14:59:20Z
+20200715,OK,Oklahoma,Deaths,Race,337.26103326518853,Relative,Mean Log Deviation,2.7245394066338298,Mean Log Deviation for Oklahoma is 2.7,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Ethnicity,0.09079308862585643,Absolute,Between Group Variance,2.18689478806185,Between Group Variance for Oregon is 2.2,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Ethnicity,3.9146304329692496,Relative,Theil Index,0.3133548137456622,Theil Index for Oregon is 0.3,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Ethnicity,4.212563838810735,Relative,Mean Log Deviation,0.1917301157246844,Mean Log Deviation for Oregon is 0.2,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Race,0.12155485016875307,Absolute,Between Group Variance,3.339370579703025,Between Group Variance for Oregon is 3.3,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Race,97.48730306707495,Relative,Theil Index,2.0360266826817193,Theil Index for Oregon is 2.0,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Cases,Race,208.43214372127002,Relative,Mean Log Deviation,2.8107962093999137,Mean Log Deviation for Oregon is 2.8,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Ethnicity,2.844444444444414e-5,Absolute,Between Group Variance,0.0016649914786358055,Between Group Variance for Oregon is 0.0,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Ethnicity,73.29690630040126,Relative,Theil Index,1.7417910217154835,Theil Index for Oregon is 1.7,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Ethnicity,124.9565262002482,Relative,Mean Log Deviation,1.9629225689121632,Mean Log Deviation for Oregon is 2.0,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Race,0.0015409266412921255,Absolute,Between Group Variance,0.045087001497442936,Between Group Variance for Oregon is 0.0,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Race,138.9410991071545,Relative,Theil Index,2.01135389134724,Theil Index for Oregon is 2.0,2020-07-16T14:59:20Z
+20200715,OR,Oregon,Deaths,Race,379.1757910325111,Relative,Mean Log Deviation,3.0631448131077743,Mean Log Deviation for Oregon is 3.1,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Ethnicity,0.03810757037356289,Absolute,Between Group Variance,0.9178809565457576,Between Group Variance for Pennsylvania is 0.9,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Ethnicity,18.94272936624149,Relative,Theil Index,1.516310551923744,Theil Index for Pennsylvania is 1.5,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Ethnicity,25.69174569418321,Relative,Mean Log Deviation,1.169330973629958,Mean Log Deviation for Pennsylvania is 1.2,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Race,0.01977051796749438,Absolute,Between Group Variance,0.5431382289927924,Between Group Variance for Pennsylvania is 0.5,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Race,70.39805600105,Relative,Theil Index,1.4702665466952314,Theil Index for Pennsylvania is 1.5,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Cases,Race,149.71202889608404,Relative,Mean Log Deviation,2.018930457700516,Mean Log Deviation for Pennsylvania is 2.0,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Ethnicity,1.482664359861578e-4,Absolute,Between Group Variance,0.008678754579538706,Between Group Variance for Pennsylvania is 0.0,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Ethnicity,55.7005675734473,Relative,Theil Index,1.3236404290552708,Theil Index for Pennsylvania is 1.3,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Ethnicity,127.9725287073164,Relative,Mean Log Deviation,2.0103004816074352,Mean Log Deviation for Pennsylvania is 2.0,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Race,0.008501050615522974,Absolute,Between Group Variance,0.24873791623884306,Between Group Variance for Pennsylvania is 0.2,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Race,84.92774643565983,Relative,Theil Index,1.2294400603882947,Theil Index for Pennsylvania is 1.2,2020-07-16T14:59:20Z
+20200715,PA,Pennsylvania,Deaths,Race,167.7609307671212,Relative,Mean Log Deviation,1.3552448153985106,Mean Log Deviation for Pennsylvania is 1.4,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Ethnicity,0.09904715996491947,Absolute,Between Group Variance,2.3857071190981034,Between Group Variance for Rhode Island is 2.4,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Ethnicity,1.1915110205926691,Relative,Theil Index,0.09537700182096669,Theil Index for Rhode Island is 0.1,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Ethnicity,1.232474186212345,Relative,Mean Log Deviation,0.056094679485472344,Mean Log Deviation for Rhode Island is 0.1,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Race,0.10605978838470177,Absolute,Between Group Variance,2.9136882364603953,Between Group Variance for Rhode Island is 2.9,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Race,27.45612771908329,Relative,Theil Index,0.5734224548268452,Theil Index for Rhode Island is 0.6,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Cases,Race,40.20875579240507,Relative,Mean Log Deviation,0.5422321929246929,Mean Log Deviation for Rhode Island is 0.5,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Ethnicity,0.001972242583233675,Absolute,Between Group Variance,0.11544493692961308,Between Group Variance for Rhode Island is 0.1,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Ethnicity,98.2955615701456,Relative,Theil Index,2.3358465624138334,Theil Index for Rhode Island is 2.3,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Ethnicity,178.59035103292854,Relative,Mean Log Deviation,2.8054479529200034,Mean Log Deviation for Rhode Island is 2.8,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Race,0.0059174242267659456,Absolute,Between Group Variance,0.17314186660403266,Between Group Variance for Rhode Island is 0.2,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Race,156.1446553693794,Relative,Theil Index,2.2603978391452277,Theil Index for Rhode Island is 2.3,2020-07-16T14:59:20Z
+20200715,RI,Rhode Island,Deaths,Race,282.8959862664943,Relative,Mean Log Deviation,2.285355219070198,Mean Log Deviation for Rhode Island is 2.3,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Ethnicity,0.012816394626250671,Absolute,Between Group Variance,0.30870308559928794,Between Group Variance for South Carolina is 0.3,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Ethnicity,26.6229239557282,Relative,Theil Index,2.1310878562767437,Theil Index for South Carolina is 2.1,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Ethnicity,43.49020735484581,Relative,Mean Log Deviation,1.9794079824293296,Mean Log Deviation for South Carolina is 2.0,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Race,0.02068325012249093,Absolute,Between Group Variance,0.568212924912478,Between Group Variance for South Carolina is 0.6,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Race,30.16024598544449,Relative,Theil Index,0.6298980857061848,Theil Index for South Carolina is 0.6,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Cases,Race,63.33039579715658,Relative,Mean Log Deviation,0.8540373536842271,Mean Log Deviation for South Carolina is 0.9,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Ethnicity,1.3100049014802252e-4,Absolute,Between Group Variance,0.007668094914617823,Between Group Variance for South Carolina is 0.0,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Ethnicity,46.40997756793942,Relative,Theil Index,1.1028634948731983,Theil Index for South Carolina is 1.1,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Ethnicity,116.7994546722505,Relative,Mean Log Deviation,1.83478440530094,Mean Log Deviation for South Carolina is 1.8,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Race,0.027449778023850083,Absolute,Between Group Variance,0.8031713838291527,Between Group Variance for South Carolina is 0.8,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Race,27.90477186908127,Relative,Theil Index,0.4039580213968776,Theil Index for South Carolina is 0.4,2020-07-16T14:59:20Z
+20200715,SC,South Carolina,Deaths,Race,75.60021519804995,Relative,Mean Log Deviation,0.6107309921425935,Mean Log Deviation for South Carolina is 0.6,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Ethnicity,0.012248692390005483,Absolute,Between Group Variance,0.2950290815489169,Between Group Variance for South Dakota is 0.3,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Ethnicity,19.474847874277792,Relative,Theil Index,1.558905095350379,Theil Index for South Dakota is 1.6,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Ethnicity,33.792636985311155,Relative,Mean Log Deviation,1.5380339498107378,Mean Log Deviation for South Dakota is 1.5,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Race,0.17080092670273392,Absolute,Between Group Variance,4.692265169388866,Between Group Variance for South Dakota is 4.7,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Race,36.419106542947226,Relative,Theil Index,0.7606146682491642,Theil Index for South Dakota is 0.8,2020-07-16T14:59:20Z
+20200715,SD,South Dakota,Cases,Race,47.11285756850632,Relative,Mean Log Deviation,0.6353369451721567,Mean Log Deviation for South Dakota is 0.6,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Ethnicity,0.055588713313867395,Absolute,Between Group Variance,1.3389418650809144,Between Group Variance for Tennessee is 1.3,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Ethnicity,11.960387642760656,Relative,Theil Index,0.9573943457238293,Theil Index for Tennessee is 1.0,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Ethnicity,15.78458147973372,Relative,Mean Log Deviation,0.7184175123692477,Mean Log Deviation for Tennessee is 0.7,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Race,0.04851418071421816,Absolute,Between Group Variance,1.3327878529778447,Between Group Variance for Tennessee is 1.3,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Race,49.69817765426171,Relative,Theil Index,1.0379486620438445,Theil Index for Tennessee is 1.0,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Cases,Race,100.04216059514624,Relative,Mean Log Deviation,1.3491111340151651,Mean Log Deviation for Tennessee is 1.3,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Ethnicity,0.0018579458593354777,Absolute,Between Group Variance,0.10875459457829119,Between Group Variance for Tennessee is 0.1,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Ethnicity,35.265670996078036,Relative,Theil Index,0.8380357673486771,Theil Index for Tennessee is 0.8,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Ethnicity,70.26469264574874,Relative,Mean Log Deviation,1.103777091009935,Mean Log Deviation for Tennessee is 1.1,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Race,0.043541855889684865,Absolute,Between Group Variance,1.2740202350278478,Between Group Variance for Tennessee is 1.3,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Race,36.58753114989158,Relative,Theil Index,0.5296523032135233,Theil Index for Tennessee is 0.5,2020-07-16T14:59:20Z
+20200715,TN,Tennessee,Deaths,Race,77.51907995098998,Relative,Mean Log Deviation,0.6262324053499563,Mean Log Deviation for Tennessee is 0.6,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Ethnicity,0.01292510621187614,Absolute,Between Group Variance,0.3113215756584374,Between Group Variance for Texas is 0.3,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Ethnicity,0.061905624708984315,Relative,Theil Index,0.004955365731875468,Theil Index for Texas is 0.0,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Ethnicity,0.061806828782538445,Relative,Mean Log Deviation,0.002813068451538846,Mean Log Deviation for Texas is 0.0,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Race,0.01026860580851997,Absolute,Between Group Variance,0.2821004680926665,Between Group Variance for Texas is 0.3,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Race,96.69234313930077,Relative,Theil Index,2.0194239090518313,Theil Index for Texas is 2.0,2020-07-16T14:59:20Z
+20200715,TX,Texas,Cases,Race,145.97255836048643,Relative,Mean Log Deviation,1.9685021052450695,Mean Log Deviation for Texas is 2.0,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Ethnicity,0.0035660646041292088,Absolute,Between Group Variance,0.2087390804814831,Between Group Variance for Texas is 0.2,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Ethnicity,49.78533256579827,Relative,Theil Index,1.1830737428511657,Theil Index for Texas is 1.2,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Ethnicity,54.260543847167746,Relative,Mean Log Deviation,0.8523704151983861,Mean Log Deviation for Texas is 0.9,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Race,0.0037950140088040185,Absolute,Between Group Variance,0.11104084887148487,Between Group Variance for Texas is 0.1,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Race,91.85873488869797,Relative,Theil Index,1.329775171348873,Theil Index for Texas is 1.3,2020-07-16T14:59:20Z
+20200715,TX,Texas,Deaths,Race,157.76747544360984,Relative,Mean Log Deviation,1.2745133932898312,Mean Log Deviation for Texas is 1.3,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Ethnicity,0.0998589861384834,Absolute,Between Group Variance,2.4052612333445653,Between Group Variance for Utah is 2.4,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Ethnicity,1.7843181898213842,Relative,Theil Index,0.1428294965791651,Theil Index for Utah is 0.1,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Ethnicity,1.8658222277429908,Relative,Mean Log Deviation,0.08492080484359982,Mean Log Deviation for Utah is 0.1,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Race,0.11722435318122316,Absolute,Between Group Variance,3.220402605857689,Between Group Variance for Utah is 3.2,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Race,41.6952645673668,Relative,Theil Index,0.8708074644574288,Theil Index for Utah is 0.9,2020-07-16T14:59:20Z
+20200715,UT,Utah,Cases,Race,94.70136122726223,Relative,Mean Log Deviation,1.2770881804035148,Mean Log Deviation for Utah is 1.3,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Ethnicity,0.010866653761869969,Absolute,Between Group Variance,0.6360780204421668,Between Group Variance for Utah is 0.6,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Ethnicity,43.08043949265217,Relative,Theil Index,1.0237420173277887,Theil Index for Utah is 1.0,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Ethnicity,58.69139710431536,Relative,Mean Log Deviation,0.921973997519929,Mean Log Deviation for Utah is 0.9,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Race,0.052526955337959536,Absolute,Between Group Variance,1.536921259270853,Between Group Variance for Utah is 1.5,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Race,62.97320279361975,Relative,Theil Index,0.9116193646335117,Theil Index for Utah is 0.9,2020-07-16T14:59:20Z
+20200715,UT,Utah,Deaths,Race,106.85691886336947,Relative,Mean Log Deviation,0.8632360622752514,Mean Log Deviation for Utah is 0.9,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Ethnicity,0.11279916764598401,Absolute,Between Group Variance,2.716945921283118,Between Group Variance for Virginia is 2.7,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Ethnicity,3.006658521540653,Relative,Theil Index,0.24067429535092982,Theil Index for Virginia is 0.2,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Ethnicity,3.2608732934926095,Relative,Mean Log Deviation,0.14841498855513502,Mean Log Deviation for Virginia is 0.1,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Race,0.07963780079858486,Absolute,Between Group Variance,2.1878199730396855,Between Group Variance for Virginia is 2.2,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Race,89.76062119870302,Relative,Theil Index,1.874654586442948,Theil Index for Virginia is 1.9,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Cases,Race,188.24912350338684,Relative,Mean Log Deviation,2.5386195877434594,Mean Log Deviation for Virginia is 2.5,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Ethnicity,5.746849896723928e-4,Absolute,Between Group Variance,0.03363910350132832,Between Group Variance for Virginia is 0.0,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Ethnicity,56.6626611000915,Relative,Theil Index,1.3465031384292716,Theil Index for Virginia is 1.3,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Ethnicity,103.55792207852507,Relative,Mean Log Deviation,1.6267752363075876,Mean Log Deviation for Virginia is 1.6,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Race,0.0027180585080540834,Absolute,Between Group Variance,0.07952948877566934,Between Group Variance for Virginia is 0.1,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Race,129.67264188571212,Relative,Theil Index,1.877180866814331,Theil Index for Virginia is 1.9,2020-07-16T14:59:20Z
+20200715,VA,Virginia,Deaths,Race,196.31388629731018,Relative,Mean Log Deviation,1.5859078474265658,Mean Log Deviation for Virginia is 1.6,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Ethnicity,3.0437928923158163e-4,Absolute,Between Group Variance,0.007331455414602461,Between Group Variance for Vermont is 0.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Ethnicity,16.053157059319997,Relative,Theil Index,1.2850086685034963,Theil Index for Vermont is 1.3,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Ethnicity,43.7703934817209,Relative,Mean Log Deviation,1.9921603395652105,Mean Log Deviation for Vermont is 2.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Race,0.012662568292422651,Absolute,Between Group Variance,0.34786771536053746,Between Group Variance for Vermont is 0.3,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Race,28.891724439568446,Relative,Theil Index,0.6034049565118808,Theil Index for Vermont is 0.6,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Cases,Race,78.02255937184869,Relative,Mean Log Deviation,1.0521674354764714,Mean Log Deviation for Vermont is 1.1,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Ethnicity,3.5414100000000063e-4,Absolute,Between Group Variance,0.020729592676250515,Between Group Variance for Vermont is 0.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Ethnicity,0,Relative,Theil Index,0,Theil Index for Vermont is 0.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Ethnicity,-0,Relative,Mean Log Deviation,-0,Mean Log Deviation for Vermont is -0.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Race,1.7806959183673587e-5,Absolute,Between Group Variance,5.210257087293693e-4,Between Group Variance for Vermont is 0.0,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Race,18.719765141342865,Relative,Theil Index,0.2709930517615113,Theil Index for Vermont is 0.3,2020-07-16T14:59:20Z
+20200715,VT,Vermont,Deaths,Race,53.00123019834377,Relative,Mean Log Deviation,0.4281666899890971,Mean Log Deviation for Vermont is 0.4,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Ethnicity,0.09832567969266334,Absolute,Between Group Variance,2.3683291284275994,Between Group Variance for Washington is 2.4,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Ethnicity,2.9418661034436857,Relative,Theil Index,0.2354878501800363,Theil Index for Washington is 0.2,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Ethnicity,3.135682882406527,Relative,Mean Log Deviation,0.14271708748500386,Mean Log Deviation for Washington is 0.1,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Race,0.08727048884247428,Absolute,Between Group Variance,2.397506167070036,Between Group Variance for Washington is 2.4,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Race,128.6101011401263,Relative,Theil Index,2.6860277117680296,Theil Index for Washington is 2.7,2020-07-16T14:59:20Z
+20200715,WA,Washington,Cases,Race,241.423916665709,Relative,Mean Log Deviation,3.2557043155969163,Mean Log Deviation for Washington is 3.3,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Ethnicity,1.0802841385016055e-4,Absolute,Between Group Variance,0.006323427721092005,Between Group Variance for Washington is 0.0,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Ethnicity,70.83724721573759,Relative,Theil Index,1.683340913431382,Theil Index for Washington is 1.7,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Ethnicity,120.35383019596195,Relative,Mean Log Deviation,1.89061953569422,Mean Log Deviation for Washington is 1.9,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Race,1.965416988300803e-4,Absolute,Between Group Variance,0.00575074479991541,Between Group Variance for Washington is 0.0,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Race,216.99570830086893,Relative,Theil Index,3.141296312619488,Theil Index for Washington is 3.1,2020-07-16T14:59:20Z
+20200715,WA,Washington,Deaths,Race,423.33405572701986,Relative,Mean Log Deviation,3.419874231635517,Mean Log Deviation for Washington is 3.4,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Ethnicity,0.05484869971586404,Absolute,Between Group Variance,1.3211174700188926,Between Group Variance for Wisconsin is 1.3,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Ethnicity,13.600009739879415,Relative,Theil Index,1.0886413397002737,Theil Index for Wisconsin is 1.1,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Ethnicity,17.519907539498142,Relative,Mean Log Deviation,0.7973989305719503,Mean Log Deviation for Wisconsin is 0.8,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Race,0.033813460309394736,Absolute,Between Group Variance,0.9289277589367213,Between Group Variance for Wisconsin is 0.9,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Race,67.72829153491102,Relative,Theil Index,1.4145083964693042,Theil Index for Wisconsin is 1.4,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Cases,Race,135.62286629413217,Relative,Mean Log Deviation,1.8289321007861254,Mean Log Deviation for Wisconsin is 1.8,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Ethnicity,0.002727075786906296,Absolute,Between Group Variance,0.1596289903169437,Between Group Variance for Wisconsin is 0.2,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Ethnicity,40.42489473734121,Relative,Theil Index,0.9606369799390695,Theil Index for Wisconsin is 1.0,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Ethnicity,74.31150804889526,Relative,Mean Log Deviation,1.1673478826173116,Mean Log Deviation for Wisconsin is 1.2,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Race,0.020718542339679485,Absolute,Between Group Variance,0.6062176643987766,Between Group Variance for Wisconsin is 0.6,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Race,72.33847182794021,Relative,Theil Index,1.047193866611266,Theil Index for Wisconsin is 1.0,2020-07-16T14:59:20Z
+20200715,WI,Wisconsin,Deaths,Race,178.78848066925661,Relative,Mean Log Deviation,1.444330097430973,Mean Log Deviation for Wisconsin is 1.4,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Cases,Race,0.01856342370524943,Absolute,Between Group Variance,0.5099767791561712,Between Group Variance for West Virginia is 0.5,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Cases,Race,28.187270313000464,Relative,Theil Index,0.5886924005862049,Theil Index for West Virginia is 0.6,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Cases,Race,58.62906435743042,Relative,Mean Log Deviation,0.7906378973720268,Mean Log Deviation for West Virginia is 0.8,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Deaths,Race,3.3634977264175933e-4,Absolute,Between Group Variance,0.009841482583523355,Between Group Variance for West Virginia is 0.0,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Deaths,Race,29.99761218371014,Relative,Theil Index,0.43425461857256814,Theil Index for West Virginia is 0.4,2020-07-16T14:59:20Z
+20200715,WV,West Virginia,Deaths,Race,74.24739160577121,Relative,Mean Log Deviation,0.5998023024220435,Mean Log Deviation for West Virginia is 0.6,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Ethnicity,0.003272285639032266,Absolute,Between Group Variance,0.07881816245439795,Between Group Variance for Wyoming is 0.1,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Ethnicity,50.21866931822728,Relative,Theil Index,4.019858844972026,Theil Index for Wyoming is 4.0,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Ethnicity,82.66993810824182,Relative,Mean Log Deviation,3.7626294596215466,Mean Log Deviation for Wyoming is 3.8,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Race,0.0874798642076298,Absolute,Between Group Variance,2.4032581542062488,Between Group Variance for Wyoming is 2.4,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Race,36.57733371888942,Relative,Theil Index,0.7639192498921914,Theil Index for Wyoming is 0.8,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Cases,Race,96.81264270059114,Relative,Mean Log Deviation,1.3055597100642424,Mean Log Deviation for Wyoming is 1.3,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Ethnicity,7.6281179138321116e-6,Absolute,Between Group Variance,4.4651078875405334e-4,Between Group Variance for Wyoming is 0.0,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Ethnicity,66.31315257527082,Relative,Theil Index,1.5758325911311128,Theil Index for Wyoming is 1.6,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Ethnicity,128.85750780914918,Relative,Mean Log Deviation,2.024202480205086,Mean Log Deviation for Wyoming is 2.0,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Race,0.20113596800000003,Absolute,Between Group Variance,5.885171589220662,Between Group Variance for Wyoming is 5.9,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Race,-1.1102230246251564e-13,Relative,Theil Index,-1.6071928430053166e-15,Theil Index for Wyoming is -0.0,2020-07-16T14:59:20Z
+20200715,WY,Wyoming,Deaths,Race,1.1102230246251565e-13,Relative,Mean Log Deviation,8.968858191112169e-16,Mean Log Deviation for Wyoming is 0.0,2020-07-16T14:59:20Z
