@@ -4,6 +4,7 @@ checkpoint("2020-07-01")
 
 library(magrittr)
 library(tidyverse)
+library(scales)
 library(censusapi)
 library(dineq)
 
@@ -321,6 +322,8 @@ df <-
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
   left_join(oregon_categories) %>%
+  mutate(per_capita_denom = 1e5) %>%
+  mutate(per_capita_rate = (count / count_ACS) * per_capita_denom) %>%
   mutate(disparity_factor = case_when(percent_ACS == 0 ~ NA_real_,
                                       TRUE ~ percent / percent_ACS),
          disparity_excess_pct = case_when(percent_ACS == 0 ~ NA_real_,
@@ -360,10 +363,12 @@ df <-
                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
                                            TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
                                  category_text1),
-         tooltip_text4 = sprintf("%s comprise %.1f times the number of %s than expected.",
+         tooltip_text4 = sprintf("%s comprise %.1f times the number of %s than expected with a rate of %s per %s.",
                                  category_text2,
                                  disparity_factor,
-                                 tolower(metric)),
+                                 tolower(metric),
+                                 comma(per_capita_rate, accuracy = 1),
+                                 comma(per_capita_denom, accuracy = 1)),
          tooltip_text5 = sprintf("%s is ranked %.0f%s for disparity among %s out of %.0f states and territories reporting %s for this category and with a non-zero percentage in their population.",
                                  State_Name,
                                  disparity_rank,
@@ -439,6 +444,20 @@ df %>%
             p99 = quantile(disparity_factor, probs = 0.99, na.rm = TRUE),
             p995 = quantile(disparity_factor, probs = 0.995, na.rm = TRUE),
             max = max(disparity_factor, na.rm = TRUE)) %>%
+  pivot_longer(everything()) %>%
+  write_csv(f, na = "")
+file.info(f)
+
+f <- file.path("Data", "per_capita_rate_range.csv")
+summary(df$per_capita_rate)
+df %>%
+  summarize(min = min(per_capita_rate, na.rm = TRUE),
+            median = median(per_capita_rate, na.rm = TRUE),
+            p90 = quantile(per_capita_rate, probs = 0.90, na.rm = TRUE),
+            p95 = quantile(per_capita_rate, probs = 0.95, na.rm = TRUE),
+            p99 = quantile(per_capita_rate, probs = 0.99, na.rm = TRUE),
+            p995 = quantile(per_capita_rate, probs = 0.995, na.rm = TRUE),
+            max = max(per_capita_rate, na.rm = TRUE)) %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
 file.info(f)
