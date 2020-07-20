@@ -497,10 +497,6 @@ f <- file.path("Data", "totals.csv")
 totals %>% write_csv(f, na = "")
 file.info(f)
 
-f <- file.path("Data", "rate_diff_rate_ratio.csv")
-rate_diff_rate_ratio %>% write_csv(f, na = "")
-file.info(f)
-
 f <- file.path("Data", "disparity_indices.csv")
 disparity_indices %>% write_csv(f, na = "")
 file.info(f)
