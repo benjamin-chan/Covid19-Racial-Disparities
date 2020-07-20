@@ -397,6 +397,33 @@ df <-
                              "Northern Mariana Islands")))
 
 
+# Calculate rate differences and rate ratios
+# Use White as reference category for race
+# Use as reference category for ethnicity
+temp <- df %>% select(State, metric, variable, category, per_capita_rate)
+rate_diff_rate_ratio <-
+  inner_join(temp,
+             temp %>% filter(category %in% c("White", "Not Hispanic or Latino")),
+             by = c("State", "metric", "variable"),
+             suffix = c("", "_ref")) %>%
+  mutate(rate_diff = per_capita_rate - per_capita_rate_ref,
+         rate_ratio = per_capita_rate / per_capita_rate_ref) %>%
+  select(State, metric, variable, category, rate_diff, rate_ratio, category_ref)
+df <-
+  inner_join(df, rate_diff_rate_ratio) %>%
+  mutate(category_ref_text = case_when(category == "Not Hispanic or Latino" ~ "Non-Hispanic or Latinos",
+                                       TRUE ~ sprintf("%ss", category_ref))) %>%
+  mutate(tooltip_text6 = sprintf("%s have %.1f times the %s compared to %s in %s",
+                                 category_title_text,
+                                 rate_ratio,
+                                 tolower(metric),
+                                 category_ref_text,
+                                 State_Name)) %>%
+  mutate(tooltip_text6 = case_when(is.na(rate_ratio) ~ NA_character_,
+                                   TRUE ~ tooltip_text6)) %>%
+  select(-category_ref_text)
+
+
 #  Calculate disparity indices
 disparity_indices <-
   df %>%
@@ -464,6 +491,10 @@ file.info(f)
 
 f <- file.path("Data", "totals.csv")
 totals %>% write_csv(f, na = "")
+file.info(f)
+
+f <- file.path("Data", "rate_diff_rate_ratio.csv")
+rate_diff_rate_ratio %>% write_csv(f, na = "")
 file.info(f)
 
 f <- file.path("Data", "disparity_indices.csv")
