@@ -394,7 +394,8 @@ df <-
          tooltip_text5 = case_when(is.na(percent) ~ NA_character_,
                                    TRUE ~ tooltip_text5)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
-  rename(category_title_text = category_text2) %>%
+  rename(category_title_text = category_text2,
+         category_insentence_text = category_text3) %>%
   select(-starts_with("category_text")) %>%
   mutate(timestamp = Sys.time()) %>%
   filter(!(State_Name %in% c("American Samoa",
@@ -415,17 +416,28 @@ rate_diff_rate_ratio <-
   select(State, metric, variable, category, rate_diff, rate_ratio, category_ref)
 df <-
   inner_join(df, rate_diff_rate_ratio) %>%
-  mutate(category_ref_text = case_when(category == "Not Hispanic or Latino" ~ "Non-Hispanic or Latinos",
+  mutate(category_ref_text = case_when(category_ref == "Not Hispanic or Latino" ~ "Non-Hispanic or Latinos",
                                        TRUE ~ sprintf("%ss", category_ref))) %>%
   mutate(tooltip_text6 = sprintf("%s have %.1f times the %s compared to %s in %s",
                                  category_title_text,
                                  rate_ratio,
                                  tolower(metric),
                                  category_ref_text,
-                                 State_Name)) %>%
+                                 State_Name),
+         tooltip_text7 = sprintf("%s %s per %s %s versus %s %s per %s %s",
+                                 comma(per_capita_rate, accuracy = 1),
+                                 tolower(metric),
+                                 comma(per_capita_denom, accuracy = 1),
+                                 category_insentence_text,
+                                 comma(per_capita_rate / rate_ratio, accuracy = 1),
+                                 tolower(metric),
+                                 comma(per_capita_denom, accuracy = 1),
+                                 category_ref_text)) %>%
   mutate(tooltip_text6 = case_when(is.na(rate_ratio) ~ NA_character_,
-                                   TRUE ~ tooltip_text6)) %>%
-  select(-category_ref_text)
+                                   TRUE ~ tooltip_text6),
+         tooltip_text7 = case_when(is.na(rate_ratio) ~ NA_character_,
+                                   TRUE ~ tooltip_text7)) %>%
+  select(-c(category_ref_text, category_insentence_text))
 
 
 #  Calculate disparity indices
