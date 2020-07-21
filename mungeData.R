@@ -491,6 +491,20 @@ df %>%
   write_csv(f, na = "")
 file.info(f)
 
+f <- file.path("Data", "rate_ratio_range.csv")
+summary(df$rate_ratio)
+df %>%
+  summarize(min = min(rate_ratio, na.rm = TRUE),
+            median = median(rate_ratio, na.rm = TRUE),
+            p90 = quantile(rate_ratio, probs = 0.90, na.rm = TRUE),
+            p95 = quantile(rate_ratio, probs = 0.95, na.rm = TRUE),
+            p99 = quantile(rate_ratio, probs = 0.99, na.rm = TRUE),
+            p995 = quantile(rate_ratio, probs = 0.995, na.rm = TRUE),
+            max = max(rate_ratio, na.rm = TRUE)) %>%
+  pivot_longer(everything()) %>%
+  write_csv(f, na = "")
+file.info(f)
+
 f <- file.path("Data", "per_capita_rate_range.csv")
 summary(df$per_capita_rate)
 df %>%
