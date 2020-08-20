@@ -33,9 +33,10 @@ readCRDT <- function () {
   require(magrittr)
   require(dplyr)
   require(readr)
+  col_types <- c("n", "c", rep("n", 26)) %>% paste(collapse = "")
   message(sprintf("CRDT data updated: %s",
-                  read_csv(url) %>% pull(Date) %>% unique() %>% max() %>% as.character() %>% as.Date(format = "%Y%m%d")))
-  read_csv(url) %>%
+                  read_csv(url, col_types = col_types) %>% pull(Date) %>% unique() %>% max() %>% as.character() %>% as.Date(format = "%Y%m%d")))
+  read_csv(url, col_types = col_types) %>%
     filter(Date == max(.$Date))
 }
 
