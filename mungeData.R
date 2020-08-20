@@ -34,9 +34,10 @@ readCRDT <- function () {
   require(dplyr)
   require(readr)
   col_types <- c("n", "c", rep("n", 26)) %>% paste(collapse = "")
+  data <- read_csv(url, col_types = col_types)
   message(sprintf("CRDT data updated: %s",
-                  read_csv(url, col_types = col_types) %>% pull(Date) %>% unique() %>% max() %>% as.character() %>% as.Date(format = "%Y%m%d")))
-  read_csv(url, col_types = col_types) %>%
+                  data %>% pull(Date) %>% unique() %>% max() %>% as.character() %>% as.Date(format = "%Y%m%d")))
+  data %>%
     filter(Date == max(.$Date))
 }
 
@@ -75,8 +76,11 @@ transpose <- function(data, suffix) {
 }
 
 
+df <- readCRDT()
+
+
 totals <-
-  readCRDT() %>%
+  df %>%
   select(Date, State, Cases_Total, Deaths_Total) %>%
   mutate(cases_reported_flag = !is.na(Cases_Total),
          deaths_reported_flag = !is.na(Deaths_Total)) %>%
@@ -85,7 +89,7 @@ totals <-
          Date = Date %>% as.character() %>% as.Date(format = "%Y%m%d"))
 
 pct_ex_Unknown <-
-  readCRDT() %>%
+  df %>%
   mutate(Cases_Denom = Cases_Total - Cases_Unknown,
          Deaths_Denom = Deaths_Total - Deaths_Unknown) %>%
   calculatePercent() %>%
@@ -93,7 +97,7 @@ pct_ex_Unknown <-
   rename(percent = value)
 
 pct_incl_Unknown <-
-  readCRDT() %>%
+  df %>%
   mutate(Cases_Denom = Cases_Total,
          Deaths_Denom = Deaths_Total) %>%
   calculatePercent() %>%
@@ -101,7 +105,7 @@ pct_incl_Unknown <-
   rename(percent_incl_Unknown = value)
 
 small_numer_flag <-
-  readCRDT() %>%
+  df %>%
   mutate(Cases_Black_small_numer_flag = as.logical(Cases_Black < 30),
          Cases_LatinX_small_numer_flag = as.logical(Cases_LatinX < 30),
          Cases_Asian_small_numer_flag = as.logical(Cases_Asian < 30),
@@ -126,7 +130,7 @@ small_numer_flag <-
   rename(small_numer_flag = value)
   
 counts <-
-  readCRDT() %>%
+  df %>%
   mutate(Cases_Black_count = Cases_Black,
          Cases_LatinX_count = Cases_LatinX,
          Cases_Asian_count = Cases_Asian,
