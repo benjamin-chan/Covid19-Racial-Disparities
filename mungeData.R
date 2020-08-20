@@ -18,11 +18,11 @@ reporting_characteristics <-
                                     metric_nodata_flag ~ "\u2020",
                                     different_from_oregon_flag ~ "\u2021")) %>%
   mutate(reporting_note1 =
-           case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s",
+           case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s.",
                      State_Name, tolower(variable), tolower(metric))),
          reporting_note2 =
            case_when(different_from_oregon_flag ~
-                       sprintf("\u2021 %s uses different categories for race and ethnicity than the US Census. Their data should not be compared to Oregon's",
+                       sprintf("\u2021 %s uses different categories for race and ethnicity than the US Census. Their data should not be compared to Oregon's.",
                                State_Name, tolower(variable), tolower(metric))))
 
 
