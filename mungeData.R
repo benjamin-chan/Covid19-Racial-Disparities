@@ -456,7 +456,6 @@ disparity_indices <-
             mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
   ungroup() %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
-  mutate(index_type = "Relative") %>%
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
                                 name == "theil_index" ~ "Relative",
                                 name == "mean_log_deviation" ~ "Relative"),
