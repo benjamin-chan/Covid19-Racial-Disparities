@@ -452,8 +452,8 @@ disparity_indices <-
   filter(percent > 0 & percent_ACS > 0) %>%
   group_by(Date, State, State_Name, metric, variable) %>%
   summarize(between_group_variance = sum(percent_ACS * (percent - percent_ACS) ^ 2),
-            theil_index = theil.wtd(percent, weights = percent_ACS),
-            mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
+            theil_index = theil.wtd(percent, weights = NULL),
+            mean_log_deviation = mld.wtd(percent, weights = NULL),
   ungroup() %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
