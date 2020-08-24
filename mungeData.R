@@ -469,9 +469,15 @@ disparity_indices <-
   group_by(Date, metric, variable, index_type, index) %>%
   mutate(value_scaled = value / sd(value)) %>%
   ungroup() %>%
-  mutate(tooltip = sprintf("%s for %s is %.1f",
-                           index,
+  mutate(tooltip = sprintf("%s's %s for %s disparity in %s rates is %.1f",
                            State_Name,
+                           case_when(index == "Between Group Variance" ~ "between group variance (BGV)",
+                                     index == "Theil Index" ~ "Theil Index (TI)",
+                                     index == "Mean Log Deviation" ~ "mean log deviation (MLD)"),
+                           case_when(variable == "Race" ~ "racial",
+                                     variable == "Ethnicity" ~ "ethnic"),
+                           case_when(metric == "Cases" ~ "case",
+                                     metric == "Deaths" ~ "death"),
                            value_scaled)) %>%
   mutate(timestamp = Sys.time())
 
