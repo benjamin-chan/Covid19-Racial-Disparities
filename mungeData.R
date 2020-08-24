@@ -454,26 +454,34 @@ disparity_indices <-
   summarize(between_group_variance = sum(percent_ACS * (percent - percent_ACS) ^ 2),
             theil_index = theil.wtd(percent, weights = NULL),
             mean_log_deviation = mld.wtd(percent, weights = NULL),
+            chisq = sum(((count - sum(count) * percent_ACS) ^ 2) / (sum(count) * percent_ACS)),
+            df = n() - 1) %>%
   ungroup() %>%
+  mutate(chisq_pvalue = pchisq(chisq, df)) %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
                                 name == "theil_index" ~ "Relative",
-                                name == "mean_log_deviation" ~ "Relative"),
+                                name == "mean_log_deviation" ~ "Relative",
+                                name == "chisq_pvalue" ~ "Absolute"),
          index = case_when(name == "between_group_variance" ~ "Between Group Variance",
                            name == "theil_index" ~ "Theil Index",
-                           name == "mean_log_deviation" ~ "Mean Log Deviation"),
+                           name == "mean_log_deviation" ~ "Mean Log Deviation",
+                           name == "chisq_pvalue" ~ "Chi-square p-value"),
          value = case_when(name == "between_group_variance" ~ value,
                            name == "theil_index" ~ value * 1000,
-                           name == "mean_log_deviation" ~ value * 1000)) %>%
+                           name == "mean_log_deviation" ~ value * 1000,
+                           name == "chisq_pvalue" ~ value)) %>%
   select(-name) %>%
   group_by(Date, metric, variable, index_type, index) %>%
-  mutate(value_scaled = value / sd(value)) %>%
+  mutate(value_scaled = case_when(index == "Chi-square p-value" ~ value,
+                                  TRUE ~ value / sd(value))) %>%
   ungroup() %>%
   mutate(tooltip = sprintf("%s's %s for %s disparity in %s rates is %.1f",
                            State_Name,
                            case_when(index == "Between Group Variance" ~ "between group variance (BGV)",
                                      index == "Theil Index" ~ "Theil Index (TI)",
-                                     index == "Mean Log Deviation" ~ "mean log deviation (MLD)"),
+                                     index == "Mean Log Deviation" ~ "mean log deviation (MLD)",
+                                     index == "Chi-square p-value" ~ "chi-square p-value"),
                            case_when(variable == "Race" ~ "racial",
                                      variable == "Ethnicity" ~ "ethnic"),
                            case_when(metric == "Cases" ~ "case",
