@@ -452,8 +452,8 @@ disparity_indices <-
   filter(percent > 0 & percent_ACS > 0) %>%
   group_by(Date, State, State_Name, metric, variable) %>%
   summarize(between_group_variance = sum(percent_ACS * (percent - percent_ACS) ^ 2),
-            theil_index = theil.wtd(percent, weights = NULL),
-            mean_log_deviation = mld.wtd(percent, weights = NULL)) %>%
+            theil_index = theil.wtd(percent, weights = percent_ACS),
+            mean_log_deviation = mld.wtd(percent, weights = percent_ACS)) %>%
   ungroup() %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
@@ -469,37 +469,12 @@ disparity_indices <-
   group_by(Date, metric, variable, index_type, index) %>%
   mutate(value_scaled = value / sd(value)) %>%
   ungroup() %>%
-  mutate(tooltip = sprintf("%s's %s for %s disparity in %s rates is %.1f",
+  mutate(tooltip = sprintf("%s for %s is %.1f",
+                           index,
                            State_Name,
-                           case_when(index == "Between Group Variance" ~ "between group variance (BGV)",
-                                     index == "Theil Index" ~ "Theil Index (TI)",
-                                     index == "Mean Log Deviation" ~ "mean log deviation (MLD)"),
-                           case_when(variable == "Race" ~ "racial",
-                                     variable == "Ethnicity" ~ "ethnic"),
-                           case_when(metric == "Cases" ~ "case",
-                                     metric == "Deaths" ~ "death"),
                            value_scaled)) %>%
   mutate(timestamp = Sys.time())
 
-df %>%
-  filter(State == "OR" & metric == "Cases" & variable == "Race") %>%
-  select(State, metric, variable, category, percent, percent_ACS) %>%
-  filter(!is.na(percent) & !is.na(percent_ACS)) %>%
-  filter(percent > 0 & percent_ACS > 0) %>%
-  # mutate(weight = 1 / n()) %>%
-  mutate(weight = percent_ACS / sum(percent_ACS)) %>%
-  mutate(mean = weighted.mean(percent_ACS, weight)) %>%
-  mutate(ratio = percent_ACS / mean) %>%
-  mutate(theil = weight * ratio * log(ratio)) %>%
-  knitr::kable()
-
-df %>%
-  filter(State == "OR" & metric == "Cases" & variable == "Race") %>%
-  select(State, metric, variable, category, percent, percent_ACS) %>%
-  filter(!is.na(percent) & !is.na(percent_ACS)) %>%
-  filter(percent > 0 & percent_ACS > 0) %>%
-  mutate(diff = percent - percent_ACS) %>%
-  mutate(chisq = (diff ^ 2) / percent_ACS)
 
 # Export for Tableau
 f <- file.path("Data", "disparity_data.csv")
