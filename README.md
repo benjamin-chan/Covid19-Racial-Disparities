@@ -29,6 +29,12 @@ The genesis of this project was this email message:
 > Pat.
 
 
+## Project status
+
+Active development on pause since late-July 2020.
+Data updates and dashboard publication are currently maintained (Mondays and Thursdays).
+
+
 ## Source information
 
 Links to source data from The COVID Racial Data Tracker:
