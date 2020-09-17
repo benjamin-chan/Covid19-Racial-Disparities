@@ -74,7 +74,6 @@ Links to OHA's data visualizations
   * https://community.tableau.com/s/question/0D54T00000C6ZzESAV/doughnut-selectionhover-issue
 * Automate or semi-automate the build workflow
   * Would like to combine steps 1 and 2
-* Add "the" before "District of Columbia"
 * Duplicate ranking dashboard for `disparity_excess_pct`
 
 
