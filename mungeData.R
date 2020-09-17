@@ -555,3 +555,10 @@ disparity_indices %>%
             max = max(value_scaled)) %>%
   write_csv(f, na = "")
 file.info(f)
+
+f <- file.path("Data", "control_totals.csv")
+totals %>%
+  group_by(Date, timestamp) %>%
+  summarize(Cases_Total = sum(Cases_Total, na.rm = TRUE),
+            Deaths_Total = sum(Deaths_Total, na.rm = TRUE))
+  write_csv(f, na = "")
