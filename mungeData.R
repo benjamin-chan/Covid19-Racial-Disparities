@@ -317,6 +317,11 @@ oregon_categories <-
   mutate(oregon_category_flag = TRUE)
 
 
+recodeToNA <- function (var, check) {
+  case_when(is.na(check) ~ NA_character_,
+            TRUE ~ var)
+}
+
 df <-
   acs %>%
   select(State_Name, percent, count, label) %>%
@@ -366,38 +371,38 @@ df <-
                                  tolower(metric),
                                  State_Name,
                                  category_text1),
-         tooltip_text3 = sprintf("%s of the population in %s are %s.",
-                                 case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
-                                           TRUE ~ sprintf("%.0f%%", percent_ACS * 100)),
-                                 State_Name,
-                                 category_text1),
-         tooltip_text4 = sprintf("%s comprise %.1f times the number of %s than expected with a rate of %s per %s in %s.",
-                                 category_text2,
-                                 disparity_factor,
-                                 tolower(metric),
-                                 comma(per_capita_rate, accuracy = 1),
-                                 comma(per_capita_denom, accuracy = 1),
-                                 State_Name),
-         tooltip_text5 = sprintf("%s is ranked %.0f%s for disparity among %s out of %.0f states and territories reporting %s for this category and with a non-zero percentage in their population.",
-                                 State_Name,
-                                 disparity_rank,
-                                 case_when(grepl("(^|[2-9])1$", sprintf("%.0f", disparity_rank)) ~ "st",
-                                           grepl("(^|[2-9])2$", sprintf("%.0f", disparity_rank)) ~ "nd",
-                                           grepl("(^|[2-9])3$", sprintf("%.0f", disparity_rank)) ~ "rd",
-                                           TRUE ~ "th"),
-                                 category_text3,
-                                 denom_ranked,
-                                 tolower(metric))) %>%
-  mutate(tooltip_text1 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text1),
-         tooltip_text2 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text2),
-         tooltip_text3 = case_when(is.na(percent_ACS) ~ NA_character_,
-                                   TRUE ~ tooltip_text3),
-         tooltip_text4 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text4),
-         tooltip_text5 = case_when(is.na(percent) ~ NA_character_,
-                                   TRUE ~ tooltip_text5)) %>%
+         tooltip_text3a = sprintf("%s",
+                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
+                                            TRUE ~ sprintf("%.0f%%", percent_ACS * 100))),
+         tooltip_text3b = sprintf("of the population in %s are %s.", State_Name, category_text1),
+         tooltip_text4a = sprintf("%s comprise", category_text2),
+         tooltip_text4b = sprintf("%.1f times", disparity_factor),
+         tooltip_text4c = sprintf("the number of %s than expected with a rate of", tolower(metric)),
+         tooltip_text4d = sprintf("%s per %s", comma(per_capita_rate, accuracy = 1), comma(per_capita_denom, accuracy = 1)),
+         tooltip_text4e = sprintf("in %s.", State_Name),
+         tooltip_text5a = sprintf("%s is ranked", State_Name),
+         tooltip_text5b = sprintf("%.0f%s",
+                                  disparity_rank,
+                                  case_when(grepl("(^|[2-9])1$", sprintf("%.0f", disparity_rank)) ~ "st",
+                                            grepl("(^|[2-9])2$", sprintf("%.0f", disparity_rank)) ~ "nd",
+                                            grepl("(^|[2-9])3$", sprintf("%.0f", disparity_rank)) ~ "rd",
+                                            TRUE ~ "th")),
+         tooltip_text5c = sprintf("for disparity among %s out of %.0f states and territories reporting %s for this category and with a non-zero percentage in their population.",
+                                  category_text3,
+                                  denom_ranked,
+                                  tolower(metric))) %>%
+  mutate(tooltip_text1 = recodeToNA(tooltip_text1, percent),
+         tooltip_text2 = recodeToNA(tooltip_text2, percent),
+         tooltip_text3a = recodeToNA(tooltip_text3a, percent),
+         tooltip_text3b = recodeToNA(tooltip_text3b, percent),
+         tooltip_text4a = recodeToNA(tooltip_text4a, percent),
+         tooltip_text4b = recodeToNA(tooltip_text4b, percent),
+         tooltip_text4c = recodeToNA(tooltip_text4c, percent),
+         tooltip_text4d = recodeToNA(tooltip_text4d, percent),
+         tooltip_text4e = recodeToNA(tooltip_text4e, percent),
+         tooltip_text5a = recodeToNA(tooltip_text5a, percent),
+         tooltip_text5b = recodeToNA(tooltip_text5b, percent),
+         tooltip_text5c = recodeToNA(tooltip_text5c, percent)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
   rename(category_title_text = category_text2,
          category_insentence_text = category_text3) %>%
@@ -418,30 +423,26 @@ rate_diff_rate_ratio <-
              suffix = c("", "_ref")) %>%
   mutate(rate_diff = per_capita_rate - per_capita_rate_ref,
          rate_ratio = per_capita_rate / per_capita_rate_ref) %>%
-  select(State, metric, variable, category, rate_diff, rate_ratio, category_ref)
+  select(State, metric, variable, category, per_capita_rate, per_capita_rate_ref, rate_diff, rate_ratio, category_ref)
 df <-
-  inner_join(df, rate_diff_rate_ratio) %>%
+  df %>%
+  inner_join(rate_diff_rate_ratio) %>%
   mutate(category_ref_text = case_when(category_ref == "Not Hispanic or Latino" ~ "Non-Hispanic or Latinos",
                                        TRUE ~ sprintf("%ss", category_ref))) %>%
-  mutate(tooltip_text6 = sprintf("%s have %.1f times the %s compared to %s in %s",
-                                 category_title_text,
-                                 rate_ratio,
-                                 tolower(metric),
-                                 category_ref_text,
-                                 State_Name),
-         tooltip_text7 = sprintf("%s %s per %s %s versus %s %s per %s %s",
-                                 comma(per_capita_rate, accuracy = 1),
-                                 tolower(metric),
-                                 comma(per_capita_denom, accuracy = 1),
-                                 category_insentence_text,
-                                 comma(per_capita_rate / rate_ratio, accuracy = 1),
-                                 tolower(metric),
-                                 comma(per_capita_denom, accuracy = 1),
-                                 category_ref_text)) %>%
-  mutate(tooltip_text6 = case_when(is.na(rate_ratio) ~ NA_character_,
-                                   TRUE ~ tooltip_text6),
-         tooltip_text7 = case_when(is.na(rate_ratio) ~ NA_character_,
-                                   TRUE ~ tooltip_text7)) %>%
+  mutate(tooltip_text6a = sprintf("%s have", category_title_text),
+         tooltip_text6b = sprintf("%.1f times", rate_ratio),
+         tooltip_text6c = sprintf("the %s compared to %s in %s.", tolower(metric), category_ref_text, State_Name),
+         tooltip_text7a = sprintf("%s %s", comma(per_capita_rate, accuracy = 1), tolower(metric)),
+         tooltip_text7b = sprintf("per %s %s versus", comma(per_capita_denom, accuracy = 1), category_insentence_text),
+         tooltip_text7c = sprintf("%s %s", comma(per_capita_rate_ref, accuracy = 1), tolower(metric)),
+         tooltip_text7d = sprintf("per %s %s.", comma(per_capita_denom, accuracy = 1), category_ref_text)) %>%
+  mutate(tooltip_text6a = recodeToNA(tooltip_text6a, rate_ratio),
+         tooltip_text6b = recodeToNA(tooltip_text6b, rate_ratio),
+         tooltip_text6c = recodeToNA(tooltip_text6c, rate_ratio),
+         tooltip_text7a = recodeToNA(tooltip_text7a, rate_ratio),
+         tooltip_text7b = recodeToNA(tooltip_text7b, rate_ratio),
+         tooltip_text7c = recodeToNA(tooltip_text7c, rate_ratio),
+         tooltip_text7d = recodeToNA(tooltip_text7d, rate_ratio)) %>%
   select(-c(category_ref_text, category_insentence_text))
 
 
