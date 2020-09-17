@@ -522,7 +522,6 @@ df %>%
   write_csv(f, na = "")
 
 f <- file.path("Data", "per_capita_rate_range.csv")
-summary(df$per_capita_rate)
 df %>%
   summarize(min = min(per_capita_rate, na.rm = TRUE),
             median = median(per_capita_rate, na.rm = TRUE),
