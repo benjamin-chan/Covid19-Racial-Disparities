@@ -503,7 +503,6 @@ f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
 
 f <- file.path("Data", "disparity_factor_range.csv")
-summary(df$disparity_factor)
 df %>%
   summarize(min = min(disparity_factor, na.rm = TRUE),
             median = median(disparity_factor, na.rm = TRUE),
