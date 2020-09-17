@@ -9,6 +9,13 @@ library(censusapi)
 library(dineq)
 
 
+fixState <- function (x, isStartOfSentence = TRUE) {
+  case_when(grepl("district.*columbia", x, ignore.case = TRUE) &  isStartOfSentence ~ sprintf("The %s", x),
+            grepl("district.*columbia", x, ignore.case = TRUE) & !isStartOfSentence ~ sprintf("the %s", x),
+            TRUE ~ x)
+}
+
+
 state <- read_csv(file.path("Data", "state_names.csv"))
 reporting_characteristics <-
   read_csv(file.path("Data", "reporting_characteristics.csv")) %>%
@@ -19,11 +26,11 @@ reporting_characteristics <-
                                     different_from_oregon_flag ~ "\u2021")) %>%
   mutate(reporting_note1 =
            case_when(metric_nodata_flag ~ sprintf("\u2020 %s does not report %s data for %s.",
-                     State_Name, tolower(variable), tolower(metric))),
+                     fixState(State_Name), tolower(variable), tolower(metric))),
          reporting_note2 =
            case_when(different_from_oregon_flag ~
                        sprintf("\u2021 %s uses different categories for race and ethnicity than the US Census. Their data should not be compared to Oregon's.",
-                               State_Name, tolower(variable), tolower(metric))))
+                               fixState(State_Name), tolower(variable), tolower(metric))))
 
 
 # The COVID Tracking Projects's Racial Data Dashboard
@@ -369,18 +376,18 @@ df <-
                                            is.na(disparity_flag) ~ "No comparable census data to evaulate")),
          tooltip_text2 = sprintf("of COVID-19 %s in %s are %s.",
                                  tolower(metric),
-                                 State_Name,
+                                 fixState(State_Name, isStartOfSentence = FALSE),
                                  category_text1),
          tooltip_text3a = sprintf("%s",
                                   case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
                                             TRUE ~ sprintf("%.0f%%", percent_ACS * 100))),
-         tooltip_text3b = sprintf("of the population in %s are %s.", State_Name, category_text1),
+         tooltip_text3b = sprintf("of the population in %s are %s.", fixState(State_Name, isStartOfSentence = FALSE), category_text1),
          tooltip_text4a = sprintf("%s comprise", category_text2),
          tooltip_text4b = sprintf("%.1f times", disparity_factor),
          tooltip_text4c = sprintf("the number of %s than expected with a rate of", tolower(metric)),
          tooltip_text4d = sprintf("%s per %s", comma(per_capita_rate, accuracy = 1), comma(per_capita_denom, accuracy = 1)),
-         tooltip_text4e = sprintf("in %s.", State_Name),
-         tooltip_text5a = sprintf("%s is ranked", State_Name),
+         tooltip_text4e = sprintf("in %s.", fixState(State_Name, isStartOfSentence = FALSE)),
+         tooltip_text5a = sprintf("%s is ranked", fixState(State_Name)),
          tooltip_text5b = sprintf("%.0f%s",
                                   disparity_rank,
                                   case_when(grepl("(^|[2-9])1$", sprintf("%.0f", disparity_rank)) ~ "st",
@@ -431,7 +438,7 @@ df <-
                                        TRUE ~ sprintf("%ss", category_ref))) %>%
   mutate(tooltip_text6a = sprintf("%s have", category_title_text),
          tooltip_text6b = sprintf("%.1f times", rate_ratio),
-         tooltip_text6c = sprintf("the %s compared to %s in %s.", tolower(metric), category_ref_text, State_Name),
+         tooltip_text6c = sprintf("the %s compared to %s in %s.", tolower(metric), category_ref_text, fixState(State_Name, isStartOfSentence = FALSE)),
          tooltip_text7a = sprintf("%s %s", comma(per_capita_rate, accuracy = 1), tolower(metric)),
          tooltip_text7b = sprintf("per %s %s versus", comma(per_capita_denom, accuracy = 1), category_insentence_text),
          tooltip_text7c = sprintf("%s %s", comma(per_capita_rate_ref, accuracy = 1), tolower(metric)),
@@ -478,7 +485,7 @@ disparity_indices <-
                                   TRUE ~ value / sd(value))) %>%
   ungroup() %>%
   mutate(tooltip = sprintf("%s's %s for %s disparity in %s rates is %.1f",
-                           State_Name,
+                           fixState(State_Name),
                            case_when(index == "Between Group Variance" ~ "between group variance (BGV)",
                                      index == "Theil Index" ~ "Theil Index (TI)",
                                      index == "Mean Log Deviation" ~ "mean log deviation (MLD)",
