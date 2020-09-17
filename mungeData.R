@@ -494,7 +494,6 @@ disparity_indices <-
 # Export for Tableau
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "disparity_factor_range.csv")
 summary(df$disparity_factor)
@@ -508,7 +507,6 @@ df %>%
             max = max(disparity_factor, na.rm = TRUE)) %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "rate_ratio_range.csv")
 summary(df$rate_ratio)
@@ -522,7 +520,6 @@ df %>%
             max = max(rate_ratio, na.rm = TRUE)) %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "per_capita_rate_range.csv")
 summary(df$per_capita_rate)
@@ -536,15 +533,12 @@ df %>%
             max = max(per_capita_rate, na.rm = TRUE)) %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "totals.csv")
 totals %>% write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "disparity_indices.csv")
 disparity_indices %>% write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "disparity_indices_summaries.csv")
 disparity_indices %>%
@@ -554,7 +548,6 @@ disparity_indices %>%
             min = min(value_scaled),
             max = max(value_scaled)) %>%
   write_csv(f, na = "")
-file.info(f)
 
 f <- file.path("Data", "control_totals.csv")
 totals %>%
