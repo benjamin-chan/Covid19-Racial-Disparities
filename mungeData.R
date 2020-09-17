@@ -516,7 +516,6 @@ df %>%
   write_csv(f, na = "")
 
 f <- file.path("Data", "rate_ratio_range.csv")
-summary(df$rate_ratio)
 df %>%
   summarize(min = min(rate_ratio, na.rm = TRUE),
             median = median(rate_ratio, na.rm = TRUE),
