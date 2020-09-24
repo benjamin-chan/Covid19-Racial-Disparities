@@ -207,7 +207,7 @@ mungeACS <- function (col, variable) {
     listCensusMetadata(name = "acs/acs5/profile", vintage = 2018) %>%
     select(name, label) %>%
     filter(name %in% col)
-  key <- read_csv("key.txt", col_names = FALSE) %>% pull(X1)
+  key <- read_csv("C:/Users/or0250652/Documents/API keys/censusAPIKey.txt", col_names = FALSE) %>% pull(X1)
   getCensus("acs/acs5/profile", 2018, var = col, region = "state", key = key) %>%
     select(-state) %>%
     # rename_all(list(~ names$value)) %>%
