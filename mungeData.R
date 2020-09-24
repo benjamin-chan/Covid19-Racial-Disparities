@@ -379,7 +379,7 @@ df <-
                                  fixState(State_Name, isStartOfSentence = FALSE),
                                  category_text1),
          tooltip_text3a = sprintf("%s",
-                                  case_when(round(percent_ACS * 100) < 1 ~ "Less than half of 1%",
+                                  case_when(percent_ACS * 100 < 0.5 ~ "Less than half of 1%",
                                             TRUE ~ sprintf("%.1f%%", percent_ACS * 100))),
          tooltip_text3b = sprintf("of the population in %s are %s.", fixState(State_Name, isStartOfSentence = FALSE), category_text1),
          tooltip_text4a = sprintf("%s comprise", category_text2),
