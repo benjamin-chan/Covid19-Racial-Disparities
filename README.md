@@ -72,8 +72,10 @@ Links to OHA's data visualizations
 * **[Won't fix]** Fix the doughnut hole selection issue
   * Does not seem possible without sacrificing other functionality
   * https://community.tableau.com/s/question/0D54T00000C6ZzESAV/doughnut-selectionhover-issue
-* Automate or semi-automate the build workflow
+* **[Incomplete solution]** Automate or semi-automate the build workflow
   * Would like to combine steps 1 and 2
+  * Step 1 of build is accomplished with the Windows Task Scheduler
+  * Still need to automate step 2: publish
 * Duplicate ranking dashboard for `disparity_excess_pct`
 
 
