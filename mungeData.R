@@ -559,3 +559,26 @@ totals %>%
   summarize(Cases_Total = sum(Cases_Total, na.rm = TRUE),
             Deaths_Total = sum(Deaths_Total, na.rm = TRUE)) %>%
   write_csv(f, na = "")
+
+f <- file.path("Data", "chiSquareExample.csv")
+df %>%
+  filter(!is.na(percent) & !is.na(percent_ACS)) %>%
+  filter(percent > 0 & percent_ACS > 0) %>%
+  filter(State == "OR") %>%
+  filter(metric == "Cases") %>%
+  filter(variable == "Race") %>%
+  select(Date, State, State_Name, metric, variable, category, percent, percent_ACS, count) %>%
+  mutate(category = case_when(category == "White" ~ "White or some other race",
+                              category == "Some other race" ~ "White or some other race",
+                              TRUE ~ category)) %>%
+  group_by(Date, State, State_Name, metric, variable, category) %>%
+  summarize(percent = sum(percent),
+            percent_ACS = sum(percent_ACS),
+            count = sum(count)) %>%
+  ungroup() %>%
+  mutate(count_ACS = sum(count) * percent_ACS) %>%
+  mutate(sqDevPct = (percent - percent_ACS) ^ 2) %>%
+  mutate(SSPctProp = sqDevPct / sum(sqDevPct)) %>%
+  mutate(sqDevCount = (count - count_ACS) ^ 2 / count_ACS) %>%
+  mutate(SSCountProp = sqDevCount / sum(sqDevCount)) %>%
+  write_csv(f, na = "")
