@@ -1,5 +1,5 @@
-# library(checkpoint)
-# checkpoint("2020-07-01")
+library(checkpoint)
+checkpoint("2020-07-01")
 
 
 library(magrittr)
