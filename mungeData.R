@@ -470,18 +470,22 @@ disparity_indices <-
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
                                 name == "theil_index" ~ "Relative",
                                 name == "mean_log_deviation" ~ "Relative",
+                                name == "chisq" ~ "Absolute",
                                 name == "chisq_pvalue" ~ "Absolute"),
          index = case_when(name == "between_group_variance" ~ "Between Group Variance",
                            name == "theil_index" ~ "Theil Index",
                            name == "mean_log_deviation" ~ "Mean Log Deviation",
+                           name == "chisq" ~ "Chi-square statistic",
                            name == "chisq_pvalue" ~ "Chi-square p-value"),
          value = case_when(name == "between_group_variance" ~ value,
                            name == "theil_index" ~ value * 1000,
                            name == "mean_log_deviation" ~ value * 1000,
+                           name == "chisq" ~ value,
                            name == "chisq_pvalue" ~ value)) %>%
   select(-name) %>%
   group_by(Date, metric, variable, index_type, index) %>%
-  mutate(value_scaled = case_when(index == "Chi-square p-value" ~ value,
+  mutate(value_scaled = case_when(index == "Chi-square statistic" ~ value,
+                                  index == "Chi-square p-value" ~ value,
                                   TRUE ~ value / sd(value))) %>%
   ungroup() %>%
   mutate(tooltip = sprintf("%s's %s for %s disparity in %s rates is %.1f",
@@ -489,6 +493,7 @@ disparity_indices <-
                            case_when(index == "Between Group Variance" ~ "between group variance (BGV)",
                                      index == "Theil Index" ~ "Theil Index (TI)",
                                      index == "Mean Log Deviation" ~ "mean log deviation (MLD)",
+                                     index == "Chi-square statistic" ~ "chi-square statistic",
                                      index == "Chi-square p-value" ~ "chi-square p-value"),
                            case_when(variable == "Race" ~ "racial",
                                      variable == "Ethnicity" ~ "ethnic"),
