@@ -465,7 +465,7 @@ disparity_indices <-
             chisq = sum(((count - sum(count) * percent_ACS) ^ 2) / (sum(count) * percent_ACS)),
             df = n() - 1) %>%
   ungroup() %>%
-  mutate(chisq_pvalue = pchisq(chisq, df)) %>%
+  mutate(chisq_pvalue = pchisq(chisq, df, lower.tail = FALSE)) %>%
   pivot_longer(-c(Date, State, State_Name, metric, variable)) %>%
   mutate(index_type = case_when(name == "between_group_variance" ~ "Absolute",
                                 name == "theil_index" ~ "Relative",
