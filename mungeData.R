@@ -335,16 +335,15 @@ df <-
   rename(percent_ACS = percent,
          count_ACS = count,
          category = label) %>%
+  mutate(percent_ACS = pmax(percent_ACS, 0.05)) %>%
   mutate(percent_ACS = percent_ACS / 100) %>%
   left_join(crdt, .) %>%
   left_join(reporting_characteristics) %>%
   left_join(oregon_categories) %>%
   mutate(per_capita_denom = 1e5) %>%
   mutate(per_capita_rate = (count / count_ACS) * per_capita_denom) %>%
-  mutate(disparity_factor = case_when(percent_ACS == 0 ~ NA_real_,
-                                      TRUE ~ percent / percent_ACS),
-         disparity_excess_pct = case_when(percent_ACS == 0 ~ NA_real_,
-                                          TRUE ~ (percent - percent_ACS) / percent_ACS)) %>%
+  mutate(disparity_factor = percent / percent_ACS,
+         disparity_excess_pct = (percent - percent_ACS) / percent_ACS) %>%
   group_by(metric, category) %>%
   mutate(disparity_rank = rank(-disparity_factor),
          denom_ranked = sum(is.finite(disparity_factor))) %>%
