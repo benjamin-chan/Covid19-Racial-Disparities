@@ -77,6 +77,8 @@ Links to OHA's data visualizations
   * Step 1 of build is accomplished with the Windows Task Scheduler
   * Still need to automate step 2: publish
 * Duplicate ranking dashboard for `disparity_excess_pct`
+* Add *Insufficient data* filter to the hex map
+  * https://www.npr.org/sections/health-shots/2020/09/23/914427907/as-pandemic-deaths-add-up-racial-disparities-persist-and-in-some-cases-worsen
 
 
 ## Press
