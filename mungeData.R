@@ -410,6 +410,14 @@ df <-
          tooltip_text5b = recodeToNA(tooltip_text5b, percent),
          tooltip_text5c = recodeToNA(tooltip_text5c, percent)) %>%
   mutate(tooltip_text9 = case_when(category == "Hispanic or Latino" & category_reporting_flag ~ "Oregon reports Hispanic or Latino data as ethnicity, not race. Switch to \"ethnicity\" view for direct comparison.")) %>%
+  mutate(tooltip_text4a = case_when(is.na(percent) ~ sprintf("%s does not have data on COVID-19 %s for %s.",
+                                                             fixState(State_Name),
+                                                             tolower(metric),
+                                                             category_text3),
+                                    is.na(percent_ACS) ~ sprintf("%s does not have Census data for %s.",
+                                                                 fixState(State_Name),
+                                                                 category_text3),
+                                    TRUE ~ tooltip_text4a)) %>%
   rename(category_title_text = category_text2,
          category_insentence_text = category_text3) %>%
   select(-starts_with("category_text")) %>%
@@ -435,6 +443,11 @@ df <-
   inner_join(rate_diff_rate_ratio) %>%
   mutate(category_ref_text = case_when(category_ref == "Not Hispanic or Latino" ~ "Non-Hispanic or Latinos",
                                        TRUE ~ sprintf("%ss", category_ref))) %>%
+  mutate(category_text3 = case_when(category == "Hispanic or Latino (of any race)" ~ "Hispanic or Latinos (of any race)",
+                                    category == "Not Hispanic or Latino" ~ "non-Hispanic or Latinos",
+                                    category == "Some other race" ~ "individuals of some other race",
+                                    category == "Two or more races" ~ "multiracial individuals",
+                                    TRUE ~ sprintf("%ss", category))) %>%
   mutate(tooltip_text6a = sprintf("%s have", category_title_text),
          tooltip_text6b = sprintf("%.1f times", rate_ratio),
          tooltip_text6c = sprintf("the %s compared to %s in %s.", tolower(metric), category_ref_text, fixState(State_Name, isStartOfSentence = FALSE)),
@@ -449,7 +462,12 @@ df <-
          tooltip_text7b = recodeToNA(tooltip_text7b, rate_ratio),
          tooltip_text7c = recodeToNA(tooltip_text7c, rate_ratio),
          tooltip_text7d = recodeToNA(tooltip_text7d, rate_ratio)) %>%
-  select(-c(category_ref_text, category_insentence_text))
+  mutate(tooltip_text6a = case_when(is.na(rate_ratio) ~ sprintf("%s does not have data on COVID-19 %s for %s.",
+                                                                fixState(State_Name),
+                                                                tolower(metric),
+                                                                category_text3),
+                                    TRUE ~ tooltip_text6a)) %>%
+  select(-c(category_ref_text, category_insentence_text, category_text3))
 
 
 #  Calculate disparity indices
