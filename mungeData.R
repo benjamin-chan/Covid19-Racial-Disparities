@@ -562,9 +562,6 @@ df %>%
   pivot_longer(everything()) %>%
   write_csv(f, na = "")
 
-f <- file.path("Data", "totals.csv")
-totals %>% write_csv(f, na = "")
-
 f <- file.path("Data", "disparity_indices.csv")
 disparity_indices %>% write_csv(f, na = "")
 
