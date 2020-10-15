@@ -521,6 +521,8 @@ disparity_indices <-
 
 
 # Export for Tableau
+df <- df %>% select(-c(Date, timestamp))
+
 f <- file.path("Data", "disparity_data.csv")
 df %>% write_csv(f, na = "")
 
