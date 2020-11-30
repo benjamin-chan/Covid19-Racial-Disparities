@@ -13,7 +13,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='Covid19RacialandEthnicDisparity' path='/t/OHA/workbooks' revision='5.4' site='OHA' />
+  <repository-location id='Covid19RacialandEthnicDisparity' path='/t/OHA/workbooks' revision='5.5' site='OHA' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -117,7 +117,7 @@
         <calculation class='tableau' formula='1' />
       </column>
       <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.500917' measure-ordering='alphabetic' measure-percentage='0.499083' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.501263' measure-ordering='alphabetic' measure-percentage='0.498737' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -3624,8 +3624,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='459' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='460' param='vert' type='layout-flow' w='98400' x='800' y='889'>
+            <zone h='100000' id='463' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='464' param='vert' type='layout-flow' w='98400' x='800' y='889'>
                 <zone fixed-size='676' forceUpdate='true' h='9708' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -3897,8 +3897,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='458' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='459' param='vert' type='layout-flow' w='98400' x='800' y='889'>
+            <zone h='100000' id='462' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='463' param='vert' type='layout-flow' w='98400' x='800' y='889'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -4206,8 +4206,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='471' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='472' param='vert' type='layout-flow' w='98400' x='800' y='889'>
+            <zone h='100000' id='475' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='476' param='vert' type='layout-flow' w='98400' x='800' y='889'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -4451,8 +4451,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='460' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='461' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='464' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='465' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -4703,8 +4703,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='458' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='459' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='462' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='463' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -4955,8 +4955,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='458' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='459' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='462' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='463' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -5218,8 +5218,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='466' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='467' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='470' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='471' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
@@ -5506,8 +5506,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='472' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='473' param='vert' type='layout-flow' w='98400' x='800' y='889'>
+            <zone h='100000' id='476' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='477' param='vert' type='layout-flow' w='98400' x='800' y='889'>
                 <zone fixed-size='676' forceUpdate='true' h='11000' id='8' type='text' w='68400' x='800' y='889'>
                   <formatted-text>
                     <run fontcolor='#333333' fontname='Tableau Bold' fontsize='22'>Oregon&apos;s COVID-19 Racial and Ethnic Disparity</run>
