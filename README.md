@@ -1,9 +1,37 @@
 # COVID-19 Racial and Ethnicity Disparity Dashboard
 
-DRTS #5404 `Covid_19_Race_and_Ethnicity_Dashboard`
+
+## Documentation
+
+Item | Notes
+-----|------
+DRTS number | 5404
+Requestor | Patrick Allen (Patrick.Allen@dhsoha.state.or.us), Oregon Health Authority
+Request date | 2020-07-01
+Expected delivery date | 2020-07-15
+Description of request product | Tableau dashboard
+Data source(s) | External publicly available data source. Link: https://covidtracking.com/race
+PHI level | Aggregated, no PHI
+Frequency | Twice weekly
+Query parameters | NA
+Unit of analysis | NA
+Data elements | NA
+Lead HA analyst(s) | Benjamin Chan (benjamin.chan@dhsoha.state.or.us) Health Analytics
 
 
-## Purpose
+## Version control
+
+Item | Notes
+-----|------
+HA analyst | Benjamin Chan (benjamin.chan@dhsoha.state.or.us) Health Analytics
+Version date | 2020-12-31
+Version description | Build 2020-12-31
+Build summary | Windows Task Scheduler automatically executes `make.bat` early Monday and Thursday mornings. `make.bat` calls `mungeData.R` and builds Tableau-ready CSV data sources.
+Product(s) | `Covid19 Racial and Ethnic Disparity.twb`
+Control totals | See `Data\control_totals.csv`
+Product delivered to | Dashboard published to external Tableau server for internal use only. Link: https://visual-data.dhsoha.state.or.us/t/OHA/views/Covid19RacialandEthnicDisparity/About
+
+## Context
 
 This project takes existing data from The COVID Racial Data Tracker and reforms
 it to display a comparison between Oregon and other states and territories.
