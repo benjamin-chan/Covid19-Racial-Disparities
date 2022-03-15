@@ -63,6 +63,19 @@ Active development on pause since late-July 2020.
 Data updates and dashboard publication are currently maintained (Mondays and Thursdays).
 
 
+## Dashboard
+
+Screen captures of the dashboard product.
+
+![About](Screencaps/About.png)
+
+![Disparity Dashboard](Screencaps/Disparity%20Dashboard.png)
+
+![Disparity Factor](Screencaps/Disparity%20Factor.png)
+
+![Rate Ratio](Screencaps/Rate%20Ratio.png)
+
+
 ## Source information
 
 Links to source data from The COVID Racial Data Tracker:
